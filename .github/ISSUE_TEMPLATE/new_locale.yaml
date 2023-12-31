@@ -1,0 +1,27 @@
+name: New Locale
+description: Request a new locale that isn't on the crowdin project yet.
+title: "[Locale Request]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time helping us!
+  - type: input
+    id: locale
+    attributes:
+      label: Locale
+      description: What language do you want to help with?
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Fluency
+      description: How well can you speak this language?
+      options:
+        - Fluent
+        - Near Fluent
+        - Intermediate
+        - Beginner
+    validations:
+      required: true
