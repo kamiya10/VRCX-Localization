@@ -322,7 +322,8 @@
                         "when_to_display_outside_vr": "VR을 벗고 있을 때",
                         "when_to_display_game_closed": "VRChat을 하지 않을 때",
                         "when_to_display_game_running": "VRChat을 할 때",
-                        "when_to_display_always": "항상"
+                        "when_to_display_always": "항상",
+                        "desktop_notification_while_afk": "Desktop Notifications While AFK"
                     },
                     "text_to_speech": {
                         "header": "음성합성 (Text-To-Speech) 설정",
@@ -379,6 +380,7 @@
                     "header": "고급",
                     "launch_options": "VRChat 실행 설정",
                     "screenshot_metadata": "스크린샷 메타데이터",
+                    "vrc_registry_backup": "VRC Registry Backup",
                     "common_folders": "Common Folders",
                     "pending_offline": {
                         "header": "오프라인 대기",
@@ -423,7 +425,8 @@
                         "description_tooltip": "안타깝게도 Windows는 기본적으로 PNG 텍스트 청크 보기를 지원하지 않지만(몇 가지 기능은 지원), exiftool, PNG chunk inspector 또는 헥스 에디터와 같은 명령줄 도구를 사용하여 볼 수 있습니다",
                         "enable": "사용",
                         "modify_filename": "파일 이름 수정",
-                        "modify_filename_tooltip": "파일 메타데이터 외에 스크린샷 파일 이름에 월드 ID를 추가합니다"
+                        "modify_filename_tooltip": "파일 메타데이터 외에 스크린샷 파일 이름에 월드 ID를 추가합니다",
+                        "copy_to_clipboard": "Copy to Clipboard"
                     },
                     "app_launcher": {
                         "header": "앱 실행",
@@ -703,6 +706,7 @@
                 "last_updated": "마지막 업데이트",
                 "publication_date": "Publication Date",
                 "labs_publication_date": "Labs Publication Date",
+                "time_in_labs": "Time In Labs:",
                 "version": "버전",
                 "platform": "플랫폼",
                 "last_visited": "마지막 방문",
@@ -719,6 +723,7 @@
                 "public": "공개",
                 "private": "비공개",
                 "fallback": "대체",
+                "impostor": "Impostor",
                 "future_proofing": "Future Proofing",
                 "cache": "캐시",
                 "content_horror": "Horror",
@@ -749,7 +754,9 @@
                 "change_content_tags": "Change Content Tags",
                 "change_image": "이미지 변경",
                 "download_package": "유니티 패키지 다운로드",
-                "delete": "삭제"
+                "delete": "삭제",
+                "delete_impostor": "Delete Impostor",
+                "create_impostor": "Create Impostor"
             },
             "info": {
                 "header": "정보",
@@ -800,6 +807,7 @@
                 "visibility_everyone": "모두에게 보임",
                 "visibility_friends": "친구에게 보임",
                 "visibility_hidden": "보이지 않음",
+                "moderation_tools": "Moderation Tools",
                 "leave": "그룹 탈퇴"
             },
             "info": {
@@ -823,6 +831,13 @@
                 "role_created_at": "생성일:",
                 "role_permissions": "권한:"
             },
+            "posts": {
+                "header": "Posts",
+                "visibility": "Visibility:",
+                "edited_by": "Edited by:",
+                "search_placeholder": "Search",
+                "posts_count": "Posts: "
+            },
             "members": {
                 "header": "회원",
                 "all_members": "모든 그룹원",
@@ -841,7 +856,9 @@
                 },
                 "unsubscribed_announcements": "Unsubscribed from announcements",
                 "visibility": "Visibility:",
-                "representing": "Representing"
+                "representing": "Representing",
+                "manager_notes": "Manager Notes:",
+                "search": "Search"
             },
             "gallery": {
                 "header": "갤러리"
@@ -859,7 +876,8 @@
             "header": "초대",
             "select_placeholder": "친구 선택",
             "invite_with_message": "메시지 초대",
-            "invite": "초대"
+            "invite": "초대",
+            "friends_in_instance": "Friends In Instance"
         },
         "social_status": {
             "header": "소셜 상태 설정",
@@ -1222,6 +1240,44 @@
             "copy_image": "이미지 복사",
             "open_folder": "폴더 열기",
             "upload": "업로드"
+        },
+        "registry_backup": {
+            "header": "VRC Registry Settings Backup",
+            "backup": "Backup",
+            "restore": "Restore",
+            "save_to_file": "Save to file",
+            "delete": "Delete",
+            "restore_from_file": "Restore from file",
+            "reset": "Reset",
+            "name": "Name",
+            "date": "Date",
+            "action": "Action",
+            "auto_backup": "Weekly Auto Backup",
+            "restore_prompt": "VRCX has noticed auto backup of VRC registry settings is enabled but this computer doesn't have any, if you'd like to restore from backup you can do so from here."
+        },
+        "group_member_moderation": {
+            "header": "Group Member Moderation",
+            "notes": "Manager Note",
+            "note_placeholder": "Click to add a note",
+            "actions": "Actions",
+            "kick": "Kick",
+            "ban": "Ban",
+            "save_note": "Save Note",
+            "group_members": "Group Members",
+            "progress": "Progress:",
+            "display_name": "Display Name",
+            "visibility": "Visibility",
+            "avatar": "Avatar",
+            "joined_at": "Joined At",
+            "note": "Note",
+            "roles": "Roles",
+            "selected_users": "Selected Users",
+            "select_all": "Select All",
+            "cancel": "Cancel",
+            "choose_roles_placeholder": "Choose Roles",
+            "selected_roles": "Selected Roles",
+            "remove_roles": "Remove Roles",
+            "add_roles": "Add Roles"
         }
     },
     "prompt": {
