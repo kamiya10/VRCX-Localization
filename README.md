@@ -18,7 +18,7 @@ This repository is for localizations, for main application please go to [vrcx-te
 
 Just go to the [VRCX Project on Crowdin](https://crowdin.com/project/vrcx), pick the language you like, and start translating!
 
-If you don't see the language you want on Crowdin, just open a new [Issue](https://github.com/kamiya10/VRCX-Localization/issues) on this repository, and we'll make it possible.
+If you don't see the language you want on Crowdin, just open a new [Issue](https://github.com/kamiya10/VRCX-Localization/issues/new?assignees=&labels=&projects=&template=new_locale.yaml) on this repository, and we'll make it possible.
 
 ## Is VRCX against VRChat's TOS?
 
