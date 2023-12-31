@@ -857,8 +857,8 @@
                 "unsubscribed_announcements": "Отписаться от объявлений",
                 "visibility": "Видимость:",
                 "representing": "Установить как репрезентативную группу",
-                "manager_notes": "Manager Notes:",
-                "search": "Search"
+                "manager_notes": "Заметки руководителя:",
+                "search": "Поиск"
             },
             "gallery": {
                 "header": "Фото"
@@ -877,7 +877,7 @@
             "select_placeholder": "Выбрать друзей",
             "invite_with_message": "Пригласить с сообщением",
             "invite": "Пригласить",
-            "friends_in_instance": "Friends In Instance"
+            "friends_in_instance": "Друзья в инстансе"
         },
         "social_status": {
             "header": "Статус",
