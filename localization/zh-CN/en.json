@@ -322,7 +322,8 @@
                         "when_to_display_outside_vr": "在 VR 外时",
                         "when_to_display_game_closed": "游戏关闭时",
                         "when_to_display_game_running": "游戏运行时",
-                        "when_to_display_always": "总是"
+                        "when_to_display_always": "总是",
+                        "desktop_notification_while_afk": "Desktop Notifications While AFK"
                     },
                     "text_to_speech": {
                         "header": "文字转语音选项",
