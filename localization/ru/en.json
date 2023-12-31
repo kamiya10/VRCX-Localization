@@ -380,7 +380,7 @@
                     "header": "Расширенные",
                     "launch_options": "Параметры запуска",
                     "screenshot_metadata": "Метаданные скриншота",
-                    "vrc_registry_backup": "VRC Registry Backup",
+                    "vrc_registry_backup": "Резервное копирование реестра VRC",
                     "common_folders": "Общие папки",
                     "pending_offline": {
                         "header": "Ожидание отключения",
@@ -519,14 +519,14 @@
                 "active": "Активный",
                 "offline": "Офлайн",
                 "online": "Online",
-                "join_me": "Join Me",
-                "ask_me": "Ask Me",
-                "busy": "Do Not Disturb"
+                "join_me": "Присоединиться ко мне",
+                "ask_me": "Спросить меня",
+                "busy": "Не беспокоить"
             },
             "previous_display_names": "Предыдущие отображаемые имена:",
             "tags": {
                 "friend_no": "Друг №{number}",
-                "vrchat_team": "VRChat Team"
+                "vrchat_team": "Команда VRChat"
             },
             "actions": {
                 "favorite_tooltip": "Добавить в Избранное",
@@ -706,7 +706,7 @@
                 "last_updated": "Последнее обновление",
                 "publication_date": "Дата публикации",
                 "labs_publication_date": "Дата публикации в Labs",
-                "time_in_labs": "Time In Labs:",
+                "time_in_labs": "Время в Labs:",
                 "version": "Версия",
                 "platform": "Платформа",
                 "last_visited": "Последний визит",
@@ -722,8 +722,8 @@
             "tags": {
                 "public": "Публичный",
                 "private": "Приватный",
-                "fallback": "Fallback",
-                "impostor": "Impostor",
+                "fallback": "Резервный",
+                "impostor": "Обманка",
                 "future_proofing": "Перспективные решения",
                 "cache": "Кэш",
                 "content_horror": "Ужасы",
@@ -783,7 +783,7 @@
                 "private": "Приватная",
                 "open": "Открытая",
                 "request": "По запросу",
-                "invite": "Invite",
+                "invite": "Инвайт",
                 "closed": "Закрытая",
                 "joined": "В группе",
                 "banned": "Заблокирован",
@@ -807,7 +807,7 @@
                 "visibility_everyone": "Видимость: все",
                 "visibility_friends": "Видимость: Только друзья",
                 "visibility_hidden": "Видимость: Только я",
-                "moderation_tools": "Moderation Tools",
+                "moderation_tools": "Инструменты модерации",
                 "leave": "Покинуть группу"
             },
             "info": {
