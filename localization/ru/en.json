@@ -322,7 +322,8 @@
                         "when_to_display_outside_vr": "Вне VR",
                         "when_to_display_game_closed": "Игра закрыта",
                         "when_to_display_game_running": "Игра запущена",
-                        "when_to_display_always": "Всегда"
+                        "when_to_display_always": "Всегда",
+                        "desktop_notification_while_afk": "Desktop Notifications While AFK"
                     },
                     "text_to_speech": {
                         "header": "Параметры преобразования текста в речь",
@@ -379,6 +380,7 @@
                     "header": "Расширенные",
                     "launch_options": "Параметры запуска",
                     "screenshot_metadata": "Метаданные скриншота",
+                    "vrc_registry_backup": "VRC Registry Backup",
                     "common_folders": "Общие папки",
                     "pending_offline": {
                         "header": "Ожидание отключения",
@@ -704,6 +706,7 @@
                 "last_updated": "Последнее обновление",
                 "publication_date": "Дата публикации",
                 "labs_publication_date": "Дата публикации в Labs",
+                "time_in_labs": "Time In Labs:",
                 "version": "Версия",
                 "platform": "Платформа",
                 "last_visited": "Последний визит",
@@ -720,6 +723,7 @@
                 "public": "Публичный",
                 "private": "Приватный",
                 "fallback": "Fallback",
+                "impostor": "Impostor",
                 "future_proofing": "Перспективные решения",
                 "cache": "Кэш",
                 "content_horror": "Ужасы",
@@ -803,6 +807,7 @@
                 "visibility_everyone": "Видимость: все",
                 "visibility_friends": "Видимость: Только друзья",
                 "visibility_hidden": "Видимость: Только я",
+                "moderation_tools": "Moderation Tools",
                 "leave": "Покинуть группу"
             },
             "info": {
@@ -851,7 +856,9 @@
                 },
                 "unsubscribed_announcements": "Отписаться от объявлений",
                 "visibility": "Видимость:",
-                "representing": "Установить как репрезентативную группу"
+                "representing": "Установить как репрезентативную группу",
+                "manager_notes": "Manager Notes:",
+                "search": "Search"
             },
             "gallery": {
                 "header": "Фото"
@@ -869,7 +876,8 @@
             "header": "Пригласить",
             "select_placeholder": "Выбрать друзей",
             "invite_with_message": "Пригласить с сообщением",
-            "invite": "Пригласить"
+            "invite": "Пригласить",
+            "friends_in_instance": "Friends In Instance"
         },
         "social_status": {
             "header": "Статус",
