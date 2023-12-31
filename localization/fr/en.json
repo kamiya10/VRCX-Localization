@@ -322,7 +322,8 @@
                         "when_to_display_outside_vr": "En dehors de la VR",
                         "when_to_display_game_closed": "Jeu fermé",
                         "when_to_display_game_running": "Jeu en cours",
-                        "when_to_display_always": "En permanence"
+                        "when_to_display_always": "En permanence",
+                        "desktop_notification_while_afk": "Desktop Notifications While AFK"
                     },
                     "text_to_speech": {
                         "header": "Options de la synthèse vocale",
@@ -379,6 +380,7 @@
                     "header": "Avancés",
                     "launch_options": "Options de démarrage",
                     "screenshot_metadata": "Métadonnées d'une capture d'écran",
+                    "vrc_registry_backup": "VRC Registry Backup",
                     "common_folders": "Dossiers communs",
                     "pending_offline": {
                         "header": "En attendant l'hors ligne",
@@ -423,7 +425,8 @@
                         "description_tooltip": "Malheureusement, Windows ne permet pas de visualiser les blocs de texte PNG (peu de choses le font) en mode natif, mais vous pouvez les visualiser à l'aide d'un outil en ligne de commande comme exiftool, d'un inspecteur de blocs PNG ou d'un éditeur hexagonal.",
                         "enable": "Activé",
                         "modify_filename": "Modifier le nom du fichier",
-                        "modify_filename_tooltip": "Ajoute l'ID du monde au nom du fichier de la capture d'écran, en plus des métadonnées du fichier."
+                        "modify_filename_tooltip": "Ajoute l'ID du monde au nom du fichier de la capture d'écran, en plus des métadonnées du fichier.",
+                        "copy_to_clipboard": "Copy to Clipboard"
                     },
                     "app_launcher": {
                         "header": "Lanceur d'application",
@@ -703,6 +706,7 @@
                 "last_updated": "Dernière mise à jour",
                 "publication_date": "Date de publication",
                 "labs_publication_date": "Date de publication au Labs",
+                "time_in_labs": "Time In Labs:",
                 "version": "Version",
                 "platform": "Plateforme",
                 "last_visited": "Dernière visite",
@@ -719,6 +723,7 @@
                 "public": "Publique",
                 "private": "Privé",
                 "fallback": "Avatar fallback",
+                "impostor": "Impostor",
                 "future_proofing": "Future Proofing",
                 "cache": "Cache",
                 "content_horror": "Horreur",
@@ -749,7 +754,9 @@
                 "change_content_tags": "Changer les Tags d'avatars",
                 "change_image": "Changer l'image",
                 "download_package": "Télécharger le package Unity",
-                "delete": "Supprimer"
+                "delete": "Supprimer",
+                "delete_impostor": "Delete Impostor",
+                "create_impostor": "Create Impostor"
             },
             "info": {
                 "header": "Infos",
@@ -800,6 +807,7 @@
                 "visibility_everyone": "Tout le monde peut me voir",
                 "visibility_friends": "Mes amis peuvent me voir",
                 "visibility_hidden": "Personne ne peut me voir",
+                "moderation_tools": "Moderation Tools",
                 "leave": "Quitter le groupe"
             },
             "info": {
@@ -823,6 +831,13 @@
                 "role_created_at": "Créé le :",
                 "role_permissions": "Permissions :"
             },
+            "posts": {
+                "header": "Posts",
+                "visibility": "Visibility:",
+                "edited_by": "Edited by:",
+                "search_placeholder": "Search",
+                "posts_count": "Posts: "
+            },
             "members": {
                 "header": "Membres",
                 "all_members": "Tous les membres",
@@ -841,7 +856,9 @@
                 },
                 "unsubscribed_announcements": "Désabonné des annonces",
                 "visibility": "Visibilité:",
-                "representing": "Représente"
+                "representing": "Représente",
+                "manager_notes": "Manager Notes:",
+                "search": "Search"
             },
             "gallery": {
                 "header": "Galerie"
@@ -859,7 +876,8 @@
             "header": "Inviter",
             "select_placeholder": "Choisir des amis",
             "invite_with_message": "Inviter avec un message",
-            "invite": "Inviter"
+            "invite": "Inviter",
+            "friends_in_instance": "Friends In Instance"
         },
         "social_status": {
             "header": "Statut social",
@@ -1222,6 +1240,44 @@
             "copy_image": "Copier l'image",
             "open_folder": "Ouvrir un dossier",
             "upload": "Mettre en ligne"
+        },
+        "registry_backup": {
+            "header": "VRC Registry Settings Backup",
+            "backup": "Backup",
+            "restore": "Restore",
+            "save_to_file": "Save to file",
+            "delete": "Delete",
+            "restore_from_file": "Restore from file",
+            "reset": "Reset",
+            "name": "Name",
+            "date": "Date",
+            "action": "Action",
+            "auto_backup": "Weekly Auto Backup",
+            "restore_prompt": "VRCX has noticed auto backup of VRC registry settings is enabled but this computer doesn't have any, if you'd like to restore from backup you can do so from here."
+        },
+        "group_member_moderation": {
+            "header": "Group Member Moderation",
+            "notes": "Manager Note",
+            "note_placeholder": "Click to add a note",
+            "actions": "Actions",
+            "kick": "Kick",
+            "ban": "Ban",
+            "save_note": "Save Note",
+            "group_members": "Group Members",
+            "progress": "Progress:",
+            "display_name": "Display Name",
+            "visibility": "Visibility",
+            "avatar": "Avatar",
+            "joined_at": "Joined At",
+            "note": "Note",
+            "roles": "Roles",
+            "selected_users": "Selected Users",
+            "select_all": "Select All",
+            "cancel": "Cancel",
+            "choose_roles_placeholder": "Choose Roles",
+            "selected_roles": "Selected Roles",
+            "remove_roles": "Remove Roles",
+            "add_roles": "Add Roles"
         }
     },
     "prompt": {
