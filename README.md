@@ -1,6 +1,6 @@
 <div align="center">
 
-# <img src="https://raw.githubusercontent.com/vrcx-team/VRCX/master/VRCX.ico" width="64" height="64"> </img> VRCX
+# <img src="https://raw.githubusercontent.com/vrcx-team/VRCX/master/VRCX.ico" width="64" height="64"> </img> VRCX Localizations
 
 [![GitHub release](https://img.shields.io/github/release/vrcx-team/VRCX.svg)](https://github.com/vrcx-team/VRCX/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/vrcx-team/VRCX/total?color=6451f1)](https://github.com/vrcx-team/VRCX/releases/latest)
