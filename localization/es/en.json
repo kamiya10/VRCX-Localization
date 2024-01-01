@@ -1,25 +1,25 @@
 {
-    "language": "English (en)",
-    "translator": "-",
+    "language": "Español (es)",
+    "translator": "TheOvineIsBlue",
     "nav_tooltip": {
-        "feed": "Feed",
-        "game_log": "Game Log",
-        "player_list": "Player List",
-        "search": "Search",
-        "favorites": "Favorites",
-        "friend_log": "Friend Log",
-        "moderation": "Moderation",
-        "notification": "Notification",
-        "friend_list": "Friend List",
-        "profile": "Profile",
-        "settings": "Settings"
+        "feed": "Actividad",
+        "game_log": "Registro del juego",
+        "player_list": "Lista de Jugadores",
+        "search": "Buscar",
+        "favorites": "Favoritos",
+        "friend_log": "Registro de amigos",
+        "moderation": "Moderación",
+        "notification": "Notificaciones",
+        "friend_list": "Lista de amigos",
+        "profile": "Perfil",
+        "settings": "Ajustes"
     },
     "view": {
         "login": {
-            "savedAccounts": "Saved Accounts",
-            "login": "Login",
+            "savedAccounts": "Cuentas guardadas",
+            "login": "Inicio de sesión",
             "register": "Register",
-            "forgotPassword": "Forgot Password?",
+            "forgotPassword": "¿Olvidaste tu contraseña?",
             "field": {
                 "username": "Username or Email",
                 "password": "Password",
