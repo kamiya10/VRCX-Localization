@@ -18,66 +18,66 @@
         "login": {
             "savedAccounts": "Cuentas guardadas",
             "login": "Inicio de sesión",
-            "register": "Register",
+            "register": "Registrarse",
             "forgotPassword": "¿Olvidaste tu contraseña?",
             "field": {
-                "username": "Username or Email",
-                "password": "Password",
-                "saveCredentials": "Save Credentials",
+                "username": "Usuario o Email",
+                "password": "Contraseña",
+                "saveCredentials": "Guardar credenciales",
                 "devEndpoint": "Dev Endpoint",
                 "endpoint": "Endpoint",
                 "websocket": "WebSocket"
             }
         },
         "feed": {
-            "favorites_only_tooltip": "Filter favorites only",
-            "filter_placeholder": "Filter",
-            "search_placeholder": "Search"
+            "favorites_only_tooltip": "Filtrar solo favoritos",
+            "filter_placeholder": "Filtro",
+            "search_placeholder": "Buscar"
         },
         "game_log": {
-            "filter_placeholder": "Filter",
-            "search_placeholder": "Search"
+            "filter_placeholder": "Filtro",
+            "search_placeholder": "Buscar"
         },
         "player_list": {
             "photon": {
-                "current": "Current",
-                "previous": "Previous",
-                "search_placeholder": "Search",
-                "filter_placeholder": "Filter",
+                "current": "Actual",
+                "previous": "Anterior",
+                "search_placeholder": "Buscar",
+                "filter_placeholder": "Filtro",
                 "chatbox_blacklist": "Chatbox Blacklist",
-                "status_tooltip": "VRCX Companion Status"
+                "status_tooltip": "Estado de VRCX Companion"
             }
         },
         "search": {
-            "search_placeholder": "Search",
-            "clear_results_tooltip": "Clear Search Results",
+            "search_placeholder": "Buscar",
+            "clear_results_tooltip": "Limpiar resultados de búsqueda",
             "user": {
-                "header": "User"
+                "header": "Usuario"
             },
             "world": {
-                "header": "World",
-                "category": "Search by category",
-                "community_lab": "Include community labs"
+                "header": "Mundo",
+                "category": "Buscar por categoría",
+                "community_lab": "Incluye community labs"
             },
             "avatar": {
                 "header": "Avatar",
-                "search_provider": "Search Provider",
-                "refresh_tooltip": "Refresh own avatars",
-                "result_count": "Results {count}",
-                "all": "All",
-                "public": "Public",
-                "private": "Private",
+                "search_provider": "Proveedor de búsqueda",
+                "refresh_tooltip": "Actualizar mis avatares",
+                "result_count": "Resultados {count}",
+                "all": "Todos",
+                "public": "Público",
+                "private": "Privado",
                 "local": "Local",
-                "remote": "Remote",
-                "sort_name": "Sort by name",
-                "sort_update": "Sort by update",
-                "sort_created": "Sort by created"
+                "remote": "Remoto",
+                "sort_name": "Ordenar por nombre",
+                "sort_update": "Ordenar por actualización",
+                "sort_created": "Ordenador por autor"
             },
             "group": {
-                "header": "Group"
+                "header": "Grupo"
             },
-            "prev_page": "Prev",
-            "next_page": "Next"
+            "prev_page": "Anterior",
+            "next_page": "Siguiente"
         },
         "favorite": {
             "friends": {
@@ -109,26 +109,26 @@
         },
         "friend_log": {
             "filter_placeholder": "Filter",
-            "search_placeholder": "Search"
+            "search_placeholder": "Buscar"
         },
         "moderation": {
             "filter_placeholder": "Filter",
-            "search_placeholder": "Search",
+            "search_placeholder": "Buscar",
             "refresh_tooltip": "Refresh"
         },
         "notification": {
             "filter_placeholder": "Filter",
-            "search_placeholder": "Search",
+            "search_placeholder": "Buscar",
             "refresh_tooltip": "Refresh"
         },
         "friend_list": {
             "header": "Friend List",
             "bulk_unfriend": "Bulk Unfriend Mode",
             "bulk_unfriend_selection": "Bulk Unfriend Selection",
-            "load": "Load missing entries",
+            "load": "Cargar entradas faltantes",
             "load_tooltip": "Load",
             "favorites_only_tooltip": "Filter favorites only",
-            "search_placeholder": "Search",
+            "search_placeholder": "Buscar",
             "filter_placeholder": "Filter",
             "refresh_tooltip": "Refresh",
             "clear_tooltip": "Clear Results",
@@ -141,34 +141,34 @@
                 "two_factor": "Two-Factor Auth (2FA)",
                 "two_factor_enabled": "Enabled",
                 "two_factor_disabled": "Disabled",
-                "logout": "Logout",
-                "manage_gallery_icon": "Manage Photos/Icons/Emojis",
-                "export_friend_list": "Export Friends List",
-                "export_own_avatars": "Export Own Avatars",
-                "discord_names": "Discord Names",
-                "export_notes": "Export Notes"
+                "logout": "Cerrar sesión",
+                "manage_gallery_icon": "Administrar Fotos/Iconos/Emojis",
+                "export_friend_list": "Exportar lista de amigos",
+                "export_own_avatars": "Exportar Avatares propios",
+                "discord_names": "Nombres de Discord",
+                "export_notes": "Exportar notas"
             },
             "game_info": {
-                "header": "Game Info",
-                "online_users": "Online Users",
-                "user_online": "{count} users online.",
-                "refresh": "Click to refresh"
+                "header": "Información del juego",
+                "online_users": "Usuarios en línea",
+                "user_online": "{count} usuarios en línea.",
+                "refresh": "Clic para actualizar"
             },
             "vrc_sdk_downloads": {
                 "header": "VRC SDK Downloads"
             },
             "direct_access": {
-                "header": "Direct Access",
-                "username": "Username",
-                "user_id": "User ID",
-                "world_instance": "World/Instance",
+                "header": "Acceso Directo",
+                "username": "Nombre de usuario",
+                "user_id": "ID de usuario",
+                "world_instance": "Mundo/Instancia",
                 "avatar": "Avatar"
             },
-            "invite_messages": "Invite Messages",
-            "invite_response_messages": "Invite Response Messages",
-            "invite_request_messages": "Invite Request Messages",
+            "invite_messages": "Mensajes De Invitación",
+            "invite_response_messages": "Mensajes De Respuesta A Invitaciones",
+            "invite_request_messages": "Mensajes De Solicitud De Invitación",
             "invite_request_response_messages": "Invite Request Response Messages",
-            "past_display_names": "Past Display Names",
+            "past_display_names": "Nombres Anteriores",
             "config_json": "Config JSON",
             "current_user_json": "Current User JSON",
             "feedback": "Feedback",
@@ -198,16 +198,16 @@
                     "header": "VRCX Updater",
                     "change_build": "Change build",
                     "auto_update": "Auto update",
-                    "auto_update_off": "Off",
-                    "auto_update_notify": "Notify",
-                    "auto_update_download": "Auto Download",
-                    "auto_update_install": "Auto Install",
-                    "change_log": "Change Log"
+                    "auto_update_off": "Desactivado",
+                    "auto_update_notify": "Notificar",
+                    "auto_update_download": "Autodescargar",
+                    "auto_update_install": "Instalar automáticamente",
+                    "change_log": "Registro de cambios"
                 },
                 "application": {
-                    "header": "Application",
-                    "startup": "Start as Windows startup",
-                    "minimized": "Start as minimized state",
+                    "header": "Aplicación",
+                    "startup": "Iniciar al ejecutar Windows",
+                    "minimized": "Iniciar minimizado",
                     "tray": "Close to tray"
                 },
                 "game_log": {
@@ -498,10 +498,10 @@
         }
     },
     "side_panel": {
-        "search_placeholder": "Search",
-        "search_result_active": "Offline",
-        "search_result_offline": "Active",
-        "search_result_more": "Search More:",
+        "search_placeholder": "Buscar",
+        "search_result_active": "Desconectado",
+        "search_result_offline": "Activo",
+        "search_result_more": "Buscar más:",
         "direct_access_tooltip": "Direct access ID/URL from clipboard",
         "refresh_tooltip": "Refresh friends",
         "groups": "Groups",
@@ -835,7 +835,7 @@
                 "header": "Posts",
                 "visibility": "Visibility:",
                 "edited_by": "Edited by:",
-                "search_placeholder": "Search",
+                "search_placeholder": "Buscar",
                 "posts_count": "Posts: "
             },
             "members": {
@@ -858,7 +858,7 @@
                 "visibility": "Visibility:",
                 "representing": "Representing",
                 "manager_notes": "Manager Notes:",
-                "search": "Search"
+                "search": "Buscar"
             },
             "gallery": {
                 "header": "Photos"
@@ -1038,7 +1038,7 @@
         },
         "discord_names": {
             "header": "Discord Names",
-            "description": "Click load missing entries in the Friends List tab to search entire friends list"
+            "description": "Haga clic en \"Cargar entradas faltantes\" en la pestaña \"Lista de Amigos\" para buscar en toda la lista de amigos"
         },
         "notification_position": {
             "header": "Notification Position",
@@ -1206,7 +1206,7 @@
         "previous_instances": {
             "header": "Previous Instances",
             "info": "Previous Instance Info",
-            "search_placeholder": "Search"
+            "search_placeholder": "Buscar"
         },
         "change_log": {
             "header": "Change Log",
