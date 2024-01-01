@@ -1557,17 +1557,17 @@
             "no": "No.",
             "avatar": "Avatar",
             "displayName": "Display Name",
-            "rank": "Rank",
-            "status": "Status",
-            "language": "Language",
-            "bioLink": "Bio Links",
+            "rank": "Rango",
+            "status": "Estado",
+            "language": "Idioma",
+            "bioLink": "Enlaces",
             "joinCount": "Join Counts",
-            "timeTogether": "Time Together",
-            "lastSeen": "Last Seen",
-            "lastActivity": "Last Activity",
-            "lastLogin": "Last Login",
-            "dateJoined": "Date Joined",
-            "unfriend": "Unfriend"
+            "timeTogether": "Tiempo Juntos",
+            "lastSeen": "Última Vez Visto",
+            "lastActivity": "Última Actividad",
+            "lastLogin": "Último Inicio De Sesión",
+            "dateJoined": "Fecha De Registro",
+            "unfriend": "Eliminar amigo"
         },
         "profile": {
             "invite_messages": {
