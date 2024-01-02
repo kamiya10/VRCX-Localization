@@ -183,21 +183,21 @@
                 "notifications": "Notificaciones",
                 "wrist_overlay": "Wrist Overlay",
                 "discord_presence": "Discord Presence",
-                "advanced": "Advanced"
+                "advanced": "Avanzado"
             },
             "general": {
                 "general": {
                     "header": "General",
-                    "version": "Version",
-                    "latest_app_version": "Latest Version",
+                    "version": "Versión",
+                    "latest_app_version": "Última versión",
                     "latest_app_version_refresh": "Clic para actualizar",
-                    "repository_url": "Repository URL",
-                    "support": "Support"
+                    "repository_url": "URL del repositorio",
+                    "support": "Soporte técnico"
                 },
                 "vrcx_updater": {
-                    "header": "VRCX Updater",
-                    "change_build": "Change build",
-                    "auto_update": "Auto update",
+                    "header": "Actualizador VRCX",
+                    "change_build": "Cambiar versión",
+                    "auto_update": "Actualización automática",
                     "auto_update_off": "Desactivado",
                     "auto_update_notify": "Notificar",
                     "auto_update_download": "Autodescargar",
@@ -208,16 +208,16 @@
                     "header": "Aplicación",
                     "startup": "Iniciar al ejecutar Windows",
                     "minimized": "Iniciar minimizado",
-                    "tray": "Close to tray"
+                    "tray": "Cerrar en la bandeja"
                 },
                 "game_log": {
-                    "header": "Game Log",
-                    "resource_load": "Log Udon resource load"
+                    "header": "Registro del juego",
+                    "resource_load": "Registrar la carga de recursos de Udon"
                 },
                 "automation": {
-                    "header": "Automation",
-                    "auto_state_change": "Auto Status Change",
-                    "auto_state_change_tooltip": "Automatically change status when there are other people in the instance (Alone / Company)",
+                    "header": "Automatización",
+                    "auto_state_change": "Cambio de estado automático",
+                    "auto_state_change_tooltip": "Cambia automáticamente el estado cuando hay otras personas en la instancia (Solo/Compañía)",
                     "auto_state_change_off": "Desactivado",
                     "auto_state_change_active_or_ask_me": "Active / Ask Me",
                     "auto_state_change_active_or_busy": "Active / Busy",
@@ -226,32 +226,32 @@
                     "auto_state_change_ask_me_or_busy": "Ask Me / Busy"
                 },
                 "legal_notice": {
-                    "header": "Legal Notice",
-                    "info": "VRCX is an assistant application for VRChat that provides information about and managing friendship. This application makes use of the unofficial VRChat API SDK.",
-                    "disclaimer1": "VRCX is not endorsed by VRChat and does not reflect the views or opinions of VRChat or anyone officially involved in producing or managing VRChat properties. VRChat and all associated properties are trademarks or registered trademarks of VRChat Inc. VRChat © VRChat Inc.",
-                    "disclaimer2": "pypy & Natsumi are not responsible for any problems caused by VRCX. Use at your own risk!",
-                    "open_source_software_notice": "Open Source Software Notice"
+                    "header": "Aviso Legal",
+                    "info": "VRCX es una aplicación asistente para VRChat que proporciona información sobre amistades y su gestión. Esta aplicación hace uso de la API SDK no oficial de VRChat.",
+                    "disclaimer1": "VRCX no está respaldado por VRChat y no refleja los puntos de vista u opiniones de VRChat ni de nadie que participe oficialmente en la producción o gestión de las propiedades de VRChat. VRChat y todas las propiedades asociadas son marcas comerciales o marcas registradas de VRChat Inc. VRChat © VRChat Inc.",
+                    "disclaimer2": "pypy & Natsumi no son responsables de ningún problema causado por VRCX. ¡Úsalo bajo tu propio riesgo!",
+                    "open_source_software_notice": "Aviso sobre el software de código abierto"
                 },
                 "contributors": {
-                    "header": "Contributors"
+                    "header": "Colaboradores"
                 }
             },
             "appearance": {
                 "appearance": {
-                    "header": "Appearance",
-                    "language": "Language",
-                    "theme_mode": "Theme mode",
-                    "theme_mode_system": "System",
-                    "theme_mode_light": "Light",
-                    "theme_mode_dark": "Dark",
+                    "header": "Apariencia",
+                    "language": "Idioma",
+                    "theme_mode": "Temas",
+                    "theme_mode_system": "Sistema",
+                    "theme_mode_light": "Claro",
+                    "theme_mode_dark": "Oscuro",
                     "theme_mode_darkvanilla": "Dark Vanilla",
-                    "theme_mode_pink": "Pink",
+                    "theme_mode_pink": "Rosa",
                     "theme_mode_material3": "Material 3",
-                    "vrcplus_profile_icons": "VRCPlus Profile Icons",
-                    "disable_tooltips": "Disable Tooltips",
-                    "sort_favorite_by": "Sort Favorites by",
-                    "sort_favorite_by_name": "name",
-                    "sort_favorite_by_date": "date",
+                    "vrcplus_profile_icons": "Iconos de perfil VRCPlus",
+                    "disable_tooltips": "Deshabilitar las descripciones emergentes",
+                    "sort_favorite_by": "Ordenar Favoritos por",
+                    "sort_favorite_by_name": "nombre",
+                    "sort_favorite_by_date": "fecha",
                     "sort_instance_users_by": "Sort Instance Users by",
                     "sort_instance_users_by_time": "time",
                     "sort_instance_users_by_alphabet": "alphabetical",
