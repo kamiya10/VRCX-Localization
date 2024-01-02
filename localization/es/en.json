@@ -81,13 +81,13 @@
         },
         "favorite": {
             "friends": {
-                "header": "Friends"
+                "header": "Amigos"
             },
             "worlds": {
-                "header": "Worlds",
-                "vrchat_favorites": "VRChat Favorites",
-                "local_favorites": "Local Favorites",
-                "new_group": "New Group"
+                "header": "Mundos",
+                "vrchat_favorites": "Favoritos de VRChat",
+                "local_favorites": "Favoritos locales",
+                "new_group": "Nuevo Grupo"
             },
             "avatars": {
                 "header": "Avatars"
