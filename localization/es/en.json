@@ -252,18 +252,18 @@
                     "sort_favorite_by": "Ordenar Favoritos por",
                     "sort_favorite_by_name": "nombre",
                     "sort_favorite_by_date": "fecha",
-                    "sort_instance_users_by": "Sort Instance Users by",
-                    "sort_instance_users_by_time": "time",
-                    "sort_instance_users_by_alphabet": "alphabetical",
-                    "table_max_size": "Table Max Size",
-                    "page_size": "Page Size:"
+                    "sort_instance_users_by": "Ordenar Usuarios de la Instancia por",
+                    "sort_instance_users_by_time": "tiempo",
+                    "sort_instance_users_by_alphabet": "alfabético",
+                    "table_max_size": "Tamaño máximo de la tabla",
+                    "page_size": "Tamaño de página:"
                 },
                 "timedate": {
-                    "header": "Time/Date",
-                    "time_format": "Time Format",
-                    "time_format_24": "24 Hour",
-                    "time_format_12": "12 Hour",
-                    "force_iso_date_format": "Force ISO Date Format"
+                    "header": "Fecha/Hora",
+                    "time_format": "Formato de hora",
+                    "time_format_24": "24 Horas",
+                    "time_format_12": "12 Horas",
+                    "force_iso_date_format": "Forzar formato de fecha ISO"
                 },
                 "side_panel": {
                     "header": "Panel Lateral",
@@ -289,15 +289,15 @@
                     "width": "Anchura"
                 },
                 "user_dialog": {
-                    "header": "User Dialog",
-                    "hide_vrchat_notes": "Hide VRChat Notes",
-                    "hide_vrcx_memos": "Hide VRCX Memos",
-                    "export_vrcx_memos_into_vrchat_notes": "Export VRCX Memos into VRChat notes",
-                    "export_notes": "Export Notes"
+                    "header": "Diálogo del usuario",
+                    "hide_vrchat_notes": "Ocultar Notas de VRChat",
+                    "hide_vrcx_memos": "Ocultar Memos de VRCX",
+                    "export_vrcx_memos_into_vrchat_notes": "Exportar los Memos de VRCX a notas de VRChat",
+                    "export_notes": "Exportar Notas"
                 },
                 "user_colors": {
-                    "header": "User Colors",
-                    "random_colors_from_user_id": "Random Colors from User ID"
+                    "header": "Colores de los Usuarios",
+                    "random_colors_from_user_id": "Colores Aleatorios a partir del ID de Usuario"
                 }
             },
             "notifications": {
@@ -388,8 +388,8 @@
                         "set_delay": "Establecer retardo"
                     },
                     "primary_password": {
-                        "header": "Primary Password",
-                        "description": "Encrypt password (disables auto login)"
+                        "header": "Contraseña Principal",
+                        "description": "Cifrar contraseña (deshabilita el inicio de sesión automático)"
                     },
                     "relaunch_vrchat": {
                         "header": "Relaunch VRChat after crashing",
@@ -409,9 +409,9 @@
                         "avatar_database_provider": "Avatar Database Provider"
                     },
                     "youtube_api": {
-                        "header": "Youtube API",
+                        "header": "API de Youtube",
                         "enable": "Enable",
-                        "youtube_api_key": "Youtube API Key"
+                        "youtube_api_key": "Clave de la API de YouTube"
                     },
                     "video_progress_pie": {
                         "header": "Progress pie overlay for videos",
