@@ -90,34 +90,34 @@
                 "new_group": "Nuevo Grupo"
             },
             "avatars": {
-                "header": "Avatars"
+                "header": "Avatares"
             },
             "bulk_unfavorite_mode": "Bulk Unfavorite Mode",
             "bulk_unfavorite_selection": "Bulk Unfavorite Selection",
-            "refresh_tooltip": "Refresh all favorites",
-            "export": "Export",
-            "import": "Import",
-            "move_tooltip": "Move",
-            "unfavorite_tooltip": "Unfavorite",
-            "visibility_tooltip": "Change Visibility",
-            "rename_tooltip": "Rename",
-            "clear_tooltip": "Clear",
-            "delete_tooltip": "Delete",
+            "refresh_tooltip": "Actualizar todos los favoritos",
+            "export": "Exportar",
+            "import": "Importar",
+            "move_tooltip": "Mover",
+            "unfavorite_tooltip": "Eliminar favorito",
+            "visibility_tooltip": "Cambiar visibilidad",
+            "rename_tooltip": "Renombrar",
+            "clear_tooltip": "Limpiar",
+            "delete_tooltip": "Eliminar",
             "unavailable_tooltip": "Unavailable",
             "private": "Private",
             "sort_by": "Sort By"
         },
         "friend_log": {
-            "filter_placeholder": "Filter",
+            "filter_placeholder": "Filtro",
             "search_placeholder": "Buscar"
         },
         "moderation": {
-            "filter_placeholder": "Filter",
+            "filter_placeholder": "Filtro",
             "search_placeholder": "Buscar",
             "refresh_tooltip": "Refresh"
         },
         "notification": {
-            "filter_placeholder": "Filter",
+            "filter_placeholder": "Filtro",
             "search_placeholder": "Buscar",
             "refresh_tooltip": "Refresh"
         },
@@ -129,9 +129,9 @@
             "load_tooltip": "Load",
             "favorites_only_tooltip": "Filter favorites only",
             "search_placeholder": "Buscar",
-            "filter_placeholder": "Filter",
+            "filter_placeholder": "Filtro",
             "refresh_tooltip": "Refresh",
-            "clear_tooltip": "Clear Results",
+            "clear_tooltip": "Limpiar Resultados",
             "cancel_tooltip": "Cancel"
         },
         "profile": {
@@ -173,14 +173,14 @@
             "current_user_json": "Current User JSON",
             "feedback": "Feedback",
             "refresh_tooltip": "Refresh",
-            "clear_results_tooltip": "Clear results"
+            "clear_results_tooltip": "Limpiar resultados"
         },
         "settings": {
-            "header": "Settings",
+            "header": "Ajustes",
             "category": {
                 "general": "General",
-                "appearance": "Appearance",
-                "notifications": "Notifications",
+                "appearance": "Apariencia",
+                "notifications": "Notificaciones",
                 "wrist_overlay": "Wrist Overlay",
                 "discord_presence": "Discord Presence",
                 "advanced": "Advanced"
@@ -218,7 +218,7 @@
                     "header": "Automation",
                     "auto_state_change": "Auto Status Change",
                     "auto_state_change_tooltip": "Automatically change status when there are other people in the instance (Alone / Company)",
-                    "auto_state_change_off": "Off",
+                    "auto_state_change_off": "Desactivado",
                     "auto_state_change_active_or_ask_me": "Active / Ask Me",
                     "auto_state_change_active_or_busy": "Active / Busy",
                     "auto_state_change_join_me_or_ask_me": "Join Me / Ask Me",
@@ -303,7 +303,7 @@
             "notifications": {
                 "notifications": {
                     "header": "Notifications",
-                    "notification_filter": "Notification Filter",
+                    "notification_filter": "Filtro de Notificación",
                     "steamvr_notifications": {
                         "header": "SteamVR Notifications",
                         "steamvr_overlay": "SteamVR Overlay",
@@ -360,7 +360,7 @@
                     "hide_cpu_usage": "Hide CPU Usage",
                     "hide_game_uptime": "Hide Game Uptime",
                     "show_pc_uptime": "Show PC Uptime",
-                    "wrist_feed_filters": "Wrist Feed Filters"
+                    "wrist_feed_filters": "Filtro de Actividad en la Muñeca"
                 }
             },
             "discord_presence": {
@@ -385,7 +385,7 @@
                     "pending_offline": {
                         "header": "Pending Offline",
                         "description": "Delay before marking user as offline (fixes false positives)",
-                        "set_delay": "Set Delay"
+                        "set_delay": "Establecer retardo"
                     },
                     "primary_password": {
                         "header": "Primary Password",
@@ -401,7 +401,7 @@
                     },
                     "auto_cache_management": {
                         "header": "Automatically Manage Cache When Closing VRChat",
-                        "description": "Auto delete old versions from cache"
+                        "description": "Eliminar automáticamente versiones antiguas de la caché"
                     },
                     "remote_database": {
                         "header": "Remote Avatar Database",
@@ -449,8 +449,8 @@
                         "group_cache": "Group cache:",
                         "avatar_name_cache": "Avatar Name cache:",
                         "instance_cache": "Instance cache:",
-                        "clear_cache": "Clear Cache",
-                        "auto_clear_cache": "Auto Clear Cache",
+                        "clear_cache": "Limpiar caché",
+                        "auto_clear_cache": "Limpiar caché automáticamente",
                         "download_history": "Download History",
                         "show_console": "Show Console"
                     },
@@ -461,7 +461,7 @@
                         "status": "Status:",
                         "bio": "Bio:",
                         "avatar": "Avatar:",
-                        "online_offline": "Online/Offline:",
+                        "online_offline": "Conectado/Desconectado:",
                         "friend_log_history": "Friend Log History:",
                         "notification": "Notifications:",
                         "location": "Location:",
@@ -477,7 +477,7 @@
                         "header": "Photon Event HUD",
                         "enable": "Enable",
                         "enable_tooltip": "Requires SteamVR overlay to be enabled",
-                        "filter": "Filter",
+                        "filter": "Filtro",
                         "filter_favorites": "Favorites",
                         "filter_friends": "Friends",
                         "filter_everyone": "Everyone",
@@ -487,7 +487,7 @@
                         "header": "User Timeout HUD",
                         "enable": "Enable",
                         "enable_tooltip": "Requires SteamVR overlay to be enabled",
-                        "filter": "Filter",
+                        "filter": "Filtro",
                         "filter_favorites": "Favorites",
                         "filter_friends": "Friends",
                         "filter_everyone": "Everyone",
@@ -510,14 +510,14 @@
         "favorite": "FAVORITES",
         "online": "ONLINE",
         "active": "ACTIVE",
-        "offline": "OFFLINE",
-        "pending_offline": "Pending Offline"
+        "offline": "DESCONECTADO",
+        "pending_offline": "Pendiente de desconexión"
     },
     "dialog": {
         "user": {
             "status": {
                 "active": "Active",
-                "offline": "Offline",
+                "offline": "Desconectado",
                 "online": "Online",
                 "join_me": "Join Me",
                 "ask_me": "Ask Me",
@@ -583,7 +583,7 @@
                 "join_count": "Join Count",
                 "time_together": "Time Together",
                 "online_for": "Online For",
-                "offline_for": "Offline For",
+                "offline_for": "Desconectado desde",
                 "last_activity": "Last Activity",
                 "last_login": "Last Login",
                 "date_joined": "Date Joined",
@@ -655,7 +655,7 @@
                 "content_sex": "Sexual"
             },
             "actions": {
-                "delete_cache_tooltip": "Delete world from cache",
+                "delete_cache_tooltip": "Eliminar mundo de la caché",
                 "favorites_tooltip": "Favorites",
                 "refresh": "Refresh",
                 "new_instance": "New Instance",
@@ -673,7 +673,7 @@
                 "download_package": "Download Unity Package",
                 "publish_to_labs": "Publish To Labs",
                 "unpublish": "Unpublish",
-                "delete": "Delete"
+                "delete": "Eliminar"
             },
             "instances": {
                 "header": "Instances",
@@ -738,7 +738,7 @@
                 "own": "(Own)"
             },
             "actions": {
-                "delete_cache_tooltip": "Delete avatar from cache",
+                "delete_cache_tooltip": "Eliminar avatar de la caché",
                 "favorite_tooltip": "Add to favorites",
                 "unfavorite_tooltip": "Remove from favorites",
                 "refresh": "Refresh",
@@ -754,8 +754,8 @@
                 "change_content_tags": "Change Content Tags",
                 "change_image": "Change Image",
                 "download_package": "Download Unity Package",
-                "delete": "Delete",
-                "delete_impostor": "Delete Impostor",
+                "delete": "Eliminar",
+                "delete_impostor": "Eliminar Impostor",
                 "create_impostor": "Create Impostor"
             },
             "info": {
@@ -849,7 +849,7 @@
                     "joined_at_asc": "Joined At (Ascending)",
                     "joined_at_desc": "Joined At (Descending)"
                 },
-                "filter": "Filter:",
+                "filter": "Filtro:",
                 "filters": {
                     "everyone": "Everyone",
                     "users_with_no_role": "Users With No Role"
@@ -951,9 +951,9 @@
             "description2": "Leave field empty to set as default, game restart required to apply settings.",
             "cache_size": "Cache Size:",
             "refresh": "Refresh",
-            "delete_all_cache": "Delete all cache",
-            "delete_cache": "Delete Cache",
-            "delete_old_cache": "Delete old versions from cache",
+            "delete_all_cache": "Eliminar toda la caché",
+            "delete_cache": "Eliminar caché",
+            "delete_old_cache": "Eliminar versiones antiguas de la caché",
             "sweep_cache": "Sweep Cache",
             "max_cache_size": "Max Cache Size [GB] (min 20)",
             "cache_expiry_delay": "Cache Expiry [Days] (min 30)",
@@ -1049,12 +1049,12 @@
             "notification": "Notification Filters",
             "wrist": "Wrist Feed Filters",
             "on": "On",
-            "off": "Off",
-            "favorite": "Favorites",
-            "friends": "Friends",
-            "everyone": "Everyone",
-            "cancel": "Cancel",
-            "save": "Save"
+            "off": "Desactivado",
+            "favorite": "Favoritos",
+            "friends": "Amigos",
+            "everyone": "Todos",
+            "cancel": "Cancelar",
+            "save": "Guardar"
         },
         "world_export": {
             "header": "World Favorites Export"
@@ -1069,9 +1069,9 @@
             "import": "Import Worlds",
             "cancel": "Cancel",
             "import_progress": "Import Progress:",
-            "clear_table": "Clear Table",
+            "clear_table": "Limpiar Tabla",
             "errors": "Errors:",
-            "clear_errors": "Clear Errors"
+            "clear_errors": "Limpiar Errores"
         },
         "avatar_export": {
             "header": "Avatar Favorites Export"
@@ -1085,9 +1085,9 @@
             "import": "Import Avatars",
             "cancel": "Cancel",
             "import_progress": "Import Progress:",
-            "clear_table": "Clear Table",
+            "clear_table": "Limpiar Tabla",
             "errors": "Errors:",
-            "clear_errors": "Clear Errors"
+            "clear_errors": "Limpiar Errores"
         },
         "friend_export": {
             "header": "Friend Favorites Export"
@@ -1101,9 +1101,9 @@
             "import": "Import Friends",
             "cancel": "Cancel",
             "import_progress": "Import Progress:",
-            "clear_table": "Clear Table",
+            "clear_table": "Limpiar Tabla",
             "errors": "Errors:",
-            "clear_errors": "Clear Errors"
+            "clear_errors": "Limpiar Errores"
         },
         "avatar_database_provider": {
             "header": "Avatar Database Provider",
@@ -1138,7 +1138,7 @@
             "cancel": "Cancel",
             "progress": "Progress:",
             "errors": "Errors:",
-            "clear_errors": "Clear Errors"
+            "clear_errors": "Limpiar Errores"
         },
         "edit_invite_message": {
             "header": "Edit Invite Message",
@@ -1190,7 +1190,7 @@
             "emojis": "Emojis",
             "refresh": "Refresh",
             "upload": "Upload",
-            "clear": "Clear",
+            "clear": "Limpiar",
             "emoji_animation_styles": "Animation Styles"
         },
         "change_content_image": {
@@ -1246,7 +1246,7 @@
             "backup": "Backup",
             "restore": "Restore",
             "save_to_file": "Save to file",
-            "delete": "Delete",
+            "delete": "Eliminar",
             "restore_from_file": "Restore from file",
             "reset": "Reset",
             "name": "Name",
@@ -1467,11 +1467,11 @@
             "input_error": "Valid number is required"
         },
         "auto_clear_cache": {
-            "header": "Clear VRCX Cache Timer",
-            "description": "Enter amount of hours, larger values may impact RAM usage and performance (default: 24, disabled: 0)",
-            "cancel": "Cancel",
-            "ok": "OK",
-            "input_error": "Valid number is required"
+            "header": "Limpiar temporizador de caché de VRCX",
+            "description": "Introduzca la cantidad de horas, valores mayores pueden afectar al uso y rendimiento de la RAM (por defecto: 24, desactivado: 0)",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
+            "input_error": "Se requiere un número válido"
         },
         "new_local_favorite_group": {
             "header": "New Group",
@@ -1494,11 +1494,11 @@
             }
         },
         "pending_offline_delay": {
-            "header": "Pending Offline",
-            "description": "Set pending offline delay in seconds (default: 110)",
-            "cancel": "Cancel",
-            "save": "Save",
-            "input_error": "Valid number is required"
+            "header": "Pendiente de desconexión",
+            "description": "Establecer el retardo de \"Pendiente de desconexión\" en segundos (por defecto: 110)",
+            "cancel": "Cancelar",
+            "save": "Guardar",
+            "input_error": "Se requiere un número válido"
         }
     },
     "table": {
