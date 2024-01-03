@@ -146,11 +146,11 @@
                 "export_friend_list": "Exportar lista de amigos",
                 "export_own_avatars": "Exportar Avatares propios",
                 "discord_names": "Nombres de Discord",
-                "export_notes": "Exportar notas"
+                "export_notes": "Exportar Notas"
             },
             "game_info": {
-                "header": "Información del juego",
-                "online_users": "Usuarios en línea",
+                "header": "Información del Juego",
+                "online_users": "Usuarios Conectados",
                 "user_online": "{count} usuarios en línea.",
                 "refresh": "Clic para actualizar"
             },
@@ -164,10 +164,10 @@
                 "world_instance": "Mundo/Instancia",
                 "avatar": "Avatar"
             },
-            "invite_messages": "Mensajes De Invitación",
-            "invite_response_messages": "Mensajes De Respuesta A Invitaciones",
-            "invite_request_messages": "Mensajes De Solicitud De Invitación",
-            "invite_request_response_messages": "Invite Request Response Messages",
+            "invite_messages": "Mensajes de Invitación",
+            "invite_response_messages": "Mensajes de Respuesta a Invitaciones",
+            "invite_request_messages": "Mensajes de Solicitud de Invitación",
+            "invite_request_response_messages": "Mensaje de Respuesta a Solicitudes de Invitación",
             "past_display_names": "Nombres Anteriores",
             "config_json": "JSON de Configuración",
             "current_user_json": "JSON del Usuario Actual",
@@ -302,11 +302,11 @@
             },
             "notifications": {
                 "notifications": {
-                    "header": "Notifications",
+                    "header": "Notificaciones",
                     "notification_filter": "Filtro de Notificación",
                     "steamvr_notifications": {
-                        "header": "SteamVR Notifications",
-                        "steamvr_overlay": "SteamVR Overlay",
+                        "header": "Notificaciones de SteamVR",
+                        "steamvr_overlay": "Overlay de SteamVR",
                         "overlay_notifications": "Overlay Notifications",
                         "notification_position": "Notification Position",
                         "xsoverlay_notifications": "XSOverlay Notifications",
@@ -441,8 +441,8 @@
                         "gpu_fix": "SteamVR Overlay GPU Fix",
                         "gpu_fix_notice": "(requires restart)",
                         "gpu_fix_warning": "Only enable this option if the SteamVR overlay isn't working and you have 2 GPUs",
-                        "disable_gamelog": "Disable GameLog",
-                        "disable_gamelog_notice": "(will likely break things)",
+                        "disable_gamelog": "Deshabilitar el Registro del Juego",
+                        "disable_gamelog_notice": "(probablemente romperá cosas)",
                         "user_cache": "User cache:",
                         "world_cache": "World cache:",
                         "avatar_cache": "Avatar cache:",
@@ -553,7 +553,7 @@
                 "moderation_hide_avatar": "Hide Avatar",
                 "moderation_show_avatar": "Show Avatar",
                 "moderation_enable_avatar_interaction": "Enable Avatar Interaction",
-                "moderation_disable_avatar_interaction": "Disable Avatar Interaction",
+                "moderation_disable_avatar_interaction": "Deshabilita las Interacciones con el Avatar",
                 "edit_status": "Social Status",
                 "edit_language": "Language",
                 "edit_bio": "Bio",
@@ -644,7 +644,7 @@
             "tags": {
                 "public": "Public",
                 "private": "Private",
-                "avatar_scaling_disabled": "Avatar Scaling Disabled",
+                "avatar_scaling_disabled": "Escalado de Avatares Deshabilitado",
                 "future_proofing": "Future Proofing",
                 "labs": "Labs",
                 "cache": "Cache",
@@ -963,7 +963,7 @@
             "camera_resolution": "Camera Resolution",
             "screenshot_resolution": "Screenshot Resolution",
             "picture_sort_by_date": "Sort pictures into folders by date",
-            "disable_discord_presence": "Disable Discord Rich Presence",
+            "disable_discord_presence": "Deshabilitar Discord Rich Presence",
             "vrchat_docs": "VRChat Docs",
             "cancel": "Cancel",
             "save": "Save"
@@ -977,30 +977,30 @@
         },
         "set_world_tags": {
             "header": "Set World Tags",
-            "avatar_scaling_disabled": "Disable avatar scaling",
+            "avatar_scaling_disabled": "Deshabilitar Escalado de Avatar",
             "enable_debugging": "Enable world debugging for others",
             "author_tags": "Author Tags (comma separated)",
-            "content_tags": "Content Warning Tags",
+            "content_tags": "Etiquetas de Advertencia de Contenido",
             "content_horror": "Horror",
             "content_gore": "Gore",
-            "content_violence": "Violence",
-            "content_adult": "Adult",
+            "content_violence": "Violencia",
+            "content_adult": "Adultos",
             "content_sex": "Sexual",
-            "cancel": "Cancel",
-            "save": "Save"
+            "cancel": "Cancelar",
+            "save": "Guardar"
         },
         "set_avatar_tags": {
-            "header": "Set Avatar Tags",
-            "content_tags": "Content Warning Tags",
+            "header": "Establecer Etiquetas de Avatar",
+            "content_tags": "Etiquetas de Advertencia de Contenido",
             "content_horror": "Horror",
             "content_gore": "Gore",
-            "content_violence": "Violence",
-            "content_adult": "Adult",
+            "content_violence": "Violencia",
+            "content_adult": "Adultos",
             "content_sex": "Sexual",
-            "select_all": "Select All",
-            "select_none": "Select None",
-            "cancel": "Cancel",
-            "save": "Save"
+            "select_all": "Seleccionar Todo",
+            "select_none": "Seleccionar Ninguno",
+            "cancel": "Cancelar",
+            "save": "Guardar"
         },
         "download_history": {
             "header": "Download History",
@@ -1379,7 +1379,7 @@
             "description": "Enter amount of seconds",
             "cancel": "Cancel",
             "ok": "OK",
-            "input_error": "Valid number is required"
+            "input_error": "Se requiere un número válido"
         },
         "rename_avatar": {
             "header": "Rename Avatar",
@@ -1509,12 +1509,12 @@
             "detail": "Detail"
         },
         "gameLog": {
-            "date": "Date",
-            "type": "Type",
-            "icon": "Icons",
-            "user": "User",
-            "detail": "Detail",
-            "action": "Action"
+            "date": "Fecha",
+            "type": "Tipo",
+            "icon": "Iconos",
+            "user": "Usuario",
+            "detail": "Detalle",
+            "action": "Acción"
         },
         "playerList": {
             "avatar": "Avatar",
