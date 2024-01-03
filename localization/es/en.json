@@ -137,10 +137,10 @@
         "profile": {
             "profile": {
                 "header": "Perfil",
-                "last_activity": "Last Activity",
-                "two_factor": "Two-Factor Auth (2FA)",
-                "two_factor_enabled": "Enabled",
-                "two_factor_disabled": "Disabled",
+                "last_activity": "Última Actividad",
+                "two_factor": "Autenticación de doble factor (2FA)",
+                "two_factor_enabled": "Habilitado",
+                "two_factor_disabled": "Deshabilitado",
                 "logout": "Cerrar sesión",
                 "manage_gallery_icon": "Administrar Fotos/Iconos/Emojis",
                 "export_friend_list": "Exportar lista de amigos",
@@ -169,8 +169,8 @@
             "invite_request_messages": "Mensajes De Solicitud De Invitación",
             "invite_request_response_messages": "Invite Request Response Messages",
             "past_display_names": "Nombres Anteriores",
-            "config_json": "Config JSON",
-            "current_user_json": "Current User JSON",
+            "config_json": "JSON de Configuración",
+            "current_user_json": "JSON del Usuario Actual",
             "feedback": "Feedback",
             "refresh_tooltip": "Actualizar",
             "clear_results_tooltip": "Limpiar resultados"
