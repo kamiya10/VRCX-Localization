@@ -377,11 +377,11 @@
             },
             "advanced": {
                 "advanced": {
-                    "header": "Advanced",
+                    "header": "Avanzado",
                     "launch_options": "Launch Options",
-                    "screenshot_metadata": "Screenshot Metadata",
-                    "vrc_registry_backup": "VRC Registry Backup",
-                    "common_folders": "Common Folders",
+                    "screenshot_metadata": "Metadatos de las Capturas de Pantalla",
+                    "vrc_registry_backup": "Copia de seguridad del registro de VRC",
+                    "common_folders": "Carpetas Comunes",
                     "pending_offline": {
                         "header": "Pending Offline",
                         "description": "Delay before marking user as offline (fixes false positives)",
@@ -405,12 +405,12 @@
                     },
                     "remote_database": {
                         "header": "Remote Avatar Database",
-                        "enable": "Enable",
+                        "enable": "Habilitar",
                         "avatar_database_provider": "Avatar Database Provider"
                     },
                     "youtube_api": {
                         "header": "API de Youtube",
-                        "enable": "Enable",
+                        "enable": "Habilitar",
                         "youtube_api_key": "Clave de la API de YouTube"
                     },
                     "video_progress_pie": {
@@ -423,7 +423,7 @@
                         "header": "Screenshot Helper",
                         "description": "Will store the world ID, world name and players in instance inside the file metadata of any pictures you take in-game.",
                         "description_tooltip": "Unfortunately, windows doesn't support viewing PNG text chunks(few things do) natively, but you can view it using a command-line tool like exiftool, a png chunk inspector, or a hex editor.",
-                        "enable": "Enable",
+                        "enable": "Habilitar",
                         "modify_filename": "Modify Filename",
                         "modify_filename_tooltip": "Will add the World ID to screenshot filename, in addition to file metadata.",
                         "copy_to_clipboard": "Copy to Clipboard"
@@ -432,7 +432,7 @@
                         "header": "App Launcher",
                         "folder": "Auto-Launch Folder",
                         "folder_tooltip": "To auto-launch apps with VRChat, place shortcuts in this folder.",
-                        "enable": "Enable",
+                        "enable": "Habilitar",
                         "auto_close": "Auto close apps"
                     },
                     "cache_debug": {
@@ -451,8 +451,8 @@
                         "instance_cache": "Instance cache:",
                         "clear_cache": "Limpiar caché",
                         "auto_clear_cache": "Limpiar caché automáticamente",
-                        "download_history": "Download History",
-                        "show_console": "Show Console"
+                        "download_history": "Historial de Descargas",
+                        "show_console": "Mostrar Consola"
                     },
                     "sqlite_table_size": {
                         "header": "SQLite Table Size",
@@ -1060,7 +1060,7 @@
             "header": "Exportar Mundos Favoritos"
         },
         "world_import": {
-            "header": "World Favorites Import",
+            "header": "Importar Mundos Favoritos",
             "description": "Enter a list of world IDs",
             "process_list": "Process List",
             "process_progress": "Progress:",
@@ -1074,10 +1074,10 @@
             "clear_errors": "Limpiar Errores"
         },
         "avatar_export": {
-            "header": "Avatar Favorites Export"
+            "header": "Exportar Avatares Favoritos"
         },
         "avatar_import": {
-            "header": "Avatar Favorites Import",
+            "header": "Importar Avatares Favoritos",
             "description": "Enter a list of avatar IDs",
             "process_list": "Process List",
             "process_progress": "Progress:",
