@@ -211,7 +211,7 @@
                     "tray": "Cerrar en la bandeja"
                 },
                 "game_log": {
-                    "header": "Registro del juego",
+                    "header": "Registro del Juego",
                     "resource_load": "Registrar la carga de recursos de Udon"
                 },
                 "automation": {
@@ -1057,7 +1057,7 @@
             "save": "Guardar"
         },
         "world_export": {
-            "header": "World Favorites Export"
+            "header": "Exportar Mundos Favoritos"
         },
         "world_import": {
             "header": "World Favorites Import",
@@ -1321,7 +1321,7 @@
             }
         },
         "direct_access_user_id": {
-            "header": "Direct Access",
+            "header": "Acceso Directo",
             "description": "Enter a User URL or ID (UUID)",
             "cancel": "Cancel",
             "ok": "OK",
@@ -1331,14 +1331,14 @@
             }
         },
         "direct_access_username": {
-            "header": "Direct Access",
+            "header": "Acceso Directo",
             "description": "Enter a Username",
             "cancel": "Cancel",
             "ok": "OK",
             "input_error": "Username is required"
         },
         "direct_access_world_id": {
-            "header": "Direct Access",
+            "header": "Acceso Directo",
             "description": "Enter a World URL or ID (UUID)",
             "cancel": "Cancel",
             "ok": "OK",
@@ -1348,7 +1348,7 @@
             }
         },
         "direct_access_avatar_id": {
-            "header": "Direct Access",
+            "header": "Acceso Directo",
             "description": "Enter a Avatar URL or ID (UUID)",
             "cancel": "Cancel",
             "ok": "OK",
@@ -1358,7 +1358,7 @@
             }
         },
         "direct_access_omni": {
-            "header": "Direct Access",
+            "header": "Acceso Directo",
             "description": "Enter a User/World/Instance/Avatar/Group URL or ID (UUID)",
             "cancel": "Cancel",
             "ok": "OK",
@@ -1382,7 +1382,7 @@
             "input_error": "Se requiere un número válido"
         },
         "rename_avatar": {
-            "header": "Rename Avatar",
+            "header": "Renombrar Avatar",
             "description": "Enter avatar name",
             "cancel": "Cancel",
             "ok": "OK",
@@ -1392,7 +1392,7 @@
             }
         },
         "change_avatar_description": {
-            "header": "Change Description",
+            "header": "Cambiar Descripción",
             "description": "Enter avatar description",
             "cancel": "Cancel",
             "ok": "OK",
@@ -1402,7 +1402,7 @@
             }
         },
         "rename_world": {
-            "header": "Rename World",
+            "header": "Renombrar Mundo",
             "description": "Enter world name",
             "cancel": "Cancel",
             "ok": "OK",
@@ -1412,7 +1412,7 @@
             }
         },
         "change_world_description": {
-            "header": "Change Description",
+            "header": "Cambiar Descripción",
             "description": "Enter world description",
             "cancel": "Cancel",
             "ok": "OK",
@@ -1453,7 +1453,7 @@
             }
         },
         "change_table_size": {
-            "header": "Max Table Size",
+            "header": "Tamaño Máximo de la Tabla",
             "description": "Limit amount of entries loaded from database to UI pages, larger table sizes will impact RAM usage and performance (default: 1000, max: 10000)",
             "cancel": "Cancel",
             "save": "Save",
@@ -1474,7 +1474,7 @@
             "input_error": "Se requiere un número válido"
         },
         "new_local_favorite_group": {
-            "header": "New Group",
+            "header": "Nuevo Grupo",
             "description": "Enter a world favorite group name",
             "cancel": "Cancel",
             "ok": "OK",
@@ -1484,7 +1484,7 @@
             }
         },
         "local_favorite_group_rename": {
-            "header": "Rename Group",
+            "header": "Renombrar Grupo",
             "description": "Enter a world favorite group name",
             "cancel": "Cancel",
             "save": "Save",
