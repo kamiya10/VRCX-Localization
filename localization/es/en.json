@@ -149,8 +149,8 @@
                 "export_notes": "Exportar Notas"
             },
             "game_info": {
-                "header": "Información del Juego",
-                "online_users": "Usuarios Conectados",
+                "header": "Información del juego",
+                "online_users": "Usuarios en línea",
                 "user_online": "{count} usuarios en línea.",
                 "refresh": "Clic para actualizar"
             },
@@ -164,9 +164,9 @@
                 "world_instance": "Mundo/Instancia",
                 "avatar": "Avatar"
             },
-            "invite_messages": "Mensajes de Invitación",
+            "invite_messages": "Mensajes De Invitación",
             "invite_response_messages": "Mensajes de Respuesta a Invitaciones",
-            "invite_request_messages": "Mensajes de Solicitud de Invitación",
+            "invite_request_messages": "Mensajes De Solicitud De Invitación",
             "invite_request_response_messages": "Mensaje de Respuesta a Solicitudes de Invitación",
             "past_display_names": "Nombres Anteriores",
             "config_json": "JSON de Configuración",
@@ -501,7 +501,7 @@
         "search_placeholder": "Buscar",
         "search_result_active": "Desconectado",
         "search_result_offline": "Activo",
-        "search_result_more": "Buscar Más:",
+        "search_result_more": "Buscar más:",
         "direct_access_tooltip": "Acceso directo ID/URL desde el portapapeles",
         "refresh_tooltip": "Actualizar amigos",
         "groups": "Grupos",
