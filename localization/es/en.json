@@ -1,6 +1,6 @@
 {
     "language": "Español (es)",
-    "translator": "TheOvineIsBlue",
+    "translator": "TheOvineIsBlue, Kamiya",
     "nav_tooltip": {
         "feed": "Actividad",
         "game_log": "Registro del juego",
@@ -123,8 +123,8 @@
         },
         "friend_list": {
             "header": "Lista de Amigos",
-            "bulk_unfriend": "Bulk Unfriend Mode",
-            "bulk_unfriend_selection": "Bulk Unfriend Selection",
+            "bulk_unfriend": "Modo eliminar amigos en bloque",
+            "bulk_unfriend_selection": "Eliminar amigos seleccionados",
             "load": "Cargar entradas faltantes",
             "load_tooltip": "Cargar",
             "favorites_only_tooltip": "Filtrar solo favoritos",
@@ -349,7 +349,7 @@
                     "start_overlay_with": "Start Overlay With",
                     "overlay_button": "Overlay Button",
                     "overlay_button_grip": "Grip",
-                    "overlay_button_menu": "Menu",
+                    "overlay_button_menu": "Menú",
                     "display_overlay_on": "Display Overlay On",
                     "display_overlay_on_left": "Left Hand",
                     "display_overlay_on_right": "Right Hand",
@@ -367,7 +367,7 @@
                 "discord_presence": {
                     "header": "Discord Presence",
                     "description": "* Only works when VRChat is running.",
-                    "enable": "Enable",
+                    "enable": "Habilitar",
                     "enable_tooltip": "Recommended to disable Rich Presence in VRChat config.json to stop it from conflicting",
                     "instance_type_player_count": "Instance type/player count",
                     "join_button": "Join button (public only)",
@@ -415,7 +415,7 @@
                     },
                     "video_progress_pie": {
                         "header": "Progress pie overlay for videos",
-                        "enable": "Enable",
+                        "enable": "Habilitar",
                         "enable_tooltip": "Requires SteamVR overlay to be enabled",
                         "dance_world_only": "Supported world only"
                     },
@@ -529,10 +529,10 @@
                 "vrchat_team": "VRChat Team"
             },
             "actions": {
-                "favorite_tooltip": "Add to favorites",
-                "unfavorite_tooltip": "Remove from favorites",
+                "favorite_tooltip": "Añadir a favoritos",
+                "unfavorite_tooltip": "Eliminar de favoritos",
                 "refresh": "Actualizar",
-                "invite": "Invite",
+                "invite": "Invitar",
                 "invite_with_message": "Invite With Message",
                 "request_invite": "Request Invite",
                 "request_invite_with_message": "Request Invite With Message",
@@ -558,7 +558,7 @@
                 "edit_language": "Language",
                 "edit_bio": "Bio",
                 "report_hacking": "Report For Hacking",
-                "unfriend": "Unfriend",
+                "unfriend": "Eliminar amigo",
                 "logout": "Logout"
             },
             "info": {
@@ -588,7 +588,7 @@
                 "last_login": "Last Login",
                 "date_joined": "Date Joined",
                 "friended": "Friended",
-                "unfriended": "Unfriended",
+                "unfriended": "Amigo eliminado",
                 "avatar_cloning": "Avatar Cloning",
                 "avatar_cloning_allow": "Allowed",
                 "avatar_cloning_deny": "Deny",
@@ -931,7 +931,7 @@
             "invite": "Invite",
             "launch": "Launch",
             "create_instance": "Create Instance",
-            "queueEnabled": "Queue",
+            "queueEnabled": "Cola",
             "normal": "Normal",
             "group": "Group",
             "roles": "Roles"
