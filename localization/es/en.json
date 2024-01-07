@@ -343,7 +343,7 @@
                     "description": "* It runs automatically when VRChat is running.",
                     "grip": "Grip: Vive or Other Controllers Grab, Oculus X/A Buttons",
                     "menu": "Menu: Vive Menu, Index B, Oculus Y/B Buttons",
-                    "steamvr_overlay": "SteamVR Overlay",
+                    "steamvr_overlay": "Overlay de SteamVR",
                     "wrist_feed_overlay": "Wrist Feed Overlay",
                     "hide_private_worlds": "Hide Private Worlds",
                     "start_overlay_with": "Start Overlay With",
@@ -351,8 +351,8 @@
                     "overlay_button_grip": "Grip",
                     "overlay_button_menu": "Menú",
                     "display_overlay_on": "Display Overlay On",
-                    "display_overlay_on_left": "Left Hand",
-                    "display_overlay_on_right": "Right Hand",
+                    "display_overlay_on_left": "Mano izquierda",
+                    "display_overlay_on_right": "Mano derecha",
                     "display_overlay_on_both": "Both Hand",
                     "background_color": "Background Color",
                     "minimal_feed_icons": "Minimal Feed Icons",
@@ -439,7 +439,7 @@
                         "header": "VRCX Instance Cache/Debug",
                         "udon_exception_logging": "Udon Exception Logging",
                         "gpu_fix": "SteamVR Overlay GPU Fix",
-                        "gpu_fix_notice": "(requires restart)",
+                        "gpu_fix_notice": "(requiere reiniciar)",
                         "gpu_fix_warning": "Only enable this option if the SteamVR overlay isn't working and you have 2 GPUs",
                         "disable_gamelog": "Deshabilitar el Registro del Juego",
                         "disable_gamelog_notice": "(probablemente romperá cosas)",
@@ -533,10 +533,10 @@
                 "unfavorite_tooltip": "Eliminar de favoritos",
                 "refresh": "Actualizar",
                 "invite": "Invitar",
-                "invite_with_message": "Invite With Message",
-                "request_invite": "Request Invite",
-                "request_invite_with_message": "Request Invite With Message",
-                "invite_to_group": "Invite To Group",
+                "invite_with_message": "Invitar con un mensaje",
+                "request_invite": "Solicitar invitación",
+                "request_invite_with_message": "Solicitar invitación con un mensaje",
+                "invite_to_group": "Invitar al grupo",
                 "manage_gallery_icon": "Manage Photos/Icons/Emojis",
                 "accept_friend_request": "Aceptar Solicitud de Amistad",
                 "decline_friend_request": "Rechazar Solicitud de Amistad",
@@ -680,7 +680,7 @@
                 "public_count": "Public {count}",
                 "private_count": "Private {count}",
                 "capacity_count": "Capacity {count} ({max})",
-                "self_invite_tooltip": "Invite Yourself",
+                "self_invite_tooltip": "Invitarte a ti mismo",
                 "refresh_instance_info": "Actualizar Información de la Instancia",
                 "instance_full": "full",
                 "instance_creator": "Instance Creator"
@@ -803,7 +803,7 @@
                 "refresh": "Actualizar",
                 "unsubscribe": "Unsubscribe From Announcements",
                 "subscribe": "Subscribe To Announcements",
-                "invite_to_group": "Invite To Group",
+                "invite_to_group": "Invitar al grupo",
                 "visibility_everyone": "Visibilidad Todos",
                 "visibility_friends": "Visibility Friends",
                 "visibility_hidden": "Visibility Hidden",
@@ -874,7 +874,7 @@
         },
         "invite": {
             "header": "Invite",
-            "select_placeholder": "Choose Friends",
+            "select_placeholder": "Elegir amigos",
             "invite_with_message": "Invite With Message",
             "invite": "Invite",
             "friends_in_instance": "Friends In Instance"
@@ -1116,12 +1116,12 @@
             "add_item": "Add Item"
         },
         "invite_to_group": {
-            "header": "Invite To Group",
+            "header": "Invitar al grupo",
             "description": "Don't spam invite users, you'll get rate limited.",
             "choose_group_placeholder": "Choose Group",
-            "groups": "Groups",
-            "choose_friends_placeholder": "Choose Friends",
-            "selected_users": "Selected Users"
+            "groups": "Grupos",
+            "choose_friends_placeholder": "Elegir amigos",
+            "selected_users": "Usuarios seleccionados"
         },
         "note_export": {
             "header": "Note Export",
@@ -1143,44 +1143,44 @@
         "edit_invite_message": {
             "header": "Edit Invite Message",
             "description": "1 hour edit cool down time.",
-            "cancel": "Cancel",
-            "save": "Save"
+            "cancel": "Cancelar",
+            "save": "Guardar"
         },
         "invite_message": {
             "header": "Send Invite Message",
             "confirmation": "Are you sure you want to send?",
-            "cancel": "Cancel",
+            "cancel": "Cancelar",
             "refresh": "Actualizar",
-            "confirm": "Confirm"
+            "confirm": "Confirmar"
         },
         "invite_request_message": {
             "header": "Send Invite Request Message",
-            "cancel": "Cancel",
+            "cancel": "Cancelar",
             "refresh": "Actualizar"
         },
         "invite_response_message": {
             "header": "Send Invite Response Message",
             "confirmation": "Are you sure you want to send?",
-            "cancel": "Cancel",
+            "cancel": "Cancelar",
             "refresh": "Actualizar",
-            "confirm": "Confirm"
+            "confirm": "Confirmar"
         },
         "invite_request_response_message": {
             "header": "Send Invite Request Response Message",
-            "cancel": "Cancel",
+            "cancel": "Cancelar",
             "refresh": "Actualizar"
         },
         "edit_send_invite_message": {
             "header": "Edit and Send Invite Message",
             "description": "1 hour edit cool down time.",
-            "cancel": "Cancel",
-            "send": "Send"
+            "cancel": "Cancelar",
+            "send": "Enviar"
         },
         "edit_send_invite_response_message": {
             "header": "Edit and Send Invite Response Message",
             "description": "1 hour edit cool down time.",
-            "cancel": "Cancel",
-            "send": "Send"
+            "cancel": "Cancelar",
+            "send": "Enviar"
         },
         "gallery_icons": {
             "header": "Photos, Icons and Emojis",
@@ -1571,10 +1571,10 @@
         },
         "profile": {
             "invite_messages": {
-                "slot": "Slot",
-                "message": "Message",
-                "cool_down": "Cool Down",
-                "action": "Action"
+                "slot": "Ranura",
+                "message": "Mensaje",
+                "cool_down": "Enfriamiento",
+                "action": "Acción"
             },
             "previous_display_name": {
                 "date": "Date",
