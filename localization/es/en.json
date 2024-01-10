@@ -1,6 +1,6 @@
 {
     "language": "Español (es)",
-    "translator": "TheOvineIsBlue",
+    "translator": "TheOvineIsBlue, Kamiya",
     "nav_tooltip": {
         "feed": "Actividad",
         "game_log": "Registro del juego",
@@ -123,8 +123,8 @@
         },
         "friend_list": {
             "header": "Lista de Amigos",
-            "bulk_unfriend": "Bulk Unfriend Mode",
-            "bulk_unfriend_selection": "Bulk Unfriend Selection",
+            "bulk_unfriend": "Modo eliminar amigos en bloque",
+            "bulk_unfriend_selection": "Eliminar amigos seleccionados",
             "load": "Cargar entradas faltantes",
             "load_tooltip": "Cargar",
             "favorites_only_tooltip": "Filtrar solo favoritos",
@@ -149,8 +149,8 @@
                 "export_notes": "Exportar Notas"
             },
             "game_info": {
-                "header": "Información del Juego",
-                "online_users": "Usuarios Conectados",
+                "header": "Información del juego",
+                "online_users": "Usuarios en línea",
                 "user_online": "{count} usuarios en línea.",
                 "refresh": "Clic para actualizar"
             },
@@ -164,10 +164,10 @@
                 "world_instance": "Mundo/Instancia",
                 "avatar": "Avatar"
             },
-            "invite_messages": "Mensajes de Invitación",
-            "invite_response_messages": "Mensajes de Respuesta a Invitaciones",
-            "invite_request_messages": "Mensajes de Solicitud de Invitación",
-            "invite_request_response_messages": "Mensaje de Respuesta a Solicitudes de Invitación",
+            "invite_messages": "Mensajes De Invitación",
+            "invite_response_messages": "Mensajes De Respuesta A Invitaciones",
+            "invite_request_messages": "Mensajes De Solicitud De Invitación",
+            "invite_request_response_messages": "Mensaje De Respuesta A Solicitudes De Invitación",
             "past_display_names": "Nombres Anteriores",
             "config_json": "JSON de Configuración",
             "current_user_json": "JSON del Usuario Actual",
@@ -343,16 +343,16 @@
                     "description": "* It runs automatically when VRChat is running.",
                     "grip": "Grip: Vive or Other Controllers Grab, Oculus X/A Buttons",
                     "menu": "Menu: Vive Menu, Index B, Oculus Y/B Buttons",
-                    "steamvr_overlay": "SteamVR Overlay",
+                    "steamvr_overlay": "Overlay de SteamVR",
                     "wrist_feed_overlay": "Wrist Feed Overlay",
                     "hide_private_worlds": "Hide Private Worlds",
                     "start_overlay_with": "Start Overlay With",
                     "overlay_button": "Overlay Button",
                     "overlay_button_grip": "Grip",
-                    "overlay_button_menu": "Menu",
+                    "overlay_button_menu": "Menú",
                     "display_overlay_on": "Display Overlay On",
-                    "display_overlay_on_left": "Left Hand",
-                    "display_overlay_on_right": "Right Hand",
+                    "display_overlay_on_left": "Mano izquierda",
+                    "display_overlay_on_right": "Mano derecha",
                     "display_overlay_on_both": "Both Hand",
                     "background_color": "Background Color",
                     "minimal_feed_icons": "Minimal Feed Icons",
@@ -367,7 +367,7 @@
                 "discord_presence": {
                     "header": "Discord Presence",
                     "description": "* Only works when VRChat is running.",
-                    "enable": "Enable",
+                    "enable": "Habilitar",
                     "enable_tooltip": "Recommended to disable Rich Presence in VRChat config.json to stop it from conflicting",
                     "instance_type_player_count": "Instance type/player count",
                     "join_button": "Join button (public only)",
@@ -415,7 +415,7 @@
                     },
                     "video_progress_pie": {
                         "header": "Progress pie overlay for videos",
-                        "enable": "Enable",
+                        "enable": "Habilitar",
                         "enable_tooltip": "Requires SteamVR overlay to be enabled",
                         "dance_world_only": "Supported world only"
                     },
@@ -439,7 +439,7 @@
                         "header": "VRCX Instance Cache/Debug",
                         "udon_exception_logging": "Udon Exception Logging",
                         "gpu_fix": "SteamVR Overlay GPU Fix",
-                        "gpu_fix_notice": "(requires restart)",
+                        "gpu_fix_notice": "(requiere reiniciar)",
                         "gpu_fix_warning": "Only enable this option if the SteamVR overlay isn't working and you have 2 GPUs",
                         "disable_gamelog": "Deshabilitar el Registro del Juego",
                         "disable_gamelog_notice": "(probablemente romperá cosas)",
@@ -501,7 +501,7 @@
         "search_placeholder": "Buscar",
         "search_result_active": "Desconectado",
         "search_result_offline": "Activo",
-        "search_result_more": "Buscar Más:",
+        "search_result_more": "Buscar más:",
         "direct_access_tooltip": "Acceso directo ID/URL desde el portapapeles",
         "refresh_tooltip": "Actualizar amigos",
         "groups": "Grupos",
@@ -529,14 +529,14 @@
                 "vrchat_team": "VRChat Team"
             },
             "actions": {
-                "favorite_tooltip": "Add to favorites",
-                "unfavorite_tooltip": "Remove from favorites",
+                "favorite_tooltip": "Añadir a favoritos",
+                "unfavorite_tooltip": "Eliminar de favoritos",
                 "refresh": "Actualizar",
-                "invite": "Invite",
-                "invite_with_message": "Invite With Message",
-                "request_invite": "Request Invite",
-                "request_invite_with_message": "Request Invite With Message",
-                "invite_to_group": "Invite To Group",
+                "invite": "Invitar",
+                "invite_with_message": "Invitar con un mensaje",
+                "request_invite": "Solicitar invitación",
+                "request_invite_with_message": "Solicitar invitación con un mensaje",
+                "invite_to_group": "Invitar al grupo",
                 "manage_gallery_icon": "Manage Photos/Icons/Emojis",
                 "accept_friend_request": "Aceptar Solicitud de Amistad",
                 "decline_friend_request": "Rechazar Solicitud de Amistad",
@@ -558,7 +558,7 @@
                 "edit_language": "Language",
                 "edit_bio": "Bio",
                 "report_hacking": "Report For Hacking",
-                "unfriend": "Unfriend",
+                "unfriend": "Eliminar amigo",
                 "logout": "Logout"
             },
             "info": {
@@ -588,7 +588,7 @@
                 "last_login": "Last Login",
                 "date_joined": "Date Joined",
                 "friended": "Friended",
-                "unfriended": "Unfriended",
+                "unfriended": "Amigo eliminado",
                 "avatar_cloning": "Avatar Cloning",
                 "avatar_cloning_allow": "Allowed",
                 "avatar_cloning_deny": "Deny",
@@ -680,7 +680,7 @@
                 "public_count": "Public {count}",
                 "private_count": "Private {count}",
                 "capacity_count": "Capacity {count} ({max})",
-                "self_invite_tooltip": "Invite Yourself",
+                "self_invite_tooltip": "Invitarte a ti mismo",
                 "refresh_instance_info": "Actualizar Información de la Instancia",
                 "instance_full": "full",
                 "instance_creator": "Instance Creator"
@@ -803,7 +803,7 @@
                 "refresh": "Actualizar",
                 "unsubscribe": "Unsubscribe From Announcements",
                 "subscribe": "Subscribe To Announcements",
-                "invite_to_group": "Invite To Group",
+                "invite_to_group": "Invitar al grupo",
                 "visibility_everyone": "Visibilidad Todos",
                 "visibility_friends": "Visibility Friends",
                 "visibility_hidden": "Visibility Hidden",
@@ -874,7 +874,7 @@
         },
         "invite": {
             "header": "Invite",
-            "select_placeholder": "Choose Friends",
+            "select_placeholder": "Elegir amigos",
             "invite_with_message": "Invite With Message",
             "invite": "Invite",
             "friends_in_instance": "Friends In Instance"
@@ -931,7 +931,7 @@
             "invite": "Invite",
             "launch": "Launch",
             "create_instance": "Create Instance",
-            "queueEnabled": "Queue",
+            "queueEnabled": "Cola",
             "normal": "Normal",
             "group": "Group",
             "roles": "Roles"
@@ -1116,12 +1116,12 @@
             "add_item": "Add Item"
         },
         "invite_to_group": {
-            "header": "Invite To Group",
+            "header": "Invitar al grupo",
             "description": "Don't spam invite users, you'll get rate limited.",
             "choose_group_placeholder": "Choose Group",
-            "groups": "Groups",
-            "choose_friends_placeholder": "Choose Friends",
-            "selected_users": "Selected Users"
+            "groups": "Grupos",
+            "choose_friends_placeholder": "Elegir amigos",
+            "selected_users": "Usuarios seleccionados"
         },
         "note_export": {
             "header": "Note Export",
@@ -1143,44 +1143,44 @@
         "edit_invite_message": {
             "header": "Edit Invite Message",
             "description": "1 hour edit cool down time.",
-            "cancel": "Cancel",
-            "save": "Save"
+            "cancel": "Cancelar",
+            "save": "Guardar"
         },
         "invite_message": {
             "header": "Send Invite Message",
             "confirmation": "Are you sure you want to send?",
-            "cancel": "Cancel",
+            "cancel": "Cancelar",
             "refresh": "Actualizar",
-            "confirm": "Confirm"
+            "confirm": "Confirmar"
         },
         "invite_request_message": {
             "header": "Send Invite Request Message",
-            "cancel": "Cancel",
+            "cancel": "Cancelar",
             "refresh": "Actualizar"
         },
         "invite_response_message": {
             "header": "Send Invite Response Message",
             "confirmation": "Are you sure you want to send?",
-            "cancel": "Cancel",
+            "cancel": "Cancelar",
             "refresh": "Actualizar",
-            "confirm": "Confirm"
+            "confirm": "Confirmar"
         },
         "invite_request_response_message": {
             "header": "Send Invite Request Response Message",
-            "cancel": "Cancel",
+            "cancel": "Cancelar",
             "refresh": "Actualizar"
         },
         "edit_send_invite_message": {
             "header": "Edit and Send Invite Message",
             "description": "1 hour edit cool down time.",
-            "cancel": "Cancel",
-            "send": "Send"
+            "cancel": "Cancelar",
+            "send": "Enviar"
         },
         "edit_send_invite_response_message": {
             "header": "Edit and Send Invite Response Message",
             "description": "1 hour edit cool down time.",
-            "cancel": "Cancel",
-            "send": "Send"
+            "cancel": "Cancelar",
+            "send": "Enviar"
         },
         "gallery_icons": {
             "header": "Photos, Icons and Emojis",
@@ -1403,12 +1403,12 @@
         },
         "rename_world": {
             "header": "Renombrar Mundo",
-            "description": "Enter world name",
-            "cancel": "Cancel",
-            "ok": "OK",
-            "input_error": "Valid name is required",
+            "description": "Introducir el nombre del mundo",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
+            "input_error": "Se requiere un nombre válido",
             "message": {
-                "success": "World renamed"
+                "success": "Mundo renombrado"
             }
         },
         "change_world_description": {
@@ -1571,10 +1571,10 @@
         },
         "profile": {
             "invite_messages": {
-                "slot": "Slot",
-                "message": "Message",
-                "cool_down": "Cool Down",
-                "action": "Action"
+                "slot": "Ranura",
+                "message": "Mensaje",
+                "cool_down": "Enfriamiento",
+                "action": "Acción"
             },
             "previous_display_name": {
                 "date": "Date",
