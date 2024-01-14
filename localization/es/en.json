@@ -165,9 +165,9 @@
                 "avatar": "Avatar"
             },
             "invite_messages": "Mensajes De Invitación",
-            "invite_response_messages": "Mensajes De Respuesta A Invitaciones",
+            "invite_response_messages": "Mensajes de Respuesta a Invitaciones",
             "invite_request_messages": "Mensajes De Solicitud De Invitación",
-            "invite_request_response_messages": "Mensaje De Respuesta A Solicitudes De Invitación",
+            "invite_request_response_messages": "Mensaje de Respuesta a Solicitudes de Invitación",
             "past_display_names": "Nombres Anteriores",
             "config_json": "JSON de Configuración",
             "current_user_json": "JSON del Usuario Actual",
@@ -508,7 +508,7 @@
         "friends": "Amigos",
         "me": "YO",
         "favorite": "FAVORITOS",
-        "online": "CONECTADO",
+        "online": "EN LÍNEA",
         "active": "ACTIVO",
         "offline": "DESCONECTADO",
         "pending_offline": "Pendiente de desconexión"
