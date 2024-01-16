@@ -1503,9 +1503,9 @@
     },
     "table": {
         "feed": {
-            "date": "Date",
-            "type": "Type",
-            "user": "User",
+            "date": "Fecha",
+            "type": "Tipo",
+            "user": "Usuario",
             "detail": "Detail"
         },
         "gameLog": {
