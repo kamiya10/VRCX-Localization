@@ -383,7 +383,7 @@
                     "vrc_registry_backup": "Copia de seguridad del registro de VRC",
                     "common_folders": "Carpetas Comunes",
                     "pending_offline": {
-                        "header": "Pending Offline",
+                        "header": "Pendiente de desconexión",
                         "description": "Delay before marking user as offline (fixes false positives)",
                         "set_delay": "Establecer retardo"
                     },
@@ -480,7 +480,7 @@
                         "filter": "Filtro",
                         "filter_favorites": "Favoritos",
                         "filter_friends": "Amigos",
-                        "filter_everyone": "Todos",
+                        "filter_everyone": "Todo el mundo",
                         "message_timeout": "Message Timeout"
                     },
                     "timeout_hud": {
@@ -490,7 +490,7 @@
                         "filter": "Filtro",
                         "filter_favorites": "Favoritos",
                         "filter_friends": "Amigos",
-                        "filter_everyone": "Todos",
+                        "filter_everyone": "Todo el mundo",
                         "timeout_threshold": "Timeout Threshold"
                     }
                 }
@@ -851,7 +851,7 @@
                 },
                 "filter": "Filtro:",
                 "filters": {
-                    "everyone": "Todos",
+                    "everyone": "Todo el mundo",
                     "users_with_no_role": "Users With No Role"
                 },
                 "unsubscribed_announcements": "Unsubscribed from announcements",
@@ -1052,7 +1052,7 @@
             "off": "Desactivado",
             "favorite": "Favoritos",
             "friends": "Amigos",
-            "everyone": "Todos",
+            "everyone": "Todo el mundo",
             "cancel": "Cancelar",
             "save": "Guardar"
         },
