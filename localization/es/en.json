@@ -384,8 +384,8 @@
                     "common_folders": "Carpetas Comunes",
                     "pending_offline": {
                         "header": "Pendiente de desconexión",
-                        "description": "Delay before marking user as offline (fixes false positives)",
-                        "set_delay": "Establecer retardo"
+                        "description": "Retraso antes de marcar al usuario como desconectado (corrige los falsos positivos)",
+                        "set_delay": "Establecer retraso"
                     },
                     "primary_password": {
                         "header": "Contraseña Principal",
@@ -444,27 +444,27 @@
                         "disable_gamelog": "Deshabilitar el Registro del Juego",
                         "disable_gamelog_notice": "(probablemente romperá cosas)",
                         "user_cache": "User cache:",
-                        "world_cache": "World cache:",
-                        "avatar_cache": "Avatar cache:",
-                        "group_cache": "Group cache:",
-                        "avatar_name_cache": "Avatar Name cache:",
-                        "instance_cache": "Instance cache:",
+                        "world_cache": "Caché del mundo:",
+                        "avatar_cache": "Caché de avatar:",
+                        "group_cache": "Caché de grupo:",
+                        "avatar_name_cache": "Caché de nombre de avatar:",
+                        "instance_cache": "Caché de instancia:",
                         "clear_cache": "Limpiar caché",
                         "auto_clear_cache": "Limpiar caché automáticamente",
                         "download_history": "Historial de Descargas",
                         "show_console": "Mostrar Consola"
                     },
                     "sqlite_table_size": {
-                        "header": "SQLite Table Size",
+                        "header": "Tamaño de la tabla SQLite",
                         "refresh": "Actualizar",
                         "gps": "GPS:",
-                        "status": "Status:",
+                        "status": "Estado:",
                         "bio": "Bio:",
                         "avatar": "Avatar:",
                         "online_offline": "Conectado/Desconectado:",
                         "friend_log_history": "Friend Log History:",
-                        "notification": "Notifications:",
-                        "location": "Location:",
+                        "notification": "Notificaciones:",
+                        "location": "Ubicación:",
                         "join_leave": "Join/Leave:",
                         "portal_spawn": "Portal Spawn:",
                         "video_play": "Video Play:",
@@ -1495,7 +1495,7 @@
         },
         "pending_offline_delay": {
             "header": "Pendiente de desconexión",
-            "description": "Establecer el retardo de \"Pendiente de desconexión\" en segundos (por defecto: 110)",
+            "description": "Establecer el retraso de \"Pendiente de desconexión\" en segundos (por defecto: 110)",
             "cancel": "Cancelar",
             "save": "Guardar",
             "input_error": "Se requiere un número válido"
