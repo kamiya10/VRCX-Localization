@@ -616,24 +616,24 @@
                 "sorting": {
                     "updated": "Updated",
                     "created": "Created",
-                    "favorites": "Favorites",
-                    "popularity": "Popularity"
+                    "favorites": "Favoritos",
+                    "popularity": "Popularidad"
                 },
                 "order": {
-                    "descending": "Descending",
-                    "ascending": "Ascending"
+                    "descending": "Descendente",
+                    "ascending": "Ascendente"
                 }
             },
             "favorite_worlds": {
                 "header": "Favorite Worlds"
             },
             "avatars": {
-                "header": "Avatars",
+                "header": "Avatares",
                 "total_count": "Total {count}",
-                "sort_by_name": "Sort by name",
-                "sort_by_update": "Sort by update",
-                "all": "All",
-                "public": "Public",
+                "sort_by_name": "Ordenar por nombre",
+                "sort_by_update": "Ordenar por actualización",
+                "all": "Todos",
+                "public": "Público",
                 "private": "Private"
             },
             "json": {
