@@ -1,6 +1,6 @@
 {
     "language": "Español (es)",
-    "translator": "TheOvineIsBlue, Kamiya",
+    "translator": "TheOvineIsBlue, Kamiya, migue802",
     "nav_tooltip": {
         "feed": "Actividad",
         "game_log": "Registro del juego",
@@ -92,7 +92,7 @@
             "avatars": {
                 "header": "Avatares"
             },
-            "bulk_unfavorite_mode": "Bulk Unfavorite Mode",
+            "bulk_unfavorite_mode": "Modo eliminar amigos favoritos",
             "bulk_unfavorite_selection": "Bulk Unfavorite Selection",
             "refresh_tooltip": "Actualizar todos los favoritos",
             "export": "Exportar",
@@ -155,7 +155,7 @@
                 "refresh": "Clic para actualizar"
             },
             "vrc_sdk_downloads": {
-                "header": "VRC SDK Downloads"
+                "header": "Descargas SDK de VRC"
             },
             "direct_access": {
                 "header": "Acceso Directo",
@@ -378,7 +378,7 @@
             "advanced": {
                 "advanced": {
                     "header": "Avanzado",
-                    "launch_options": "Launch Options",
+                    "launch_options": "Opciones de inicio",
                     "screenshot_metadata": "Metadatos de las Capturas de Pantalla",
                     "vrc_registry_backup": "Copia de seguridad del registro de VRC",
                     "common_folders": "Carpetas Comunes",
@@ -392,21 +392,21 @@
                         "description": "Cifrar contraseña (deshabilita el inicio de sesión automático)"
                     },
                     "relaunch_vrchat": {
-                        "header": "Relaunch VRChat after crashing",
-                        "description": "Rejoin last instance when VRChat crashes"
+                        "header": "Reiniciar VRChat después de un bloqueo",
+                        "description": "Volver a la última instancia cuando VRChat bloquee"
                     },
                     "vrchat_quit_fix": {
                         "header": "VRChat Quit Fix",
-                        "description": "Kill VRChat after exiting game"
+                        "description": "Forzar el cerrado de VRChat despues de salir del juego"
                     },
                     "auto_cache_management": {
                         "header": "Automatically Manage Cache When Closing VRChat",
                         "description": "Eliminar automáticamente versiones antiguas de la caché"
                     },
                     "remote_database": {
-                        "header": "Remote Avatar Database",
+                        "header": "Base de datos de Avatares Remotos",
                         "enable": "Habilitar",
-                        "avatar_database_provider": "Avatar Database Provider"
+                        "avatar_database_provider": "Proveedor de base de datos de avatares"
                     },
                     "youtube_api": {
                         "header": "API de Youtube",
@@ -416,24 +416,24 @@
                     "video_progress_pie": {
                         "header": "Progress pie overlay for videos",
                         "enable": "Habilitar",
-                        "enable_tooltip": "Requires SteamVR overlay to be enabled",
+                        "enable_tooltip": "Requiere que el overlay de SteamVR esté habilitado",
                         "dance_world_only": "Supported world only"
                     },
                     "screenshot_helper": {
-                        "header": "Screenshot Helper",
-                        "description": "Will store the world ID, world name and players in instance inside the file metadata of any pictures you take in-game.",
-                        "description_tooltip": "Unfortunately, windows doesn't support viewing PNG text chunks(few things do) natively, but you can view it using a command-line tool like exiftool, a png chunk inspector, or a hex editor.",
+                        "header": "Ayudante de Captura de Pantalla",
+                        "description": "Almacenará el ID del mundo, el nombre del mundo y los jugadores en la instancia dentro de los metadatos del archivo de cualquier imagen que tome en el juego.",
+                        "description_tooltip": "Desafortunadamente, Windows no soporta ver fragmentos de texto PNG (pocas cosas lo hacen) de forma nativa, pero puede verlo usando una herramienta de línea de comandos como exiftool, un inspector de fragmentos png o un editor hexadecimal.",
                         "enable": "Habilitar",
-                        "modify_filename": "Modify Filename",
-                        "modify_filename_tooltip": "Will add the World ID to screenshot filename, in addition to file metadata.",
-                        "copy_to_clipboard": "Copy to Clipboard"
+                        "modify_filename": "Modificar nombre de archivo",
+                        "modify_filename_tooltip": "Se añadirá el ID del mundo al nombre de archivo de captura de pantalla, además de los metadatos de archivo.",
+                        "copy_to_clipboard": "Copiar al portapapeles"
                     },
                     "app_launcher": {
-                        "header": "App Launcher",
-                        "folder": "Auto-Launch Folder",
-                        "folder_tooltip": "To auto-launch apps with VRChat, place shortcuts in this folder.",
+                        "header": "Iniciador de aplicaciones",
+                        "folder": "Carpeta de Autoinicio",
+                        "folder_tooltip": "Para iniciar automaticamente apps con VRChat, coloque accesos directos en esta carpeta.",
                         "enable": "Habilitar",
-                        "auto_close": "Auto close apps"
+                        "auto_close": "Cerrar aplicaciones automáticamente"
                     },
                     "cache_debug": {
                         "header": "VRCX Instance Cache/Debug",
@@ -467,8 +467,8 @@
                         "location": "Ubicación:",
                         "join_leave": "Uniones/Salidas:",
                         "portal_spawn": "Portal Spawn:",
-                        "video_play": "Video Play:",
-                        "event": "Event:"
+                        "video_play": "Reproducciones de vídeo:",
+                        "event": "Eventos:"
                     }
                 },
                 "photon": {
@@ -578,35 +578,35 @@
                 "avatar_info": "Avatar Info",
                 "avatar_info_last_seen": "Avatar Info Last Seen",
                 "represented_group": "Represented Group",
-                "bio": "Bio",
-                "last_seen": "Last Seen",
+                "bio": "Biografía",
+                "last_seen": "Visto por última vez",
                 "join_count": "Join Count",
-                "time_together": "Time Together",
+                "time_together": "Tiempo Juntos",
                 "online_for": "En línea desde",
                 "offline_for": "Desconectado desde",
                 "last_activity": "Última Actividad",
-                "last_login": "Last Login",
-                "date_joined": "Date Joined",
+                "last_login": "Último inicio de sesión",
+                "date_joined": "Fecha de registro",
                 "friended": "Friended",
                 "unfriended": "Amigo eliminado",
-                "avatar_cloning": "Avatar Cloning",
-                "avatar_cloning_allow": "Allowed",
-                "avatar_cloning_deny": "Deny",
-                "home_location": "Home Location",
+                "avatar_cloning": "Clonación de avatar",
+                "avatar_cloning_allow": "Permitido",
+                "avatar_cloning_deny": "Denegar",
+                "home_location": "Ubicación de Casa",
                 "id": "ID de usuario",
                 "id_tooltip": "Copiar al portapapeles",
                 "copy_id": "Copiar ID",
                 "copy_url": "Copiar URL",
                 "copy_display_name": "Copy DisplayName",
-                "accuracy_notice": "Info from local database may not be accurate",
-                "instance_full": "full"
+                "accuracy_notice": "La información de la base de datos local puede no ser precisa",
+                "instance_full": "lleno"
             },
             "groups": {
-                "header": "Groups",
+                "header": "Grupos",
                 "total_count": "Total {count}",
                 "own_groups": "Own Groups",
                 "mutual_groups": "Mutual Groups",
-                "groups": "Groups"
+                "groups": "Grupos"
             },
             "worlds": {
                 "header": "Worlds",
