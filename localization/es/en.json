@@ -19,7 +19,7 @@
             "savedAccounts": "Cuentas guardadas",
             "login": "Inicio de sesión",
             "register": "Registrarse",
-            "forgotPassword": "¿Olvidaste tu contraseña?",
+            "forgotPassword": "¿Ha olvidado su contraseña?",
             "field": {
                 "username": "Usuario o Email",
                 "password": "Contraseña",
@@ -52,29 +52,29 @@
             "search_placeholder": "Buscar",
             "clear_results_tooltip": "Limpiar resultados de búsqueda",
             "user": {
-                "header": "Usuario"
+                "header": "Usuarios"
             },
             "world": {
-                "header": "Mundo",
+                "header": "Mundos",
                 "category": "Buscar por categoría",
                 "community_lab": "Incluye community labs"
             },
             "avatar": {
-                "header": "Avatar",
+                "header": "Avatares",
                 "search_provider": "Proveedor de búsqueda",
                 "refresh_tooltip": "Actualizar mis avatares",
                 "result_count": "Resultados {count}",
                 "all": "Todos",
-                "public": "Público",
-                "private": "Privado",
+                "public": "Públicos",
+                "private": "Privados",
                 "local": "Local",
                 "remote": "Remoto",
                 "sort_name": "Ordenar por nombre",
                 "sort_update": "Ordenar por actualización",
-                "sort_created": "Ordenador por autor"
+                "sort_created": "Ordenar por creación"
             },
             "group": {
-                "header": "Grupo"
+                "header": "Grupos"
             },
             "prev_page": "Anterior",
             "next_page": "Siguiente"
@@ -244,7 +244,7 @@
                     "theme_mode_system": "Sistema",
                     "theme_mode_light": "Claro",
                     "theme_mode_dark": "Oscuro",
-                    "theme_mode_darkvanilla": "Vanilla Oscuro",
+                    "theme_mode_darkvanilla": "Dark Vanilla",
                     "theme_mode_pink": "Rosa",
                     "theme_mode_material3": "Material 3",
                     "vrcplus_profile_icons": "Iconos de perfil VRCPlus",
