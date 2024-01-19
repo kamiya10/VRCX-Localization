@@ -946,40 +946,40 @@
             "save": "Save"
         },
         "config_json": {
-            "header": "VRChat Config JSON",
-            "description1": "These options are for advanced users only.",
+            "header": "JSON de configuracion de VRChat",
+            "description1": "Estas opciones son sólo para usuarios avanzados.",
             "description2": "Leave field empty to set as default, game restart required to apply settings.",
-            "cache_size": "Cache Size:",
+            "cache_size": "Tamaño del caché:",
             "refresh": "Actualizar",
             "delete_all_cache": "Eliminar toda la caché",
             "delete_cache": "Eliminar caché",
             "delete_old_cache": "Eliminar versiones antiguas de la caché",
             "sweep_cache": "Sweep Cache",
-            "max_cache_size": "Max Cache Size [GB] (min 20)",
-            "cache_expiry_delay": "Cache Expiry [Days] (min 30)",
-            "cache_directory": "Custom Cache Folder Location",
-            "picture_directory": "Custom Picture Folder Location",
+            "max_cache_size": "Tamaño del cache máx. [GB] (min 20)",
+            "cache_expiry_delay": "Expiración del Cache [dias] (min 30)",
+            "cache_directory": "Ubicación de la carpeta de caché",
+            "picture_directory": "Ubicación de la carpeta de imagenes",
             "fpv_steadycam_fov": "First-Person Steadycam FOV",
-            "camera_resolution": "Camera Resolution",
-            "screenshot_resolution": "Screenshot Resolution",
-            "picture_sort_by_date": "Sort pictures into folders by date",
+            "camera_resolution": "Resolución de la camara",
+            "screenshot_resolution": "Resolucion de las capturas de pantalla",
+            "picture_sort_by_date": "Ordenar imágenes en carpetas por fecha",
             "disable_discord_presence": "Deshabilitar Discord Rich Presence",
-            "vrchat_docs": "VRChat Docs",
-            "cancel": "Cancel",
-            "save": "Save"
+            "vrchat_docs": "Documentación de VRChat",
+            "cancel": "Cancelar",
+            "save": "Guardar"
         },
         "youtube_api": {
-            "header": "YouTube API",
-            "description": "Enter your YouTube API Key (optional)",
-            "placeholder": "YouTube API Key",
-            "guide": "Guide",
-            "save": "Save"
+            "header": "API de YouTube",
+            "description": "Introduzca su clave de API de YouTube (opcional)",
+            "placeholder": "Clave del API de YouTube",
+            "guide": "Guia",
+            "save": "Guardar"
         },
         "set_world_tags": {
-            "header": "Set World Tags",
+            "header": "Establecer etiquetas del mundo",
             "avatar_scaling_disabled": "Deshabilitar Escalado de Avatar",
-            "enable_debugging": "Enable world debugging for others",
-            "author_tags": "Author Tags (comma separated)",
+            "enable_debugging": "Habilitar depuración del mundo para otros",
+            "author_tags": "Etiquetas de autor (separadas por comas)",
             "content_tags": "Etiquetas de Advertencia de Contenido",
             "content_horror": "Horror",
             "content_gore": "Gore",
@@ -1003,50 +1003,50 @@
             "save": "Guardar"
         },
         "download_history": {
-            "header": "Download History",
+            "header": "Historial de Descargas",
             "queue": "Queue:",
             "history": "History:",
-            "cancel_all": "Cancel All",
-            "close": "Close"
+            "cancel_all": "Cancelar Todo",
+            "close": "Cerrar"
         },
         "vrcx_updater": {
-            "header": "VRCX Updater",
-            "latest_version": "VRCX is up to date.",
-            "ready_for_update": "Ready for install, restart VRCX to apply.",
-            "download": "Download",
-            "install": "Install"
+            "header": "Actualizador de VRCX",
+            "latest_version": "VRCX está actualizado.",
+            "ready_for_update": "Listo para instalar, reinicie VRCX para aplicar.",
+            "download": "Descargar",
+            "install": "Instalar"
         },
         "launch": {
-            "header": "Launch",
+            "header": "Iniciar",
             "url": "URL",
-            "short_url": "Short URL",
-            "short_url_notice": "Short URL's expire after a set period of time",
-            "location": "Location",
-            "copy_tooltip": "Copy to clipboard",
-            "start_as_desktop": "Start as Desktop (No VR)",
-            "info": "Info",
+            "short_url": "URL corta",
+            "short_url_notice": "La URL corta expirará después de un periodo de tiempo determinado",
+            "location": "Ubicación",
+            "copy_tooltip": "Copiar al portapapeles",
+            "start_as_desktop": "Iniciar como escritorio (Sin VR)",
+            "info": "Información",
             "invite": "Invite",
-            "launch": "Launch"
+            "launch": "Iniciar"
         },
         "export_friends_list": {
-            "header": "Export Friends List",
+            "header": "Exportar lista de amigos",
             "csv": "CSV",
             "json": "JSON"
         },
         "export_own_avatars": {
-            "header": "Export Own Avatars"
+            "header": "Exportar mis avatares"
         },
         "discord_names": {
-            "header": "Discord Names",
+            "header": "Nombres de Discord",
             "description": "Haga clic en \"Cargar entradas faltantes\" en la pestaña \"Lista de Amigos\" para buscar en toda la lista de amigos"
         },
         "notification_position": {
-            "header": "Notification Position",
-            "description": "Choose a notification position.",
-            "ok": "OK"
+            "header": "Posición de las notificaciones",
+            "description": "Elija una posición de las notificaciones.",
+            "ok": "Aceptar"
         },
         "shared_feed_filters": {
-            "notification": "Notification Filters",
+            "notification": "Filtros de notificación",
             "wrist": "Wrist Feed Filters",
             "on": "On",
             "off": "Desactivado",
