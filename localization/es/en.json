@@ -525,7 +525,7 @@
             },
             "previous_display_names": "Previous Display Names:",
             "tags": {
-                "friend_no": "Friend No.{number}",
+                "friend_no": "Amigo N°{number}",
                 "vrchat_team": "VRChat Team"
             },
             "actions": {
@@ -720,16 +720,16 @@
         },
         "avatar": {
             "tags": {
-                "public": "Public",
-                "private": "Private",
+                "public": "Público",
+                "private": "Privado",
                 "fallback": "Fallback",
                 "impostor": "Impostor",
                 "future_proofing": "Future Proofing",
-                "cache": "Cache",
+                "cache": "Caché",
                 "content_horror": "Horror",
                 "content_gore": "Gore",
-                "content_violence": "Violence",
-                "content_adult": "Adult",
+                "content_violence": "Violencia",
+                "content_adult": "Para Adultos",
                 "content_sex": "Sexual"
             },
             "labels": {
@@ -899,10 +899,10 @@
             "update": "Update"
         },
         "new_instance": {
-            "header": "New Instance",
-            "access_type": "Access Type",
-            "access_type_public": "Public",
-            "access_type_group": "Group",
+            "header": "Nueva instancia",
+            "access_type": "Tipo de acceso",
+            "access_type_public": "Público",
+            "access_type_group": "Grupo",
             "access_type_friend_plus": "Friends+",
             "access_type_friend": "Friends",
             "access_type_invite_plus": "Invite+",
@@ -910,14 +910,14 @@
             "group_access_type": "Group Access",
             "group_access_type_members": "Members",
             "group_access_type_plus": "Plus",
-            "group_access_type_public": "Public",
-            "region": "Region",
-            "region_usw": "US West",
-            "region_use": "US East",
-            "region_eu": "Europe",
-            "region_jp": "Japan",
-            "world_id": "World ID",
-            "instance_id": "Instance ID",
+            "group_access_type_public": "Público",
+            "region": "Región",
+            "region_usw": "Oeste de EE.UU.",
+            "region_use": "Este de EE.UU.",
+            "region_eu": "Europa",
+            "region_jp": "Japón",
+            "world_id": "ID del mundo",
+            "instance_id": "ID de la instancia",
             "instance_id_placeholder": "Aleatorio",
             "instance_creator": "Creador de la Instancia",
             "instance_creator_placeholder": "Seleccionar usuario",
