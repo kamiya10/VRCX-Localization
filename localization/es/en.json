@@ -167,7 +167,7 @@
             "invite_messages": "Mensajes De Invitación",
             "invite_response_messages": "Mensajes de Respuesta a Invitaciones",
             "invite_request_messages": "Mensajes De Solicitud De Invitación",
-            "invite_request_response_messages": "Mensaje De Respuesta A Solicitudes De Invitación",
+            "invite_request_response_messages": "Mensaje de Respuesta a Solicitudes de Invitación",
             "past_display_names": "Nombres Anteriores",
             "config_json": "JSON de Configuración",
             "current_user_json": "JSON del Usuario Actual",
@@ -759,7 +759,7 @@
                 "create_impostor": "Create Impostor"
             },
             "info": {
-                "header": "Info",
+                "header": "Información",
                 "id": "Avatar ID",
                 "id_tooltip": "Copy to clipboard",
                 "copy_id": "Copy ID",
@@ -861,7 +861,7 @@
                 "search": "Buscar"
             },
             "gallery": {
-                "header": "Photos"
+                "header": "Fotos"
             },
             "json": {
                 "header": "JSON"
@@ -893,7 +893,7 @@
             "cancel": "Cancelar"
         },
         "bio": {
-            "header": "Bio",
+            "header": "Biografía",
             "bio_placeholder": "Please input a bio",
             "add_link": "Add Link",
             "update": "Update"
@@ -1130,14 +1130,14 @@
             "description3": "- API endpoint has a rate limit that requires a large delay between requests.",
             "description4": "- Character limit of 256 per note.",
             "description5": "- Swear words filter (no fun allowed).",
-            "description6": "- No new lines (they will replaced with a space).",
-            "description7": "- This will overwrite any existing VRChat notes for these users.",
+            "description6": "- No hay nuevas líneas (se sustituirán por un espacio).",
+            "description7": "- Esto sobrescribirá cualquier nota de VRChat existente para estos usuarios.",
             "description8": "- Any edits made here wont affect VRCX memos but will affect VRChat notes once exported.",
             "refresh": "Actualizar",
-            "export": "Export",
-            "cancel": "Cancel",
-            "progress": "Progress:",
-            "errors": "Errors:",
+            "export": "Exportar",
+            "cancel": "Cancelar",
+            "progress": "Progreso:",
+            "errors": "Errores:",
             "clear_errors": "Limpiar Errores"
         },
         "edit_invite_message": {
@@ -1185,8 +1185,8 @@
         "gallery_icons": {
             "header": "Photos, Icons and Emojis",
             "description": "Recommended image size: 1200x900px (4:3)",
-            "gallery": "Photos",
-            "icons": "Icons",
+            "gallery": "Fotos",
+            "icons": "Iconos",
             "emojis": "Emojis",
             "refresh": "Actualizar",
             "upload": "Upload",
@@ -1194,23 +1194,23 @@
             "emoji_animation_styles": "Animation Styles"
         },
         "change_content_image": {
-            "avatar": "Change Avatar Image",
-            "world": "Change World Image",
-            "description": "Recommended image size: 1200x900px (4:3)",
+            "avatar": "Cambiar imagen del avatar",
+            "world": "Cambiar imagen del mundo",
+            "description": "Tamaño recomendado de la imagen: 1200x900px (4:3)",
             "refresh": "Actualizar",
-            "upload": "Upload Image"
+            "upload": "Subir imagen"
         },
         "previous_images": {
-            "header": "Previous Images"
+            "header": "Imágenes anteriores"
         },
         "previous_instances": {
-            "header": "Previous Instances",
-            "info": "Previous Instance Info",
+            "header": "Instancias anteriores",
+            "info": "Información de la instancia anterior",
             "search_placeholder": "Buscar"
         },
         "change_log": {
-            "header": "Change Log",
-            "description": "Consider donating to support future development of VRCX",
+            "header": "Registro de cambios",
+            "description": "Considere la posibilidad de hacer una donación para apoyar el futuro desarrollo de VRCX",
             "close": "Close",
             "donate": "Donate",
             "github": "GitHub"
@@ -1233,7 +1233,7 @@
             "ok": "OK"
         },
         "screenshot_metadata": {
-            "header": "Screenshot Metadata",
+            "header": "Metadatos de las Capturas de Pantalla",
             "drag": "Drag and drop a screenshot here",
             "browse": "Browse",
             "last_screenshot": "Last Screenshot",
