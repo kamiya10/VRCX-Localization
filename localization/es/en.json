@@ -291,8 +291,8 @@
                 "user_dialog": {
                     "header": "Diálogo del usuario",
                     "hide_vrchat_notes": "Ocultar Notas de VRChat",
-                    "hide_vrcx_memos": "Ocultar Memos de VRCX",
-                    "export_vrcx_memos_into_vrchat_notes": "Exportar los Memos de VRCX a notas de VRChat",
+                    "hide_vrcx_memos": "Ocultar las notas de VRCX",
+                    "export_vrcx_memos_into_vrchat_notes": "Exportar las notas de VRCX a las notas de VRChat",
                     "export_notes": "Exportar Notas"
                 },
                 "user_colors": {
@@ -310,7 +310,7 @@
                         "overlay_notifications": "Overlay de Notificaciones",
                         "notification_position": "Posición de las notificaciones",
                         "xsoverlay_notifications": "Notificaciones XSOverlay",
-                        "user_images": "User Images (slower)",
+                        "user_images": "Imágenes de usuarios (más lento)",
                         "notification_timeout": "Tiempo de espera de las notificaciones"
                     },
                     "desktop_notifications": {
@@ -323,7 +323,7 @@
                         "when_to_display_game_closed": "Juego cerrado",
                         "when_to_display_game_running": "Juego abierto",
                         "when_to_display_always": "Siempre",
-                        "desktop_notification_while_afk": "Notificaciones de escritorio estando AFK"
+                        "desktop_notification_while_afk": "Notificaciones de escritorio mientras se está AFK"
                     },
                     "text_to_speech": {
                         "header": "Opciones de Texto a Voz",
@@ -348,7 +348,7 @@
                     "hide_private_worlds": "Ocultar mundos privados",
                     "start_overlay_with": "Iniciar el overlay con",
                     "overlay_button": "Boton de Overlay",
-                    "overlay_button_grip": "Grip",
+                    "overlay_button_grip": "Empuñadura",
                     "overlay_button_menu": "Menú",
                     "display_overlay_on": "Display Overlay On",
                     "display_overlay_on_left": "Mano izquierda",
@@ -556,8 +556,8 @@
                 "moderation_disable_avatar_interaction": "Deshabilita las Interacciones con el Avatar",
                 "edit_status": "Social Status",
                 "edit_language": "Idioma",
-                "edit_bio": "Bio",
-                "report_hacking": "Report For Hacking",
+                "edit_bio": "Biografía",
+                "report_hacking": "Reportar por Hacking",
                 "unfriend": "Eliminar amigo",
                 "logout": "Logout"
             },
@@ -573,8 +573,8 @@
                 "instance_creator": "Instance Creator",
                 "note": "Notas",
                 "note_placeholder": "Haga clic aquí para añadir una nota",
-                "memo": "Memo",
-                "memo_placeholder": "Click to add a memo",
+                "memo": "Nota de VRCX",
+                "memo_placeholder": "Haga clic aquí para añadir una nota",
                 "avatar_info": "Información del Avatar",
                 "avatar_info_last_seen": "Avatar Info Last Seen",
                 "represented_group": "Grupo representado",
@@ -611,10 +611,10 @@
             "worlds": {
                 "header": "Worlds",
                 "total_count": "Total {count}",
-                "sort_by": "Sort by:",
-                "order_by": "Order by:",
+                "sort_by": "Clasificar por:",
+                "order_by": "Ordenar por:",
                 "sorting": {
-                    "updated": "Updated",
+                    "updated": "Actualizado",
                     "created": "Created",
                     "favorites": "Favoritos",
                     "popularity": "Popularidad"
@@ -687,8 +687,8 @@
             },
             "info": {
                 "header": "Información",
-                "memo": "Memo",
-                "memo_placeholder": "Click to add a memo",
+                "memo": "Nota de VRCX",
+                "memo_placeholder": "Haga clic aquí para añadir una nota",
                 "id": "ID del mundo",
                 "id_tooltip": "Copiar al portapapeles",
                 "copy_id": "Copiar ID",
@@ -701,7 +701,7 @@
                 "visits": "Visitas",
                 "capacity": "Capacidad",
                 "heat": "Heat",
-                "popularity": "Popularity",
+                "popularity": "Popularidad",
                 "created_at": "Created At",
                 "last_updated": "Last Updated",
                 "publication_date": "Publication Date",
@@ -768,8 +768,8 @@
                 "last_updated": "Actualizado por última vez",
                 "version": "Versión",
                 "platform": "Plataforma",
-                "memo": "Memo",
-                "memo_placeholder": "Click to add a memo"
+                "memo": "Nota de VRCX",
+                "memo_placeholder": "Haga clic aquí para añadir una nota"
             },
             "json": {
                 "header": "JSON",
