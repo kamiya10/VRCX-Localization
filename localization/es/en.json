@@ -733,16 +733,16 @@
                 "content_sex": "Sexual"
             },
             "labels": {
-                "public": "(Public)",
-                "private": "(Private)",
-                "own": "(Own)"
+                "public": "(Público)",
+                "private": "(Privado)",
+                "own": "(Propio)"
             },
             "actions": {
                 "delete_cache_tooltip": "Eliminar avatar de la caché",
-                "favorite_tooltip": "Add to favorites",
-                "unfavorite_tooltip": "Remove from favorites",
+                "favorite_tooltip": "Añadir a favoritos",
+                "unfavorite_tooltip": "Eliminar de favoritos",
                 "refresh": "Actualizar",
-                "select": "Select Avatar",
+                "select": "Seleccionar avatar",
                 "select_fallback": "Select Fallback Avatar",
                 "block": "Block Avatar",
                 "unblock": "Unblock Avatar",
