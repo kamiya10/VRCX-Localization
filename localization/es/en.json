@@ -195,12 +195,12 @@
                     "support": "Soporte técnico"
                 },
                 "vrcx_updater": {
-                    "header": "Actualizador VRCX",
+                    "header": "Actualizador de VRCX",
                     "change_build": "Cambiar versión",
                     "auto_update": "Actualización automática",
                     "auto_update_off": "Desactivado",
                     "auto_update_notify": "Notificar",
-                    "auto_update_download": "Autodescargar",
+                    "auto_update_download": "Descarga automática",
                     "auto_update_install": "Instalar automáticamente",
                     "change_log": "Registro de cambios"
                 },
@@ -703,7 +703,7 @@
                 "heat": "Heat",
                 "popularity": "Popularidad",
                 "created_at": "Created At",
-                "last_updated": "Last Updated",
+                "last_updated": "Última actualización",
                 "publication_date": "Publication Date",
                 "labs_publication_date": "Labs Publication Date",
                 "time_in_labs": "Time In Labs:",
@@ -743,26 +743,26 @@
                 "unfavorite_tooltip": "Eliminar de favoritos",
                 "refresh": "Actualizar",
                 "select": "Seleccionar avatar",
-                "select_fallback": "Select Fallback Avatar",
-                "block": "Block Avatar",
-                "unblock": "Unblock Avatar",
-                "show_previous_images": "Show Previous Images",
-                "make_public": "Make Public",
-                "make_private": "Make Private",
-                "rename": "Rename",
-                "change_description": "Change Description",
-                "change_content_tags": "Change Content Tags",
-                "change_image": "Change Image",
-                "download_package": "Download Unity Package",
+                "select_fallback": "Seleccionar avatar como Fallback",
+                "block": "Bloquear avatar",
+                "unblock": "Desbloquear avatar",
+                "show_previous_images": "Mostrar imágenes anteriores",
+                "make_public": "Hacer público",
+                "make_private": "Hacer privado",
+                "rename": "Renombrar",
+                "change_description": "Cambiar descripción",
+                "change_content_tags": "Cambiar etiquetas de contenido",
+                "change_image": "Cambiar imagen",
+                "download_package": "Descargar paquete de Unity",
                 "delete": "Eliminar",
                 "delete_impostor": "Eliminar Impostor",
-                "create_impostor": "Create Impostor"
+                "create_impostor": "Crear impostor"
             },
             "info": {
                 "header": "Información",
-                "id": "Avatar ID",
-                "id_tooltip": "Copy to clipboard",
-                "copy_id": "Copy ID",
+                "id": "ID del avatar",
+                "id_tooltip": "Copiar al portapapeles",
+                "copy_id": "Copiar ID",
                 "copy_url": "Copiar URL",
                 "created_at": "Creado el",
                 "last_updated": "Actualizado por última vez",
@@ -840,9 +840,9 @@
             },
             "members": {
                 "header": "Miembros",
-                "all_members": "All Members",
-                "friends_only": "Friends Only",
-                "load_more": "Load more...",
+                "all_members": "Todos los miembros",
+                "friends_only": "Solo amigos",
+                "load_more": "Cargar más...",
                 "sort_by": "Sort By:",
                 "sorting": {
                     "user_id": "User ID (Ascending)",
@@ -873,17 +873,17 @@
             "local_favorites": "Local Favorites"
         },
         "invite": {
-            "header": "Invite",
+            "header": "Invitar",
             "select_placeholder": "Elegir amigos",
-            "invite_with_message": "Invite With Message",
-            "invite": "Invite",
-            "friends_in_instance": "Friends In Instance"
+            "invite_with_message": "Invitar con un mensaje",
+            "invite": "Invitar",
+            "friends_in_instance": "Amigos en la instancia"
         },
         "social_status": {
             "header": "Social Status",
-            "history": "History",
-            "status_placeholder": "Status",
-            "update": "Update"
+            "history": "Historial",
+            "status_placeholder": "Estado",
+            "update": "Actualizar"
         },
         "language": {
             "header": "Idioma",
@@ -896,7 +896,7 @@
             "header": "Biografía",
             "bio_placeholder": "Please input a bio",
             "add_link": "Add Link",
-            "update": "Update"
+            "update": "Actualizar"
         },
         "new_instance": {
             "header": "Nueva instancia",
