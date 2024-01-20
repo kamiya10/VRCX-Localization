@@ -114,12 +114,12 @@
         "moderation": {
             "filter_placeholder": "Filtro",
             "search_placeholder": "Buscar",
-            "refresh_tooltip": "Actualizar"
+            "refresh_tooltip": "Refrescar"
         },
         "notification": {
             "filter_placeholder": "Filtro",
             "search_placeholder": "Buscar",
-            "refresh_tooltip": "Actualizar"
+            "refresh_tooltip": "Refrescar"
         },
         "friend_list": {
             "header": "Lista de Amigos",
@@ -130,7 +130,7 @@
             "favorites_only_tooltip": "Filtrar solo favoritos",
             "search_placeholder": "Buscar",
             "filter_placeholder": "Filtro",
-            "refresh_tooltip": "Actualizar",
+            "refresh_tooltip": "Refrescar",
             "clear_tooltip": "Limpiar Resultados",
             "cancel_tooltip": "Cancelar"
         },
@@ -172,7 +172,7 @@
             "config_json": "JSON de Configuración",
             "current_user_json": "JSON del Usuario Actual",
             "feedback": "Feedback",
-            "refresh_tooltip": "Actualizar",
+            "refresh_tooltip": "Refrescar",
             "clear_results_tooltip": "Limpiar resultados"
         },
         "settings": {
@@ -456,7 +456,7 @@
                     },
                     "sqlite_table_size": {
                         "header": "Tamaño de la tabla SQLite",
-                        "refresh": "Actualizar",
+                        "refresh": "Refrescar",
                         "gps": "GPS:",
                         "status": "Estado:",
                         "bio": "Bio:",
@@ -531,7 +531,7 @@
             "actions": {
                 "favorite_tooltip": "Añadir a favoritos",
                 "unfavorite_tooltip": "Eliminar de favoritos",
-                "refresh": "Actualizar",
+                "refresh": "Refrescar",
                 "invite": "Invitar",
                 "invite_with_message": "Invitar con un mensaje",
                 "request_invite": "Solicitar invitación",
@@ -657,7 +657,7 @@
             "actions": {
                 "delete_cache_tooltip": "Eliminar mundo de la caché",
                 "favorites_tooltip": "Favoritos",
-                "refresh": "Actualizar",
+                "refresh": "Refrescar",
                 "new_instance": "Nueva instancia",
                 "make_home": "Establecer como hogar",
                 "reset_home": "Restablecer hogar",
@@ -741,7 +741,7 @@
                 "delete_cache_tooltip": "Eliminar avatar de la caché",
                 "favorite_tooltip": "Añadir a favoritos",
                 "unfavorite_tooltip": "Eliminar de favoritos",
-                "refresh": "Actualizar",
+                "refresh": "Refrescar",
                 "select": "Seleccionar avatar",
                 "select_fallback": "Seleccionar avatar como Fallback",
                 "block": "Bloquear avatar",
@@ -800,7 +800,7 @@
                 "request_join_tooltip": "Solicitar para unirse",
                 "invite_required_tooltip": "Se requiere invitación",
                 "join_group_tooltip": "Unirse al grupo",
-                "refresh": "Actualizar",
+                "refresh": "Refrescar",
                 "unsubscribe": "Darse de baja de los anuncios",
                 "subscribe": "Suscribirse a los anuncios",
                 "invite_to_group": "Invitar al grupo",
@@ -950,7 +950,7 @@
             "description1": "Estas opciones son sólo para usuarios avanzados.",
             "description2": "Leave field empty to set as default, game restart required to apply settings.",
             "cache_size": "Tamaño del caché:",
-            "refresh": "Actualizar",
+            "refresh": "Refrescar",
             "delete_all_cache": "Eliminar toda la caché",
             "delete_cache": "Eliminar caché",
             "delete_old_cache": "Eliminar versiones antiguas de la caché",
@@ -1133,7 +1133,7 @@
             "description6": "- No hay nuevas líneas (se sustituirán por un espacio).",
             "description7": "- Esto sobrescribirá cualquier nota de VRChat existente para estos usuarios.",
             "description8": "- Any edits made here wont affect VRCX memos but will affect VRChat notes once exported.",
-            "refresh": "Actualizar",
+            "refresh": "Refrescar",
             "export": "Exportar",
             "cancel": "Cancelar",
             "progress": "Progreso:",
@@ -1150,25 +1150,25 @@
             "header": "Send Invite Message",
             "confirmation": "Are you sure you want to send?",
             "cancel": "Cancelar",
-            "refresh": "Actualizar",
+            "refresh": "Refrescar",
             "confirm": "Confirmar"
         },
         "invite_request_message": {
             "header": "Send Invite Request Message",
             "cancel": "Cancelar",
-            "refresh": "Actualizar"
+            "refresh": "Refrescar"
         },
         "invite_response_message": {
             "header": "Send Invite Response Message",
             "confirmation": "Are you sure you want to send?",
             "cancel": "Cancelar",
-            "refresh": "Actualizar",
+            "refresh": "Refrescar",
             "confirm": "Confirmar"
         },
         "invite_request_response_message": {
             "header": "Send Invite Request Response Message",
             "cancel": "Cancelar",
-            "refresh": "Actualizar"
+            "refresh": "Refrescar"
         },
         "edit_send_invite_message": {
             "header": "Edit and Send Invite Message",
@@ -1188,7 +1188,7 @@
             "gallery": "Fotos",
             "icons": "Iconos",
             "emojis": "Emojis",
-            "refresh": "Actualizar",
+            "refresh": "Refrescar",
             "upload": "Upload",
             "clear": "Limpiar",
             "emoji_animation_styles": "Animation Styles"
@@ -1197,7 +1197,7 @@
             "avatar": "Cambiar imagen del avatar",
             "world": "Cambiar imagen del mundo",
             "description": "Tamaño recomendado de la imagen: 1200x900px (4:3)",
-            "refresh": "Actualizar",
+            "refresh": "Refrescar",
             "upload": "Subir imagen"
         },
         "previous_images": {
@@ -1219,7 +1219,7 @@
             "header": "Select Image",
             "gallery": "Photos",
             "none": "None",
-            "refresh": "Actualizar",
+            "refresh": "Refrescar",
             "upload": "Upload"
         },
         "open_source": {
