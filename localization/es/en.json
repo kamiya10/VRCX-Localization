@@ -540,7 +540,7 @@
                 "manage_gallery_icon": "Manage Photos/Icons/Emojis",
                 "accept_friend_request": "Aceptar Solicitud de Amistad",
                 "decline_friend_request": "Rechazar Solicitud de Amistad",
-                "cancel_friend_request": "Cancelar Solicitud de Amistad",
+                "cancel_friend_request": "Cancelar solicitud de amistad",
                 "send_friend_request": "Enviar Solicitud de Amistad",
                 "show_avatar_author": "Mostrar Autor del Avatar",
                 "show_fallback_avatar": "Show Fallback Avatar Details",
@@ -795,7 +795,7 @@
             "actions": {
                 "represent_tooltip": "Representar grupo",
                 "unrepresent_tooltip": "Dejar de representar",
-                "cancel_join_request_tooltip": "Cancelar solicitud",
+                "cancel_join_request_tooltip": "Cancelar solicitud de unión",
                 "pending_request_tooltip": "Invitación pendiente",
                 "request_join_tooltip": "Solicitar para unirse",
                 "invite_required_tooltip": "Se requiere invitación",
@@ -1006,7 +1006,7 @@
             "header": "Historial de Descargas",
             "queue": "Queue:",
             "history": "History:",
-            "cancel_all": "Cancelar Todo",
+            "cancel_all": "Cancelar todo",
             "close": "Cerrar"
         },
         "vrcx_updater": {
@@ -1067,7 +1067,7 @@
             "select_vrchat_group_placeholder": "Select Group",
             "select_local_group_placeholder": "Select Group",
             "import": "Import Worlds",
-            "cancel": "Cancel",
+            "cancel": "Cancelar",
             "import_progress": "Import Progress:",
             "clear_table": "Limpiar Tabla",
             "errors": "Errors:",
@@ -1083,7 +1083,7 @@
             "process_progress": "Progress:",
             "select_group_placeholder": "Select Group",
             "import": "Import Avatars",
-            "cancel": "Cancel",
+            "cancel": "Cancelar",
             "import_progress": "Import Progress:",
             "clear_table": "Limpiar Tabla",
             "errors": "Errors:",
@@ -1099,7 +1099,7 @@
             "process_progress": "Progress:",
             "select_group_placeholder": "Select Group",
             "import": "Import Friends",
-            "cancel": "Cancel",
+            "cancel": "Cancelar",
             "import_progress": "Import Progress:",
             "clear_table": "Limpiar Tabla",
             "errors": "Errors:",
@@ -1230,7 +1230,7 @@
             "header": "Primary Password Required",
             "password_placeholder": "Input new password",
             "re_input_placeholder": "Re-input password",
-            "ok": "OK"
+            "ok": "Aceptar"
         },
         "screenshot_metadata": {
             "header": "Metadatos de las Capturas de Pantalla",
@@ -1273,7 +1273,7 @@
             "roles": "Roles",
             "selected_users": "Selected Users",
             "select_all": "Select All",
-            "cancel": "Cancel",
+            "cancel": "Cancelar",
             "choose_roles_placeholder": "Choose Roles",
             "selected_roles": "Selected Roles",
             "remove_roles": "Remove Roles",
@@ -1306,25 +1306,25 @@
             "input_error": "Código inválido"
         },
         "primary_password": {
-            "header": "Primary Password Required",
-            "description": "Please enter your Primary Password."
+            "header": "Contraseña principal requerida",
+            "description": "Introduzca su contraseña principal."
         },
         "change_favorite_group_name": {
-            "header": "Change Group Name",
-            "description": "Enter a new name",
+            "header": "Cambiar nombre del grupo",
+            "description": "Introduce un nombre nuevo",
             "cancel": "Cancelar",
-            "change": "Change",
-            "input_placeholder": "Name",
-            "input_error": "Name is required",
+            "change": "Cambiar",
+            "input_placeholder": "Nombre",
+            "input_error": "El nombre es requerido",
             "message": {
-                "success": "Group renamed"
+                "success": "Grupo renombrado"
             }
         },
         "direct_access_user_id": {
             "header": "Acceso Directo",
             "description": "Enter a User URL or ID (UUID)",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "User URL/ID is required",
             "message": {
                 "error": "Invalid URL/ID"
@@ -1333,15 +1333,15 @@
         "direct_access_username": {
             "header": "Acceso Directo",
             "description": "Enter a Username",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "Username is required"
         },
         "direct_access_world_id": {
             "header": "Acceso Directo",
             "description": "Enter a World URL or ID (UUID)",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "World URL/ID is required",
             "message": {
                 "error": "Invalid URL/ID"
@@ -1350,8 +1350,8 @@
         "direct_access_avatar_id": {
             "header": "Acceso Directo",
             "description": "Enter a Avatar URL or ID (UUID)",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "Avatar URL/ID is required",
             "message": {
                 "error": "Invalid URL/ID"
@@ -1360,8 +1360,8 @@
         "direct_access_omni": {
             "header": "Acceso Directo",
             "description": "Enter a User/World/Instance/Avatar/Group URL or ID (UUID)",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "URL/ID is required",
             "message": {
                 "error": "Invalid URL/ID"
@@ -1370,8 +1370,8 @@
         "notification_timeout": {
             "header": "Notification Timeout",
             "description": "Enter amount of seconds",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "Valid number is required"
         },
         "overlay_message_timeout": {
@@ -1384,8 +1384,8 @@
         "rename_avatar": {
             "header": "Renombrar Avatar",
             "description": "Enter avatar name",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "Valid name is required",
             "message": {
                 "success": "Avatar renamed"
@@ -1394,8 +1394,8 @@
         "change_avatar_description": {
             "header": "Cambiar Descripción",
             "description": "Enter avatar description",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "Valid description is required",
             "message": {
                 "success": "Avatar description changed"
@@ -1414,8 +1414,8 @@
         "change_world_description": {
             "header": "Cambiar Descripción",
             "description": "Enter world description",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "Valid description is required",
             "message": {
                 "success": "World description changed"
@@ -1424,8 +1424,8 @@
         "change_world_capacity": {
             "header": "Change Capacity",
             "description": "Enter world maximum capacity (hard cap), Max: 80",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "Valid number is required",
             "message": {
                 "success": "World capacity changed"
@@ -1434,8 +1434,8 @@
         "change_world_recommended_capacity": {
             "header": "Change Recommended Capacity",
             "description": "Enter world recommended capacity (soft cap)",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "Valid number is required",
             "message": {
                 "success": "World recommended capacity changed"
@@ -1444,8 +1444,8 @@
         "change_world_preview": {
             "header": "Change YouTube Preview",
             "description": "Enter world YouTube preview",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "Valid YouTube URL is required",
             "message": {
                 "error": "Invalid YouTube URL",
@@ -1455,7 +1455,7 @@
         "change_table_size": {
             "header": "Tamaño Máximo de la Tabla",
             "description": "Limit amount of entries loaded from database to UI pages, larger table sizes will impact RAM usage and performance (default: 1000, max: 10000)",
-            "cancel": "Cancel",
+            "cancel": "Cancelar",
             "save": "Save",
             "input_error": "Valid number is required"
         },
@@ -1476,8 +1476,8 @@
         "new_local_favorite_group": {
             "header": "Nuevo Grupo",
             "description": "Enter a world favorite group name",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "Name is required",
             "message": {
                 "error": "Group already exists with the name {name}"
@@ -1486,7 +1486,7 @@
         "local_favorite_group_rename": {
             "header": "Renombrar Grupo",
             "description": "Enter a world favorite group name",
-            "cancel": "Cancel",
+            "cancel": "Cancelar",
             "save": "Save",
             "input_error": "Name is required",
             "message": {
@@ -1590,7 +1590,7 @@
             "name": "Name",
             "type": "Type",
             "status": "Status",
-            "cancel": "Cancel"
+            "cancel": "Cancelar"
         },
         "import": {
             "image": "Image",
