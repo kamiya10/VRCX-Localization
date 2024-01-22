@@ -1282,16 +1282,16 @@
     },
     "prompt": {
         "totp": {
-            "header": "Two-factor Authentication",
-            "description": "Enter a numeric code from your authenticator app",
-            "use_otp": "Use OTP",
-            "verify": "Verify",
-            "input_placeholder": "Code",
-            "input_error": "Invalid Code"
+            "header": "Autenticación de dos factores",
+            "description": "Introduzca un código numérico desde su aplicación de autenticación",
+            "use_otp": "Usar OTP",
+            "verify": "Verificar",
+            "input_placeholder": "Código",
+            "input_error": "Código inválido"
         },
         "otp": {
-            "header": "Two-factor Authentication",
-            "description": "Enter one of your saved recovery codes",
+            "header": "Autenticación de dos factores",
+            "description": "Introduce uno de tus códigos de recuperación guardados",
             "use_totp": "Use TOTP",
             "verify": "Verify",
             "input_placeholder": "Code",
@@ -1302,8 +1302,8 @@
             "description": "Enter a numeric code that was sent to your email",
             "resend": "Resend Email",
             "verify": "Verify",
-            "input_placeholder": "Code",
-            "input_error": "Invalid Code"
+            "input_placeholder": "Código",
+            "input_error": "Código inválido"
         },
         "primary_password": {
             "header": "Primary Password Required",
@@ -1312,7 +1312,7 @@
         "change_favorite_group_name": {
             "header": "Change Group Name",
             "description": "Enter a new name",
-            "cancel": "Cancel",
+            "cancel": "Cancelar",
             "change": "Change",
             "input_placeholder": "Name",
             "input_error": "Name is required",
