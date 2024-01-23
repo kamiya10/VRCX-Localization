@@ -1080,13 +1080,13 @@
             "header": "Importar Avatares Favoritos",
             "description": "Enter a list of avatar IDs",
             "process_list": "Process List",
-            "process_progress": "Progress:",
-            "select_group_placeholder": "Select Group",
-            "import": "Import Avatars",
+            "process_progress": "Progreso:",
+            "select_group_placeholder": "Seleccionar grupo",
+            "import": "Importar avatares",
             "cancel": "Cancelar",
-            "import_progress": "Import Progress:",
+            "import_progress": "Progreso de importación:",
             "clear_table": "Limpiar Tabla",
-            "errors": "Errors:",
+            "errors": "Errores:",
             "clear_errors": "Limpiar Errores"
         },
         "friend_export": {
@@ -1102,7 +1102,7 @@
             "cancel": "Cancelar",
             "import_progress": "Import Progress:",
             "clear_table": "Limpiar Tabla",
-            "errors": "Errors:",
+            "errors": "Errores:",
             "clear_errors": "Limpiar Errores"
         },
         "avatar_database_provider": {
@@ -1211,13 +1211,13 @@
         "change_log": {
             "header": "Registro de cambios",
             "description": "Considere la posibilidad de hacer una donación para apoyar el futuro desarrollo de VRCX",
-            "close": "Close",
-            "donate": "Donate",
+            "close": "Cerrar",
+            "donate": "Donar",
             "github": "GitHub"
         },
         "gallery_select": {
-            "header": "Select Image",
-            "gallery": "Photos",
+            "header": "Seleccionar imagen",
+            "gallery": "Fotos",
             "none": "None",
             "refresh": "Refrescar",
             "upload": "Upload"
