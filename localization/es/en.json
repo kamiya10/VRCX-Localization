@@ -1220,14 +1220,14 @@
             "gallery": "Fotos",
             "none": "None",
             "refresh": "Refrescar",
-            "upload": "Upload"
+            "upload": "Subir"
         },
         "open_source": {
-            "header": "Open Source Software Notice",
-            "description": "VRCX is based on open source software. It was possible because of their contribution."
+            "header": "Aviso sobre el software de código abierto",
+            "description": "VRCX se basa en software de código abierto. Ha sido posible gracias a su contribución."
         },
         "primary_password": {
-            "header": "Primary Password Required",
+            "header": "Contraseña principal requerida",
             "password_placeholder": "Input new password",
             "re_input_placeholder": "Re-input password",
             "ok": "Aceptar"
@@ -1256,28 +1256,28 @@
             "restore_prompt": "VRCX has noticed auto backup of VRC registry settings is enabled but this computer doesn't have any, if you'd like to restore from backup you can do so from here."
         },
         "group_member_moderation": {
-            "header": "Group Member Moderation",
+            "header": "Moderación de Miembros del Grupo",
             "notes": "Manager Note",
             "note_placeholder": "Click to add a note",
-            "actions": "Actions",
-            "kick": "Kick",
-            "ban": "Ban",
-            "save_note": "Save Note",
-            "group_members": "Group Members",
-            "progress": "Progress:",
+            "actions": "Acciones",
+            "kick": "Expulsar",
+            "ban": "Bloquear",
+            "save_note": "Guardar nota",
+            "group_members": "Miembros del grupo",
+            "progress": "Progreso:",
             "display_name": "Display Name",
-            "visibility": "Visibility",
+            "visibility": "Visibilidad",
             "avatar": "Avatar",
-            "joined_at": "Joined At",
-            "note": "Note",
+            "joined_at": "Se unió el",
+            "note": "Nota",
             "roles": "Roles",
-            "selected_users": "Selected Users",
-            "select_all": "Select All",
+            "selected_users": "Usuarios seleccionados",
+            "select_all": "Seleccionar todos",
             "cancel": "Cancelar",
-            "choose_roles_placeholder": "Choose Roles",
-            "selected_roles": "Selected Roles",
+            "choose_roles_placeholder": "Seleccionar roles",
+            "selected_roles": "Roles seleccionados",
             "remove_roles": "Remove Roles",
-            "add_roles": "Add Roles"
+            "add_roles": "Añadir roles"
         }
     },
     "prompt": {
@@ -1456,7 +1456,7 @@
             "header": "Tamaño Máximo de la Tabla",
             "description": "Limit amount of entries loaded from database to UI pages, larger table sizes will impact RAM usage and performance (default: 1000, max: 10000)",
             "cancel": "Cancelar",
-            "save": "Save",
+            "save": "Guardar",
             "input_error": "Valid number is required"
         },
         "photon_lobby_timeout": {
@@ -1487,7 +1487,7 @@
             "header": "Renombrar Grupo",
             "description": "Enter a world favorite group name",
             "cancel": "Cancelar",
-            "save": "Save",
+            "save": "Guardar",
             "input_error": "Name is required",
             "message": {
                 "error": "Group already exists with the name {name}"
@@ -1588,34 +1588,34 @@
         "download_history": {
             "time": "Time",
             "name": "Name",
-            "type": "Type",
-            "status": "Status",
+            "type": "Tipo",
+            "status": "Estado",
             "cancel": "Cancelar"
         },
         "import": {
-            "image": "Image",
-            "name": "Name",
-            "author": "Author",
-            "status": "Status",
-            "note": "Note",
-            "skip_export": "Skip Export",
-            "action": "Action"
+            "image": "Imagen",
+            "name": "Nombre",
+            "author": "Autor",
+            "status": "Estado",
+            "note": "Nota",
+            "skip_export": "Omitir exportación",
+            "action": "Acción"
         },
         "previous_instances": {
-            "date": "Date",
+            "date": "Fecha",
             "display_name": "Display Name",
-            "world": "World",
-            "instance_name": "Instance Name",
-            "instance_creator": "Instance Creator",
-            "time": "Time",
-            "count": "Count",
-            "action": "Action"
+            "world": "Mundo",
+            "instance_name": "Nombre de la instancia",
+            "instance_creator": "Creador de la instancia",
+            "time": "Tiempo",
+            "count": "Contador",
+            "action": "Acción"
         }
     },
     "vr": {
         "status": {
-            "timer": "Timer:",
-            "players": "Players:",
+            "timer": "Temporizador:",
+            "players": "Jugadores:",
             "cpu": "CPU:",
             "online": "En línea:"
         }
