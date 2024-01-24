@@ -357,7 +357,7 @@
                     "background_color": "Color de fondo",
                     "minimal_feed_icons": "Minimal Feed Icons",
                     "hide_vr_devices": "Ocultar dispositivos VR",
-                    "hide_cpu_usage": "Ocultar uso de CPU",
+                    "hide_cpu_usage": "Ocultar el uso de la CPU",
                     "hide_game_uptime": "Ocultar tiempo de juego",
                     "show_pc_uptime": "Mostrar tiempo de actividad del PC",
                     "wrist_feed_filters": "Filtro de Actividad en la Muñeca"
@@ -365,7 +365,7 @@
             },
             "discord_presence": {
                 "discord_presence": {
-                    "header": "Presencia de Discord",
+                    "header": "Rich Presence de Discord",
                     "description": "* Sólo funciona cuando VRChat se está ejecutando.",
                     "enable": "Habilitar",
                     "enable_tooltip": "Es recomendable desactivar la Presencia en el config.json de VRChat para evitar conflictos",
@@ -581,7 +581,7 @@
                 "bio": "Biografía",
                 "last_seen": "Visto por última vez",
                 "join_count": "Join Count",
-                "time_together": "Tiempo Juntos",
+                "time_together": "Tiempo juntos",
                 "online_for": "En línea desde",
                 "offline_for": "Desconectado desde",
                 "last_activity": "Última Actividad",
@@ -939,14 +939,14 @@
         "launch_options": {
             "header": "Opciones de lanzamiento de VRChat",
             "description": "Estas opciones son sólo para usuarios avanzados.",
-            "example": "(por ej; para cambiar el max. de fps: --fps=<N>)",
+            "example": "(para cambiar los FPS máximos: --fps=<N> por ejemplo)",
             "path_override": "VRChat Path Override",
             "vrchat_docs": "Documentación de VRChat",
             "unity_manual": "Manual de Unity",
             "save": "Save"
         },
         "config_json": {
-            "header": "JSON de configuracion de VRChat",
+            "header": "JSON de configuración de VRChat",
             "description1": "Estas opciones son sólo para usuarios avanzados.",
             "description2": "Leave field empty to set as default, game restart required to apply settings.",
             "cache_size": "Tamaño del caché:",
