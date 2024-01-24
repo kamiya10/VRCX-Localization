@@ -131,7 +131,7 @@
             "search_placeholder": "Buscar",
             "filter_placeholder": "Filtro",
             "refresh_tooltip": "Refrescar",
-            "clear_tooltip": "Limpiar Resultados",
+            "clear_tooltip": "Limpiar resultados",
             "cancel_tooltip": "Cancelar"
         },
         "profile": {
@@ -790,7 +790,7 @@
                 "visible": "Visible",
                 "friends": "Amigos",
                 "hidden": "Oculto",
-                "subscribed": "Suscritos"
+                "subscribed": "Suscrito"
             },
             "actions": {
                 "represent_tooltip": "Representar grupo",
@@ -818,7 +818,7 @@
                 "rules": "Reglas",
                 "members": "Miembros",
                 "created_at": "Creado el",
-                "links": "Links",
+                "links": "Enlaces",
                 "url": "URL del grupo",
                 "url_tooltip": "Copiar URL al portapapeles",
                 "id": "ID del Grupo",
@@ -895,7 +895,7 @@
         "bio": {
             "header": "Biografía",
             "bio_placeholder": "Please input a bio",
-            "add_link": "Agregar Enlace",
+            "add_link": "Agregar enlace",
             "update": "Actualizar"
         },
         "new_instance": {
@@ -919,7 +919,7 @@
             "world_id": "ID del mundo",
             "instance_id": "ID de la instancia",
             "instance_id_placeholder": "Aleatorio",
-            "instance_creator": "Creador de la Instancia",
+            "instance_creator": "Creador de la instancia",
             "instance_creator_placeholder": "Seleccionar usuario",
             "group_placeholder": "Seleccionar grupo",
             "role_placeholder": "Seleccionar roles",
@@ -960,7 +960,7 @@
             "cache_directory": "Ubicación de la carpeta de caché",
             "picture_directory": "Ubicación de la carpeta de imagenes",
             "fpv_steadycam_fov": "First-Person Steadycam FOV",
-            "camera_resolution": "Resolución de la camara",
+            "camera_resolution": "Resolución de la cámara",
             "screenshot_resolution": "Resolucion de las capturas de pantalla",
             "picture_sort_by_date": "Ordenar imágenes en carpetas por fecha",
             "disable_discord_presence": "Deshabilitar Discord Rich Presence",
@@ -1069,9 +1069,9 @@
             "import": "Import Worlds",
             "cancel": "Cancelar",
             "import_progress": "Import Progress:",
-            "clear_table": "Limpiar Tabla",
+            "clear_table": "Limpiar tabla",
             "errors": "Errors:",
-            "clear_errors": "Limpiar Errores"
+            "clear_errors": "Limpiar errores"
         },
         "avatar_export": {
             "header": "Exportar Avatares Favoritos"
@@ -1085,9 +1085,9 @@
             "import": "Importar avatares",
             "cancel": "Cancelar",
             "import_progress": "Progreso de importación:",
-            "clear_table": "Limpiar Tabla",
+            "clear_table": "Limpiar tabla",
             "errors": "Errores:",
-            "clear_errors": "Limpiar Errores"
+            "clear_errors": "Limpiar errores"
         },
         "friend_export": {
             "header": "Friend Favorites Export"
@@ -1101,9 +1101,9 @@
             "import": "Import Friends",
             "cancel": "Cancelar",
             "import_progress": "Import Progress:",
-            "clear_table": "Limpiar Tabla",
+            "clear_table": "Limpiar tabla",
             "errors": "Errores:",
-            "clear_errors": "Limpiar Errores"
+            "clear_errors": "Limpiar errores"
         },
         "avatar_database_provider": {
             "header": "Avatar Database Provider",
@@ -1138,7 +1138,7 @@
             "cancel": "Cancelar",
             "progress": "Progreso:",
             "errors": "Errores:",
-            "clear_errors": "Limpiar Errores"
+            "clear_errors": "Limpiar errores"
         },
         "edit_invite_message": {
             "header": "Edit Invite Message",
@@ -1526,7 +1526,7 @@
             "status": "Status",
             "rank": "Rank",
             "language": "Idioma",
-            "bioLink": "Bio Links",
+            "bioLink": "Enlaces",
             "date": "Date",
             "user": "User",
             "type": "Type",
