@@ -182,7 +182,7 @@
                 "appearance": "Apariencia",
                 "notifications": "Notificaciones",
                 "wrist_overlay": "Overlay de muñeca",
-                "discord_presence": "Presencia de Discord",
+                "discord_presence": "Rich Presence de Discord",
                 "advanced": "Avanzado"
             },
             "general": {
@@ -702,17 +702,17 @@
                 "capacity": "Capacidad",
                 "heat": "Heat",
                 "popularity": "Popularidad",
-                "created_at": "Created At",
+                "created_at": "Creado el",
                 "last_updated": "Última actualización",
-                "publication_date": "Publication Date",
-                "labs_publication_date": "Labs Publication Date",
-                "time_in_labs": "Time In Labs:",
-                "version": "Version",
-                "platform": "Platform",
-                "last_visited": "Last Visited",
-                "visit_count": "Visit Count",
-                "time_spent": "Time Spent",
-                "accuracy_notice": "Info from local database may not be accurate"
+                "publication_date": "Fecha de publicación",
+                "labs_publication_date": "Fecha de publicación en Labs",
+                "time_in_labs": "Tiempo en Labs:",
+                "version": "Versión",
+                "platform": "Plataforma",
+                "last_visited": "Ultima visita",
+                "visit_count": "Número de visitas",
+                "time_spent": "Tiempo invertido",
+                "accuracy_notice": "La información de la base de datos local puede no ser precisa"
             },
             "json": {
                 "header": "JSON"
@@ -845,9 +845,9 @@
                 "load_more": "Cargar más...",
                 "sort_by": "Ordenar por:",
                 "sorting": {
-                    "user_id": "User ID (Ascending)",
-                    "joined_at_asc": "Joined At (Ascending)",
-                    "joined_at_desc": "Joined At (Descending)"
+                    "user_id": "ID de usuario (Ascendente)",
+                    "joined_at_asc": "Fecha de registro (Ascendente)",
+                    "joined_at_desc": "Fecha de registro (Descendente)"
                 },
                 "filter": "Filtro:",
                 "filters": {
@@ -895,7 +895,7 @@
         "bio": {
             "header": "Biografía",
             "bio_placeholder": "Please input a bio",
-            "add_link": "Add Link",
+            "add_link": "Agregar Enlace",
             "update": "Actualizar"
         },
         "new_instance": {
@@ -908,7 +908,7 @@
             "access_type_invite_plus": "Invite+",
             "access_type_invite": "Invite",
             "group_access_type": "Group Access",
-            "group_access_type_members": "Members",
+            "group_access_type_members": "Miembros",
             "group_access_type_plus": "Plus",
             "group_access_type_public": "Público",
             "region": "Región",
@@ -942,7 +942,7 @@
             "example": "(por ej; para cambiar el max. de fps: --fps=<N>)",
             "path_override": "VRChat Path Override",
             "vrchat_docs": "Documentación de VRChat",
-            "unity_manual": "Unity Manual",
+            "unity_manual": "Manual de Unity",
             "save": "Save"
         },
         "config_json": {
@@ -1042,7 +1042,7 @@
         },
         "notification_position": {
             "header": "Posición de las notificaciones",
-            "description": "Elija una posición de las notificaciones.",
+            "description": "Elija una posición para las notificaciones.",
             "ok": "Aceptar"
         },
         "shared_feed_filters": {
