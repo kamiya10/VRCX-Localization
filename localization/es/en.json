@@ -114,12 +114,12 @@
         "moderation": {
             "filter_placeholder": "Filtro",
             "search_placeholder": "Buscar",
-            "refresh_tooltip": "Actualizar"
+            "refresh_tooltip": "Refrescar"
         },
         "notification": {
             "filter_placeholder": "Filtro",
             "search_placeholder": "Buscar",
-            "refresh_tooltip": "Actualizar"
+            "refresh_tooltip": "Refrescar"
         },
         "friend_list": {
             "header": "Lista de Amigos",
@@ -130,7 +130,7 @@
             "favorites_only_tooltip": "Filtrar solo favoritos",
             "search_placeholder": "Buscar",
             "filter_placeholder": "Filtro",
-            "refresh_tooltip": "Actualizar",
+            "refresh_tooltip": "Refrescar",
             "clear_tooltip": "Limpiar Resultados",
             "cancel_tooltip": "Cancelar"
         },
@@ -172,7 +172,7 @@
             "config_json": "JSON de Configuración",
             "current_user_json": "JSON del Usuario Actual",
             "feedback": "Feedback",
-            "refresh_tooltip": "Actualizar",
+            "refresh_tooltip": "Refrescar",
             "clear_results_tooltip": "Limpiar resultados"
         },
         "settings": {
@@ -195,12 +195,12 @@
                     "support": "Soporte técnico"
                 },
                 "vrcx_updater": {
-                    "header": "Actualizador VRCX",
+                    "header": "Actualizador de VRCX",
                     "change_build": "Cambiar versión",
                     "auto_update": "Actualización automática",
                     "auto_update_off": "Desactivado",
                     "auto_update_notify": "Notificar",
-                    "auto_update_download": "Autodescargar",
+                    "auto_update_download": "Descarga automática",
                     "auto_update_install": "Instalar automáticamente",
                     "change_log": "Registro de cambios"
                 },
@@ -456,7 +456,7 @@
                     },
                     "sqlite_table_size": {
                         "header": "Tamaño de la tabla SQLite",
-                        "refresh": "Actualizar",
+                        "refresh": "Refrescar",
                         "gps": "GPS:",
                         "status": "Estado:",
                         "bio": "Bio:",
@@ -531,16 +531,16 @@
             "actions": {
                 "favorite_tooltip": "Añadir a favoritos",
                 "unfavorite_tooltip": "Eliminar de favoritos",
-                "refresh": "Actualizar",
+                "refresh": "Refrescar",
                 "invite": "Invitar",
                 "invite_with_message": "Invitar con un mensaje",
                 "request_invite": "Solicitar invitación",
                 "request_invite_with_message": "Solicitar invitación con un mensaje",
                 "invite_to_group": "Invitar al grupo",
-                "manage_gallery_icon": "Manage Photos/Icons/Emojis",
+                "manage_gallery_icon": "Administrar Fotos/Iconos/Emojis",
                 "accept_friend_request": "Aceptar Solicitud de Amistad",
                 "decline_friend_request": "Rechazar Solicitud de Amistad",
-                "cancel_friend_request": "Cancelar Solicitud de Amistad",
+                "cancel_friend_request": "Cancelar solicitud de amistad",
                 "send_friend_request": "Enviar Solicitud de Amistad",
                 "show_avatar_author": "Mostrar Autor del Avatar",
                 "show_fallback_avatar": "Show Fallback Avatar Details",
@@ -548,7 +548,7 @@
                 "show_previous_images": "Mostrar Imágenes Anteriores",
                 "moderation_block": "Bloquear",
                 "moderation_unblock": "Desbloquear",
-                "moderation_mute": "Mute",
+                "moderation_mute": "Silenciar",
                 "moderation_unmute": "Unmute",
                 "moderation_hide_avatar": "Ocultar Avatar",
                 "moderation_show_avatar": "Mostrar Avatar",
@@ -559,23 +559,23 @@
                 "edit_bio": "Biografía",
                 "report_hacking": "Reportar por Hacking",
                 "unfriend": "Eliminar amigo",
-                "logout": "Logout"
+                "logout": "Cerrar sesión"
             },
             "info": {
                 "header": "Información",
                 "launch_invite_tooltip": "Iniciar/Invitar",
                 "self_invite_tooltip": "Invitarte a ti mismo",
-                "refresh_instance_info": "Actualizar Información de la Instancia",
+                "refresh_instance_info": "Actualizar información de instancia",
                 "instance_queue": "Cola:",
                 "instance_users": "Usuarios:",
                 "instance_game_version": "Versión del Juego:",
-                "instance_queuing_enabled": "Queuing Enabled",
-                "instance_creator": "Instance Creator",
-                "note": "Notas",
+                "instance_queuing_enabled": "Cola habilitada",
+                "instance_creator": "Creador de la instancia",
+                "note": "Nota",
                 "note_placeholder": "Haga clic aquí para añadir una nota",
                 "memo": "Nota de VRCX",
                 "memo_placeholder": "Haga clic aquí para añadir una nota",
-                "avatar_info": "Información del Avatar",
+                "avatar_info": "Información del avatar",
                 "avatar_info_last_seen": "Avatar Info Last Seen",
                 "represented_group": "Grupo representado",
                 "bio": "Biografía",
@@ -589,7 +589,7 @@
                 "date_joined": "Fecha de registro",
                 "friended": "Friended",
                 "unfriended": "Amigo eliminado",
-                "avatar_cloning": "Clonación de avatar",
+                "avatar_cloning": "Clonación del avatar",
                 "avatar_cloning_allow": "Permitido",
                 "avatar_cloning_deny": "Denegar",
                 "home_location": "Ubicación de Casa",
@@ -657,7 +657,7 @@
             "actions": {
                 "delete_cache_tooltip": "Eliminar mundo de la caché",
                 "favorites_tooltip": "Favoritos",
-                "refresh": "Actualizar",
+                "refresh": "Refrescar",
                 "new_instance": "Nueva instancia",
                 "make_home": "Establecer como hogar",
                 "reset_home": "Restablecer hogar",
@@ -703,7 +703,7 @@
                 "heat": "Heat",
                 "popularity": "Popularidad",
                 "created_at": "Created At",
-                "last_updated": "Last Updated",
+                "last_updated": "Última actualización",
                 "publication_date": "Publication Date",
                 "labs_publication_date": "Labs Publication Date",
                 "time_in_labs": "Time In Labs:",
@@ -733,36 +733,36 @@
                 "content_sex": "Sexual"
             },
             "labels": {
-                "public": "(Public)",
-                "private": "(Private)",
-                "own": "(Own)"
+                "public": "(Público)",
+                "private": "(Privado)",
+                "own": "(Propio)"
             },
             "actions": {
                 "delete_cache_tooltip": "Eliminar avatar de la caché",
-                "favorite_tooltip": "Add to favorites",
-                "unfavorite_tooltip": "Remove from favorites",
-                "refresh": "Actualizar",
-                "select": "Select Avatar",
-                "select_fallback": "Select Fallback Avatar",
-                "block": "Block Avatar",
-                "unblock": "Unblock Avatar",
-                "show_previous_images": "Show Previous Images",
-                "make_public": "Make Public",
-                "make_private": "Make Private",
-                "rename": "Rename",
-                "change_description": "Change Description",
-                "change_content_tags": "Change Content Tags",
-                "change_image": "Change Image",
-                "download_package": "Download Unity Package",
+                "favorite_tooltip": "Añadir a favoritos",
+                "unfavorite_tooltip": "Eliminar de favoritos",
+                "refresh": "Refrescar",
+                "select": "Seleccionar avatar",
+                "select_fallback": "Seleccionar avatar como Fallback",
+                "block": "Bloquear avatar",
+                "unblock": "Desbloquear avatar",
+                "show_previous_images": "Mostrar imágenes anteriores",
+                "make_public": "Hacer público",
+                "make_private": "Hacer privado",
+                "rename": "Renombrar",
+                "change_description": "Cambiar descripción",
+                "change_content_tags": "Cambiar etiquetas de contenido",
+                "change_image": "Cambiar imagen",
+                "download_package": "Descargar paquete de Unity",
                 "delete": "Eliminar",
                 "delete_impostor": "Eliminar Impostor",
-                "create_impostor": "Create Impostor"
+                "create_impostor": "Crear impostor"
             },
             "info": {
                 "header": "Información",
-                "id": "Avatar ID",
-                "id_tooltip": "Copy to clipboard",
-                "copy_id": "Copy ID",
+                "id": "ID del avatar",
+                "id_tooltip": "Copiar al portapapeles",
+                "copy_id": "Copiar ID",
                 "copy_url": "Copiar URL",
                 "created_at": "Creado el",
                 "last_updated": "Actualizado por última vez",
@@ -795,12 +795,12 @@
             "actions": {
                 "represent_tooltip": "Representar grupo",
                 "unrepresent_tooltip": "Dejar de representar",
-                "cancel_join_request_tooltip": "Cancelar solicitud",
+                "cancel_join_request_tooltip": "Cancelar solicitud de unión",
                 "pending_request_tooltip": "Invitación pendiente",
                 "request_join_tooltip": "Solicitar para unirse",
                 "invite_required_tooltip": "Se requiere invitación",
                 "join_group_tooltip": "Unirse al grupo",
-                "refresh": "Actualizar",
+                "refresh": "Refrescar",
                 "unsubscribe": "Darse de baja de los anuncios",
                 "subscribe": "Suscribirse a los anuncios",
                 "invite_to_group": "Invitar al grupo",
@@ -840,10 +840,10 @@
             },
             "members": {
                 "header": "Miembros",
-                "all_members": "All Members",
-                "friends_only": "Friends Only",
-                "load_more": "Load more...",
-                "sort_by": "Sort By:",
+                "all_members": "Todos los miembros",
+                "friends_only": "Solo amigos",
+                "load_more": "Cargar más...",
+                "sort_by": "Ordenar por:",
                 "sorting": {
                     "user_id": "User ID (Ascending)",
                     "joined_at_asc": "Joined At (Ascending)",
@@ -873,17 +873,17 @@
             "local_favorites": "Local Favorites"
         },
         "invite": {
-            "header": "Invite",
+            "header": "Invitar",
             "select_placeholder": "Elegir amigos",
-            "invite_with_message": "Invite With Message",
-            "invite": "Invite",
-            "friends_in_instance": "Friends In Instance"
+            "invite_with_message": "Invitar con un mensaje",
+            "invite": "Invitar",
+            "friends_in_instance": "Amigos en la instancia"
         },
         "social_status": {
             "header": "Social Status",
-            "history": "History",
-            "status_placeholder": "Status",
-            "update": "Update"
+            "history": "Historial",
+            "status_placeholder": "Estado",
+            "update": "Actualizar"
         },
         "language": {
             "header": "Idioma",
@@ -896,7 +896,7 @@
             "header": "Biografía",
             "bio_placeholder": "Please input a bio",
             "add_link": "Add Link",
-            "update": "Update"
+            "update": "Actualizar"
         },
         "new_instance": {
             "header": "Nueva instancia",
@@ -950,7 +950,7 @@
             "description1": "Estas opciones son sólo para usuarios avanzados.",
             "description2": "Leave field empty to set as default, game restart required to apply settings.",
             "cache_size": "Tamaño del caché:",
-            "refresh": "Actualizar",
+            "refresh": "Refrescar",
             "delete_all_cache": "Eliminar toda la caché",
             "delete_cache": "Eliminar caché",
             "delete_old_cache": "Eliminar versiones antiguas de la caché",
@@ -1006,7 +1006,7 @@
             "header": "Historial de Descargas",
             "queue": "Queue:",
             "history": "History:",
-            "cancel_all": "Cancelar Todo",
+            "cancel_all": "Cancelar todo",
             "close": "Cerrar"
         },
         "vrcx_updater": {
@@ -1067,7 +1067,7 @@
             "select_vrchat_group_placeholder": "Select Group",
             "select_local_group_placeholder": "Select Group",
             "import": "Import Worlds",
-            "cancel": "Cancel",
+            "cancel": "Cancelar",
             "import_progress": "Import Progress:",
             "clear_table": "Limpiar Tabla",
             "errors": "Errors:",
@@ -1080,13 +1080,13 @@
             "header": "Importar Avatares Favoritos",
             "description": "Enter a list of avatar IDs",
             "process_list": "Process List",
-            "process_progress": "Progress:",
-            "select_group_placeholder": "Select Group",
-            "import": "Import Avatars",
-            "cancel": "Cancel",
-            "import_progress": "Import Progress:",
+            "process_progress": "Progreso:",
+            "select_group_placeholder": "Seleccionar grupo",
+            "import": "Importar avatares",
+            "cancel": "Cancelar",
+            "import_progress": "Progreso de importación:",
             "clear_table": "Limpiar Tabla",
-            "errors": "Errors:",
+            "errors": "Errores:",
             "clear_errors": "Limpiar Errores"
         },
         "friend_export": {
@@ -1099,10 +1099,10 @@
             "process_progress": "Progress:",
             "select_group_placeholder": "Select Group",
             "import": "Import Friends",
-            "cancel": "Cancel",
+            "cancel": "Cancelar",
             "import_progress": "Import Progress:",
             "clear_table": "Limpiar Tabla",
-            "errors": "Errors:",
+            "errors": "Errores:",
             "clear_errors": "Limpiar Errores"
         },
         "avatar_database_provider": {
@@ -1133,7 +1133,7 @@
             "description6": "- No hay nuevas líneas (se sustituirán por un espacio).",
             "description7": "- Esto sobrescribirá cualquier nota de VRChat existente para estos usuarios.",
             "description8": "- Any edits made here wont affect VRCX memos but will affect VRChat notes once exported.",
-            "refresh": "Actualizar",
+            "refresh": "Refrescar",
             "export": "Exportar",
             "cancel": "Cancelar",
             "progress": "Progreso:",
@@ -1150,25 +1150,25 @@
             "header": "Send Invite Message",
             "confirmation": "Are you sure you want to send?",
             "cancel": "Cancelar",
-            "refresh": "Actualizar",
+            "refresh": "Refrescar",
             "confirm": "Confirmar"
         },
         "invite_request_message": {
             "header": "Send Invite Request Message",
             "cancel": "Cancelar",
-            "refresh": "Actualizar"
+            "refresh": "Refrescar"
         },
         "invite_response_message": {
             "header": "Send Invite Response Message",
             "confirmation": "Are you sure you want to send?",
             "cancel": "Cancelar",
-            "refresh": "Actualizar",
+            "refresh": "Refrescar",
             "confirm": "Confirmar"
         },
         "invite_request_response_message": {
             "header": "Send Invite Request Response Message",
             "cancel": "Cancelar",
-            "refresh": "Actualizar"
+            "refresh": "Refrescar"
         },
         "edit_send_invite_message": {
             "header": "Edit and Send Invite Message",
@@ -1188,7 +1188,7 @@
             "gallery": "Fotos",
             "icons": "Iconos",
             "emojis": "Emojis",
-            "refresh": "Actualizar",
+            "refresh": "Refrescar",
             "upload": "Upload",
             "clear": "Limpiar",
             "emoji_animation_styles": "Animation Styles"
@@ -1197,7 +1197,7 @@
             "avatar": "Cambiar imagen del avatar",
             "world": "Cambiar imagen del mundo",
             "description": "Tamaño recomendado de la imagen: 1200x900px (4:3)",
-            "refresh": "Actualizar",
+            "refresh": "Refrescar",
             "upload": "Subir imagen"
         },
         "previous_images": {
@@ -1211,26 +1211,26 @@
         "change_log": {
             "header": "Registro de cambios",
             "description": "Considere la posibilidad de hacer una donación para apoyar el futuro desarrollo de VRCX",
-            "close": "Close",
-            "donate": "Donate",
+            "close": "Cerrar",
+            "donate": "Donar",
             "github": "GitHub"
         },
         "gallery_select": {
-            "header": "Select Image",
-            "gallery": "Photos",
+            "header": "Seleccionar imagen",
+            "gallery": "Fotos",
             "none": "None",
-            "refresh": "Actualizar",
-            "upload": "Upload"
+            "refresh": "Refrescar",
+            "upload": "Subir"
         },
         "open_source": {
-            "header": "Open Source Software Notice",
-            "description": "VRCX is based on open source software. It was possible because of their contribution."
+            "header": "Aviso sobre el software de código abierto",
+            "description": "VRCX se basa en software de código abierto. Ha sido posible gracias a su contribución."
         },
         "primary_password": {
-            "header": "Primary Password Required",
+            "header": "Contraseña principal requerida",
             "password_placeholder": "Input new password",
             "re_input_placeholder": "Re-input password",
-            "ok": "OK"
+            "ok": "Aceptar"
         },
         "screenshot_metadata": {
             "header": "Metadatos de las Capturas de Pantalla",
@@ -1256,42 +1256,42 @@
             "restore_prompt": "VRCX has noticed auto backup of VRC registry settings is enabled but this computer doesn't have any, if you'd like to restore from backup you can do so from here."
         },
         "group_member_moderation": {
-            "header": "Group Member Moderation",
+            "header": "Moderación de Miembros del Grupo",
             "notes": "Manager Note",
             "note_placeholder": "Click to add a note",
-            "actions": "Actions",
-            "kick": "Kick",
-            "ban": "Ban",
-            "save_note": "Save Note",
-            "group_members": "Group Members",
-            "progress": "Progress:",
+            "actions": "Acciones",
+            "kick": "Expulsar",
+            "ban": "Bloquear",
+            "save_note": "Guardar nota",
+            "group_members": "Miembros del grupo",
+            "progress": "Progreso:",
             "display_name": "Display Name",
-            "visibility": "Visibility",
+            "visibility": "Visibilidad",
             "avatar": "Avatar",
-            "joined_at": "Joined At",
-            "note": "Note",
+            "joined_at": "Se unió el",
+            "note": "Nota",
             "roles": "Roles",
-            "selected_users": "Selected Users",
-            "select_all": "Select All",
-            "cancel": "Cancel",
-            "choose_roles_placeholder": "Choose Roles",
-            "selected_roles": "Selected Roles",
+            "selected_users": "Usuarios seleccionados",
+            "select_all": "Seleccionar todos",
+            "cancel": "Cancelar",
+            "choose_roles_placeholder": "Seleccionar roles",
+            "selected_roles": "Roles seleccionados",
             "remove_roles": "Remove Roles",
-            "add_roles": "Add Roles"
+            "add_roles": "Añadir roles"
         }
     },
     "prompt": {
         "totp": {
-            "header": "Two-factor Authentication",
-            "description": "Enter a numeric code from your authenticator app",
-            "use_otp": "Use OTP",
-            "verify": "Verify",
-            "input_placeholder": "Code",
-            "input_error": "Invalid Code"
+            "header": "Autenticación de dos factores",
+            "description": "Introduzca un código numérico desde su aplicación de autenticación",
+            "use_otp": "Usar OTP",
+            "verify": "Verificar",
+            "input_placeholder": "Código",
+            "input_error": "Código inválido"
         },
         "otp": {
-            "header": "Two-factor Authentication",
-            "description": "Enter one of your saved recovery codes",
+            "header": "Autenticación de dos factores",
+            "description": "Introduce uno de tus códigos de recuperación guardados",
             "use_totp": "Use TOTP",
             "verify": "Verify",
             "input_placeholder": "Code",
@@ -1302,29 +1302,29 @@
             "description": "Enter a numeric code that was sent to your email",
             "resend": "Resend Email",
             "verify": "Verify",
-            "input_placeholder": "Code",
-            "input_error": "Invalid Code"
+            "input_placeholder": "Código",
+            "input_error": "Código inválido"
         },
         "primary_password": {
-            "header": "Primary Password Required",
-            "description": "Please enter your Primary Password."
+            "header": "Contraseña principal requerida",
+            "description": "Introduzca su contraseña principal."
         },
         "change_favorite_group_name": {
-            "header": "Change Group Name",
-            "description": "Enter a new name",
-            "cancel": "Cancel",
-            "change": "Change",
-            "input_placeholder": "Name",
-            "input_error": "Name is required",
+            "header": "Cambiar nombre del grupo",
+            "description": "Introduce un nombre nuevo",
+            "cancel": "Cancelar",
+            "change": "Cambiar",
+            "input_placeholder": "Nombre",
+            "input_error": "El nombre es requerido",
             "message": {
-                "success": "Group renamed"
+                "success": "Grupo renombrado"
             }
         },
         "direct_access_user_id": {
             "header": "Acceso Directo",
             "description": "Enter a User URL or ID (UUID)",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "User URL/ID is required",
             "message": {
                 "error": "Invalid URL/ID"
@@ -1333,15 +1333,15 @@
         "direct_access_username": {
             "header": "Acceso Directo",
             "description": "Enter a Username",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "Username is required"
         },
         "direct_access_world_id": {
             "header": "Acceso Directo",
             "description": "Enter a World URL or ID (UUID)",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "World URL/ID is required",
             "message": {
                 "error": "Invalid URL/ID"
@@ -1350,8 +1350,8 @@
         "direct_access_avatar_id": {
             "header": "Acceso Directo",
             "description": "Enter a Avatar URL or ID (UUID)",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "Avatar URL/ID is required",
             "message": {
                 "error": "Invalid URL/ID"
@@ -1360,8 +1360,8 @@
         "direct_access_omni": {
             "header": "Acceso Directo",
             "description": "Enter a User/World/Instance/Avatar/Group URL or ID (UUID)",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "URL/ID is required",
             "message": {
                 "error": "Invalid URL/ID"
@@ -1370,8 +1370,8 @@
         "notification_timeout": {
             "header": "Notification Timeout",
             "description": "Enter amount of seconds",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "Valid number is required"
         },
         "overlay_message_timeout": {
@@ -1384,8 +1384,8 @@
         "rename_avatar": {
             "header": "Renombrar Avatar",
             "description": "Enter avatar name",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "Valid name is required",
             "message": {
                 "success": "Avatar renamed"
@@ -1394,8 +1394,8 @@
         "change_avatar_description": {
             "header": "Cambiar Descripción",
             "description": "Enter avatar description",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "Valid description is required",
             "message": {
                 "success": "Avatar description changed"
@@ -1414,8 +1414,8 @@
         "change_world_description": {
             "header": "Cambiar Descripción",
             "description": "Enter world description",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "Valid description is required",
             "message": {
                 "success": "World description changed"
@@ -1424,8 +1424,8 @@
         "change_world_capacity": {
             "header": "Change Capacity",
             "description": "Enter world maximum capacity (hard cap), Max: 80",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "Valid number is required",
             "message": {
                 "success": "World capacity changed"
@@ -1434,8 +1434,8 @@
         "change_world_recommended_capacity": {
             "header": "Change Recommended Capacity",
             "description": "Enter world recommended capacity (soft cap)",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "Valid number is required",
             "message": {
                 "success": "World recommended capacity changed"
@@ -1444,8 +1444,8 @@
         "change_world_preview": {
             "header": "Change YouTube Preview",
             "description": "Enter world YouTube preview",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "Valid YouTube URL is required",
             "message": {
                 "error": "Invalid YouTube URL",
@@ -1455,8 +1455,8 @@
         "change_table_size": {
             "header": "Tamaño Máximo de la Tabla",
             "description": "Limit amount of entries loaded from database to UI pages, larger table sizes will impact RAM usage and performance (default: 1000, max: 10000)",
-            "cancel": "Cancel",
-            "save": "Save",
+            "cancel": "Cancelar",
+            "save": "Guardar",
             "input_error": "Valid number is required"
         },
         "photon_lobby_timeout": {
@@ -1476,8 +1476,8 @@
         "new_local_favorite_group": {
             "header": "Nuevo Grupo",
             "description": "Enter a world favorite group name",
-            "cancel": "Cancel",
-            "ok": "OK",
+            "cancel": "Cancelar",
+            "ok": "Aceptar",
             "input_error": "Name is required",
             "message": {
                 "error": "Group already exists with the name {name}"
@@ -1486,8 +1486,8 @@
         "local_favorite_group_rename": {
             "header": "Renombrar Grupo",
             "description": "Enter a world favorite group name",
-            "cancel": "Cancel",
-            "save": "Save",
+            "cancel": "Cancelar",
+            "save": "Guardar",
             "input_error": "Name is required",
             "message": {
                 "error": "Group already exists with the name {name}"
@@ -1588,34 +1588,34 @@
         "download_history": {
             "time": "Time",
             "name": "Name",
-            "type": "Type",
-            "status": "Status",
-            "cancel": "Cancel"
+            "type": "Tipo",
+            "status": "Estado",
+            "cancel": "Cancelar"
         },
         "import": {
-            "image": "Image",
-            "name": "Name",
-            "author": "Author",
-            "status": "Status",
-            "note": "Note",
-            "skip_export": "Skip Export",
-            "action": "Action"
+            "image": "Imagen",
+            "name": "Nombre",
+            "author": "Autor",
+            "status": "Estado",
+            "note": "Nota",
+            "skip_export": "Omitir exportación",
+            "action": "Acción"
         },
         "previous_instances": {
-            "date": "Date",
+            "date": "Fecha",
             "display_name": "Display Name",
-            "world": "World",
-            "instance_name": "Instance Name",
-            "instance_creator": "Instance Creator",
-            "time": "Time",
-            "count": "Count",
-            "action": "Action"
+            "world": "Mundo",
+            "instance_name": "Nombre de la instancia",
+            "instance_creator": "Creador de la instancia",
+            "time": "Tiempo",
+            "count": "Contador",
+            "action": "Acción"
         }
     },
     "vr": {
         "status": {
-            "timer": "Timer:",
-            "players": "Players:",
+            "timer": "Temporizador:",
+            "players": "Jugadores:",
             "cpu": "CPU:",
             "online": "En línea:"
         }
