@@ -559,7 +559,7 @@
                 "edit_bio": "Biografía",
                 "report_hacking": "Reportar por Hacking",
                 "unfriend": "Eliminar amigo",
-                "logout": "Logout"
+                "logout": "Cerrar sesión"
             },
             "info": {
                 "header": "Información",
@@ -843,7 +843,7 @@
                 "all_members": "Todos los miembros",
                 "friends_only": "Solo amigos",
                 "load_more": "Cargar más...",
-                "sort_by": "Sort By:",
+                "sort_by": "Ordenar por:",
                 "sorting": {
                     "user_id": "User ID (Ascending)",
                     "joined_at_asc": "Joined At (Ascending)",
