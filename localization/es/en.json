@@ -525,7 +525,7 @@
             },
             "previous_display_names": "Previous Display Names:",
             "tags": {
-                "friend_no": "Amigo N°{number}",
+                "friend_no": "Amigo N.º{number}",
                 "vrchat_team": "VRChat Team"
             },
             "actions": {
@@ -1096,35 +1096,35 @@
             "header": "Importar amigos favoritos",
             "description": "Introduzca una lista de IDs de usuarios",
             "process_list": "Lista de procesos",
-            "process_progress": "Progress:",
-            "select_group_placeholder": "Select Group",
-            "import": "Import Friends",
+            "process_progress": "Progreso:",
+            "select_group_placeholder": "Seleccionar grupo",
+            "import": "Importar amigos",
             "cancel": "Cancelar",
-            "import_progress": "Import Progress:",
+            "import_progress": "Progreso de importación:",
             "clear_table": "Limpiar tabla",
             "errors": "Errores:",
             "clear_errors": "Limpiar errores"
         },
         "avatar_database_provider": {
-            "header": "Avatar Database Provider",
-            "add_provider": "Add Provider"
+            "header": "Proveedor de base de datos de avatares",
+            "add_provider": "Añadir proveedor"
         },
         "chatbox_blacklist": {
-            "header": "Chatbox Blacklist",
-            "keyword_blacklist": "Keyword Blacklist",
-            "user_blacklist": "User Blacklist",
-            "add_item": "Add Item"
+            "header": "Lista negra del chatbox",
+            "keyword_blacklist": "Lista negra de palabras clave",
+            "user_blacklist": "Lista negra de usuarios",
+            "add_item": "Añadir artículo"
         },
         "invite_to_group": {
             "header": "Invitar al grupo",
             "description": "Don't spam invite users, you'll get rate limited.",
-            "choose_group_placeholder": "Choose Group",
+            "choose_group_placeholder": "Elegir grupo",
             "groups": "Grupos",
             "choose_friends_placeholder": "Elegir amigos",
             "selected_users": "Usuarios seleccionados"
         },
         "note_export": {
-            "header": "Note Export",
+            "header": "Exportar notas",
             "description1": "This process will export all of your VRCX memos and import them into VRChat notes.",
             "description2": "Be warned of the following limitations:",
             "description3": "- API endpoint has a rate limit that requires a large delay between requests.",
@@ -1478,9 +1478,9 @@
             "description": "Enter a world favorite group name",
             "cancel": "Cancelar",
             "ok": "Aceptar",
-            "input_error": "Name is required",
+            "input_error": "El nombre es requerido",
             "message": {
-                "error": "Group already exists with the name {name}"
+                "error": "Ya existe un grupo con el nombre {name}"
             }
         },
         "local_favorite_group_rename": {
@@ -1488,9 +1488,9 @@
             "description": "Enter a world favorite group name",
             "cancel": "Cancelar",
             "save": "Guardar",
-            "input_error": "Name is required",
+            "input_error": "El nombre es requerido",
             "message": {
-                "error": "Group already exists with the name {name}"
+                "error": "Ya existe un grupo con el nombre {name}"
             }
         },
         "pending_offline_delay": {
@@ -1506,7 +1506,7 @@
             "date": "Fecha",
             "type": "Tipo",
             "user": "Usuario",
-            "detail": "Detail"
+            "detail": "Detalle"
         },
         "gameLog": {
             "date": "Fecha",
@@ -1520,43 +1520,43 @@
             "avatar": "Avatar",
             "timer": "Timer",
             "photonId": "ID de Photon",
-            "icon": "Icons",
-            "platform": "Platform",
-            "displayName": "Display Name",
-            "status": "Status",
-            "rank": "Rank",
+            "icon": "Iconos",
+            "platform": "Plataforma",
+            "displayName": "Mostrar nombre",
+            "status": "Estado",
+            "rank": "Rango",
             "language": "Idioma",
             "bioLink": "Enlaces",
-            "date": "Date",
-            "user": "User",
-            "type": "Type",
-            "detail": "Detail"
+            "date": "Fecha",
+            "user": "Usuario",
+            "type": "Tipo",
+            "detail": "Detalle"
         },
         "friendLog": {
-            "date": "Date",
-            "type": "Type",
-            "user": "User",
-            "action": "Action"
+            "date": "Fecha",
+            "type": "Tipo",
+            "user": "Usuario",
+            "action": "Acción"
         },
         "moderation": {
-            "date": "Date",
-            "type": "Type",
+            "date": "Fecha",
+            "type": "Tipo",
             "source": "Source",
-            "target": "Target",
-            "action": "Action"
+            "target": "Objetivo",
+            "action": "Acción"
         },
         "notification": {
-            "date": "Date",
-            "type": "Type",
-            "user": "User",
-            "photo": "Photo",
-            "message": "Message",
-            "action": "Action"
+            "date": "Fecha",
+            "type": "Tipo",
+            "user": "Usuario",
+            "photo": "Foto",
+            "message": "Mensaje",
+            "action": "Acción"
         },
         "friendList": {
-            "no": "No.",
+            "no": "N.º",
             "avatar": "Avatar",
-            "displayName": "Display Name",
+            "displayName": "Mostrar nombre",
             "rank": "Rango",
             "status": "Estado",
             "language": "Idioma",
@@ -1577,17 +1577,17 @@
                 "action": "Acción"
             },
             "previous_display_name": {
-                "date": "Date",
-                "name": "Name"
+                "date": "Fecha",
+                "name": "Nombre"
             }
         },
         "social_status": {
-            "no": "No.",
-            "status": "Status"
+            "no": "N.º",
+            "status": "Estado"
         },
         "download_history": {
-            "time": "Time",
-            "name": "Name",
+            "time": "Tiempo",
+            "name": "Nombre",
             "type": "Tipo",
             "status": "Estado",
             "cancel": "Cancelar"
@@ -1603,7 +1603,7 @@
         },
         "previous_instances": {
             "date": "Fecha",
-            "display_name": "Display Name",
+            "display_name": "Mostrar nombre",
             "world": "Mundo",
             "instance_name": "Nombre de la instancia",
             "instance_creator": "Creador de la instancia",
