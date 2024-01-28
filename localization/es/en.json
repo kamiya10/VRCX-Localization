@@ -852,11 +852,11 @@
                 "filter": "Filtro:",
                 "filters": {
                     "everyone": "Todo el mundo",
-                    "users_with_no_role": "Users With No Role"
+                    "users_with_no_role": "Usuarios sin rol"
                 },
-                "unsubscribed_announcements": "Unsubscribed from announcements",
-                "visibility": "Visibility:",
-                "representing": "Representing",
+                "unsubscribed_announcements": "Darse de baja de los anuncios",
+                "visibility": "Visibilidad:",
+                "representing": "Representando",
                 "manager_notes": "Manager Notes:",
                 "search": "Buscar"
             },
@@ -868,9 +868,9 @@
             }
         },
         "favorite": {
-            "header": "Choose Group",
-            "vrchat_favorites": "VRChat Favorites",
-            "local_favorites": "Local Favorites"
+            "header": "Elegir grupo",
+            "vrchat_favorites": "Favoritos de VRChat",
+            "local_favorites": "Favoritos locales"
         },
         "invite": {
             "header": "Invitar",
@@ -943,18 +943,18 @@
             "path_override": "VRChat Path Override",
             "vrchat_docs": "Documentación de VRChat",
             "unity_manual": "Manual de Unity",
-            "save": "Save"
+            "save": "Guardar"
         },
         "config_json": {
             "header": "JSON de configuración de VRChat",
             "description1": "Estas opciones son sólo para usuarios avanzados.",
-            "description2": "Leave field empty to set as default, game restart required to apply settings.",
+            "description2": "Deje el campo vacío para establecerlo como predeterminado, es necesario reiniciar el juego para aplicar los ajustes.",
             "cache_size": "Tamaño del caché:",
             "refresh": "Refrescar",
             "delete_all_cache": "Eliminar toda la caché",
             "delete_cache": "Eliminar caché",
             "delete_old_cache": "Eliminar versiones antiguas de la caché",
-            "sweep_cache": "Sweep Cache",
+            "sweep_cache": "Caché de barrido",
             "max_cache_size": "Tamaño del cache máx. [GB] (min 20)",
             "cache_expiry_delay": "Expiración del Cache [dias] (min 30)",
             "cache_directory": "Ubicación de la carpeta de caché",
@@ -1065,12 +1065,12 @@
             "process_list": "Process List",
             "process_progress": "Progress:",
             "select_vrchat_group_placeholder": "Select Group",
-            "select_local_group_placeholder": "Select Group",
-            "import": "Import Worlds",
+            "select_local_group_placeholder": "Seleccionar grupo",
+            "import": "Importar mundos",
             "cancel": "Cancelar",
-            "import_progress": "Import Progress:",
+            "import_progress": "Progreso de importación:",
             "clear_table": "Limpiar tabla",
-            "errors": "Errors:",
+            "errors": "Errores:",
             "clear_errors": "Limpiar errores"
         },
         "avatar_export": {
@@ -1078,8 +1078,8 @@
         },
         "avatar_import": {
             "header": "Importar Avatares Favoritos",
-            "description": "Enter a list of avatar IDs",
-            "process_list": "Process List",
+            "description": "Introduzca una lista de IDs de avatares",
+            "process_list": "Lista de procesos",
             "process_progress": "Progreso:",
             "select_group_placeholder": "Seleccionar grupo",
             "import": "Importar avatares",
@@ -1090,12 +1090,12 @@
             "clear_errors": "Limpiar errores"
         },
         "friend_export": {
-            "header": "Friend Favorites Export"
+            "header": "Exportar amigos favoritos"
         },
         "friend_import": {
-            "header": "Friend Favorites Import",
-            "description": "Enter a list of user IDs",
-            "process_list": "Process List",
+            "header": "Importar amigos favoritos",
+            "description": "Introduzca una lista de IDs de usuarios",
+            "process_list": "Lista de procesos",
             "process_progress": "Progress:",
             "select_group_placeholder": "Select Group",
             "import": "Import Friends",
