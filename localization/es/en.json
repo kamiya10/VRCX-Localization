@@ -1063,8 +1063,8 @@
             "header": "Importar Mundos Favoritos",
             "description": "Enter a list of world IDs",
             "process_list": "Process List",
-            "process_progress": "Progress:",
-            "select_vrchat_group_placeholder": "Select Group",
+            "process_progress": "Progreso:",
+            "select_vrchat_group_placeholder": "Seleccionar grupo",
             "select_local_group_placeholder": "Seleccionar grupo",
             "import": "Importar mundos",
             "cancel": "Cancelar",
@@ -1126,13 +1126,13 @@
         "note_export": {
             "header": "Exportar notas",
             "description1": "This process will export all of your VRCX memos and import them into VRChat notes.",
-            "description2": "Be warned of the following limitations:",
-            "description3": "- API endpoint has a rate limit that requires a large delay between requests.",
-            "description4": "- Character limit of 256 per note.",
-            "description5": "- Swear words filter (no fun allowed).",
+            "description2": "Tenga en cuenta las siguientes limitaciones:",
+            "description3": "- El endpoint de la API tiene un ratelimit que requiere una gran espera entre solicitudes.",
+            "description4": "- El límite de caracteres es de 256 por nota.",
+            "description5": "- Filtro de palabras malsonantes (no se permite la diversión).",
             "description6": "- No hay nuevas líneas (se sustituirán por un espacio).",
             "description7": "- Esto sobrescribirá cualquier nota de VRChat existente para estos usuarios.",
-            "description8": "- Any edits made here wont affect VRCX memos but will affect VRChat notes once exported.",
+            "description8": "- Cualquier edición hecha aquí no afectará a las notas de VRCX pero afectará a las notas de VRChat una vez exportadas.",
             "refresh": "Refrescar",
             "export": "Exportar",
             "cancel": "Cancelar",
@@ -1141,26 +1141,26 @@
             "clear_errors": "Limpiar errores"
         },
         "edit_invite_message": {
-            "header": "Edit Invite Message",
+            "header": "Editar mensaje de invitación",
             "description": "1 hour edit cool down time.",
             "cancel": "Cancelar",
             "save": "Guardar"
         },
         "invite_message": {
-            "header": "Send Invite Message",
-            "confirmation": "Are you sure you want to send?",
+            "header": "Enviar mensaje de invitación",
+            "confirmation": "¿Estás seguro de que lo quieres enviar?",
             "cancel": "Cancelar",
             "refresh": "Refrescar",
             "confirm": "Confirmar"
         },
         "invite_request_message": {
-            "header": "Send Invite Request Message",
+            "header": "Enviar mensaje de invitación",
             "cancel": "Cancelar",
             "refresh": "Refrescar"
         },
         "invite_response_message": {
-            "header": "Send Invite Response Message",
-            "confirmation": "Are you sure you want to send?",
+            "header": "Enviar mensaje de respuesta",
+            "confirmation": "¿Estás seguro de que lo quieres enviar?",
             "cancel": "Cancelar",
             "refresh": "Refrescar",
             "confirm": "Confirmar"
@@ -1171,27 +1171,27 @@
             "refresh": "Refrescar"
         },
         "edit_send_invite_message": {
-            "header": "Edit and Send Invite Message",
+            "header": "Editar y enviar mensaje de invitación",
             "description": "1 hour edit cool down time.",
             "cancel": "Cancelar",
             "send": "Enviar"
         },
         "edit_send_invite_response_message": {
-            "header": "Edit and Send Invite Response Message",
+            "header": "Editar y enviar mensaje de respuesta",
             "description": "1 hour edit cool down time.",
             "cancel": "Cancelar",
             "send": "Enviar"
         },
         "gallery_icons": {
-            "header": "Photos, Icons and Emojis",
-            "description": "Recommended image size: 1200x900px (4:3)",
+            "header": "Fotos, iconos y emojis",
+            "description": "Tamaño recomendado de la imagen: 1200x900px (4:3)",
             "gallery": "Fotos",
             "icons": "Iconos",
             "emojis": "Emojis",
             "refresh": "Refrescar",
-            "upload": "Upload",
+            "upload": "Subir",
             "clear": "Limpiar",
-            "emoji_animation_styles": "Animation Styles"
+            "emoji_animation_styles": "Estilos de animación"
         },
         "change_content_image": {
             "avatar": "Cambiar imagen del avatar",
@@ -1218,7 +1218,7 @@
         "gallery_select": {
             "header": "Seleccionar imagen",
             "gallery": "Fotos",
-            "none": "None",
+            "none": "Nada",
             "refresh": "Refrescar",
             "upload": "Subir"
         },
@@ -1228,44 +1228,44 @@
         },
         "primary_password": {
             "header": "Contraseña principal requerida",
-            "password_placeholder": "Input new password",
-            "re_input_placeholder": "Re-input password",
+            "password_placeholder": "Introduzca una nueva contraseña",
+            "re_input_placeholder": "Repita la contraseña",
             "ok": "Aceptar"
         },
         "screenshot_metadata": {
             "header": "Metadatos de las Capturas de Pantalla",
-            "drag": "Drag and drop a screenshot here",
+            "drag": "Arrastra y suelta una captura de pantalla aquí",
             "browse": "Browse",
-            "last_screenshot": "Last Screenshot",
-            "copy_image": "Copy Image",
-            "open_folder": "Open Folder",
-            "upload": "Upload"
+            "last_screenshot": "Última captura",
+            "copy_image": "Copiar imagen",
+            "open_folder": "Abrir carpeta",
+            "upload": "Subir"
         },
         "registry_backup": {
-            "header": "VRC Registry Settings Backup",
-            "backup": "Backup",
-            "restore": "Restore",
-            "save_to_file": "Save to file",
+            "header": "Copia de seguridad del registro VRC",
+            "backup": "Copia de seguridad",
+            "restore": "Restaurar",
+            "save_to_file": "Guardar como archivo",
             "delete": "Eliminar",
-            "restore_from_file": "Restore from file",
-            "reset": "Reset",
-            "name": "Name",
-            "date": "Date",
-            "action": "Action",
-            "auto_backup": "Weekly Auto Backup",
-            "restore_prompt": "VRCX has noticed auto backup of VRC registry settings is enabled but this computer doesn't have any, if you'd like to restore from backup you can do so from here."
+            "restore_from_file": "Restaurar desde archivo",
+            "reset": "Restablecer",
+            "name": "Nombre",
+            "date": "Fecha",
+            "action": "Acción",
+            "auto_backup": "Copia de seguridad automático semanal",
+            "restore_prompt": "VRCX ha notado que se ha habilitado la copia automática de seguridad del registro VRC pero este equipo no tiene ninguno, si quieres restaurar desde la copia de seguridad, puedes hacerlo desde aquí."
         },
         "group_member_moderation": {
             "header": "Moderación de Miembros del Grupo",
-            "notes": "Manager Note",
-            "note_placeholder": "Click to add a note",
+            "notes": "Gestionar Nota",
+            "note_placeholder": "Haga clic para añadir una nota",
             "actions": "Acciones",
             "kick": "Expulsar",
             "ban": "Bloquear",
             "save_note": "Guardar nota",
             "group_members": "Miembros del grupo",
             "progress": "Progreso:",
-            "display_name": "Display Name",
+            "display_name": "Nombre a mostrar",
             "visibility": "Visibilidad",
             "avatar": "Avatar",
             "joined_at": "Se unió el",
@@ -1276,7 +1276,7 @@
             "cancel": "Cancelar",
             "choose_roles_placeholder": "Seleccionar roles",
             "selected_roles": "Roles seleccionados",
-            "remove_roles": "Remove Roles",
+            "remove_roles": "Quitar roles",
             "add_roles": "Añadir roles"
         }
     },
@@ -1292,13 +1292,13 @@
         "otp": {
             "header": "Autenticación de dos factores",
             "description": "Introduce uno de tus códigos de recuperación guardados",
-            "use_totp": "Use TOTP",
-            "verify": "Verify",
-            "input_placeholder": "Code",
-            "input_error": "Invalid Code"
+            "use_totp": "Usar TOTP",
+            "verify": "Verificar",
+            "input_placeholder": "Código",
+            "input_error": "Código inválido"
         },
         "email_otp": {
-            "header": "Two-factor Authentication",
+            "header": "Autenticación de dos factores",
             "description": "Enter a numeric code that was sent to your email",
             "resend": "Resend Email",
             "verify": "Verify",
@@ -1541,7 +1541,7 @@
         "moderation": {
             "date": "Fecha",
             "type": "Tipo",
-            "source": "Source",
+            "source": "Fuente",
             "target": "Objetivo",
             "action": "Acción"
         },
@@ -1561,7 +1561,7 @@
             "status": "Estado",
             "language": "Idioma",
             "bioLink": "Enlaces",
-            "joinCount": "Join Counts",
+            "joinCount": "Número de entradas",
             "timeTogether": "Tiempo Juntos",
             "lastSeen": "Última Vez Visto",
             "lastActivity": "Última Actividad",
