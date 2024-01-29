@@ -146,7 +146,7 @@
                 "export_friend_list": "Exportar lista de amigos",
                 "export_own_avatars": "Exportar Avatares propios",
                 "discord_names": "Nombres de Discord",
-                "export_notes": "Exportar Notas"
+                "export_notes": "Exportar notas"
             },
             "game_info": {
                 "header": "Información del juego",
@@ -290,10 +290,10 @@
                 },
                 "user_dialog": {
                     "header": "Diálogo del usuario",
-                    "hide_vrchat_notes": "Ocultar Notas de VRChat",
+                    "hide_vrchat_notes": "Ocultar notas de VRChat",
                     "hide_vrcx_memos": "Ocultar las notas de VRCX",
                     "export_vrcx_memos_into_vrchat_notes": "Exportar las notas de VRCX a las notas de VRChat",
-                    "export_notes": "Exportar Notas"
+                    "export_notes": "Exportar notas"
                 },
                 "user_colors": {
                     "header": "Colores de los Usuarios",
@@ -572,7 +572,7 @@
                 "instance_queuing_enabled": "Cola habilitada",
                 "instance_creator": "Creador de la instancia",
                 "note": "Nota",
-                "note_placeholder": "Haga clic aquí para añadir una nota",
+                "note_placeholder": "Haga clic para añadir una nota",
                 "memo": "Nota de VRCX",
                 "memo_placeholder": "Haga clic aquí para añadir una nota",
                 "avatar_info": "Información del avatar",
@@ -1130,7 +1130,7 @@
             "description3": "- El endpoint de la API tiene un ratelimit que requiere una gran espera entre solicitudes.",
             "description4": "- El límite de caracteres es de 256 por nota.",
             "description5": "- Filtro de palabras malsonantes (no se permite la diversión).",
-            "description6": "- No hay nuevas líneas (se sustituirán por un espacio).",
+            "description6": "- Sin saltos de línea (se sustituirán por un espacio).",
             "description7": "- Esto sobrescribirá cualquier nota de VRChat existente para estos usuarios.",
             "description8": "- Cualquier edición hecha aquí no afectará a las notas de VRCX pero afectará a las notas de VRChat una vez exportadas.",
             "refresh": "Refrescar",
@@ -1257,7 +1257,7 @@
         },
         "group_member_moderation": {
             "header": "Moderación de Miembros del Grupo",
-            "notes": "Gestionar Nota",
+            "notes": "Nota del administrador",
             "note_placeholder": "Haga clic para añadir una nota",
             "actions": "Acciones",
             "kick": "Expulsar",
