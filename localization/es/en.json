@@ -961,7 +961,7 @@
             "picture_directory": "Ubicación de la carpeta de imagenes",
             "fpv_steadycam_fov": "First-Person Steadycam FOV",
             "camera_resolution": "Resolución de la cámara",
-            "screenshot_resolution": "Resolucion de las capturas de pantalla",
+            "screenshot_resolution": "Resolución de las capturas de pantalla",
             "picture_sort_by_date": "Ordenar imágenes en carpetas por fecha",
             "disable_discord_presence": "Deshabilitar Discord Rich Presence",
             "vrchat_docs": "Documentación de VRChat",
@@ -1252,7 +1252,7 @@
             "name": "Nombre",
             "date": "Fecha",
             "action": "Acción",
-            "auto_backup": "Copia de seguridad automático semanal",
+            "auto_backup": "Copia de seguridad automática semanal",
             "restore_prompt": "VRCX ha notado que se ha habilitado la copia automática de seguridad del registro VRC pero este equipo no tiene ninguno, si quieres restaurar desde la copia de seguridad, puedes hacerlo desde aquí."
         },
         "group_member_moderation": {
