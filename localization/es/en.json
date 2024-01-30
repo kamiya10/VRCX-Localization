@@ -1025,7 +1025,7 @@
             "copy_tooltip": "Copiar al portapapeles",
             "start_as_desktop": "Iniciar como escritorio (Sin VR)",
             "info": "Información",
-            "invite": "Invite",
+            "invite": "Invitar",
             "launch": "Iniciar"
         },
         "export_friends_list": {
@@ -1300,8 +1300,8 @@
         "email_otp": {
             "header": "Autenticación de dos factores",
             "description": "Enter a numeric code that was sent to your email",
-            "resend": "Resend Email",
-            "verify": "Verify",
+            "resend": "Reenviar email",
+            "verify": "Verificar",
             "input_placeholder": "Código",
             "input_error": "Código inválido"
         },
@@ -1322,57 +1322,57 @@
         },
         "direct_access_user_id": {
             "header": "Acceso Directo",
-            "description": "Enter a User URL or ID (UUID)",
+            "description": "Introduzca una URL o ID (UUID) de un usuario",
             "cancel": "Cancelar",
             "ok": "Aceptar",
-            "input_error": "User URL/ID is required",
+            "input_error": "Se requiere una URL o ID de un usuario",
             "message": {
-                "error": "Invalid URL/ID"
+                "error": "URL o ID invalido"
             }
         },
         "direct_access_username": {
             "header": "Acceso Directo",
-            "description": "Enter a Username",
+            "description": "Introduzca un nombre de usuario",
             "cancel": "Cancelar",
             "ok": "Aceptar",
-            "input_error": "Username is required"
+            "input_error": "Se requiere un nombre de usuario"
         },
         "direct_access_world_id": {
             "header": "Acceso Directo",
-            "description": "Enter a World URL or ID (UUID)",
+            "description": "Introduzca una URL o ID (UUID) de un mundo",
             "cancel": "Cancelar",
             "ok": "Aceptar",
-            "input_error": "World URL/ID is required",
+            "input_error": "Se requiere una URL o ID de un mundo",
             "message": {
-                "error": "Invalid URL/ID"
+                "error": "URL o ID invalido"
             }
         },
         "direct_access_avatar_id": {
             "header": "Acceso Directo",
-            "description": "Enter a Avatar URL or ID (UUID)",
+            "description": "Introduzca una URL o ID (UUID) de un avatar",
             "cancel": "Cancelar",
             "ok": "Aceptar",
-            "input_error": "Avatar URL/ID is required",
+            "input_error": "Se requiere URL o ID del avatar",
             "message": {
-                "error": "Invalid URL/ID"
+                "error": "URL o ID invalido"
             }
         },
         "direct_access_omni": {
             "header": "Acceso Directo",
-            "description": "Enter a User/World/Instance/Avatar/Group URL or ID (UUID)",
+            "description": "Introduzca una URL o ID (UUID) de un Usuario/Mundo/Instancia/Avatar/Grupo",
             "cancel": "Cancelar",
             "ok": "Aceptar",
-            "input_error": "URL/ID is required",
+            "input_error": "Se requiere una URL o ID",
             "message": {
-                "error": "Invalid URL/ID"
+                "error": "URL o ID invalido"
             }
         },
         "notification_timeout": {
             "header": "Notification Timeout",
-            "description": "Enter amount of seconds",
+            "description": "Introduzca una cantidad de segundos",
             "cancel": "Cancelar",
             "ok": "Aceptar",
-            "input_error": "Valid number is required"
+            "input_error": "Se requiere un número válido"
         },
         "overlay_message_timeout": {
             "header": "Overlay Message Timeout",
@@ -1383,22 +1383,22 @@
         },
         "rename_avatar": {
             "header": "Renombrar Avatar",
-            "description": "Enter avatar name",
+            "description": "Introduce el nombre del avatar",
             "cancel": "Cancelar",
             "ok": "Aceptar",
-            "input_error": "Valid name is required",
+            "input_error": "Se requiere un nombre válido",
             "message": {
-                "success": "Avatar renamed"
+                "success": "Avatar renombrado"
             }
         },
         "change_avatar_description": {
             "header": "Cambiar Descripción",
-            "description": "Enter avatar description",
+            "description": "Introduzca la descripción del avatar",
             "cancel": "Cancelar",
             "ok": "Aceptar",
-            "input_error": "Valid description is required",
+            "input_error": "Se requiere una descripción valida",
             "message": {
-                "success": "Avatar description changed"
+                "success": "Descripción del avatar cambiada"
             }
         },
         "rename_world": {
@@ -1413,55 +1413,55 @@
         },
         "change_world_description": {
             "header": "Cambiar Descripción",
-            "description": "Enter world description",
+            "description": "Introduzca la descripción del mundo",
             "cancel": "Cancelar",
             "ok": "Aceptar",
-            "input_error": "Valid description is required",
+            "input_error": "Se requiere una descripción valida",
             "message": {
-                "success": "World description changed"
+                "success": "Descripción del mundo modificada"
             }
         },
         "change_world_capacity": {
-            "header": "Change Capacity",
-            "description": "Enter world maximum capacity (hard cap), Max: 80",
+            "header": "Cambiar capacidad",
+            "description": "Introduzca capacidad máxima del mundo (hard cap), Máx: 80",
             "cancel": "Cancelar",
             "ok": "Aceptar",
-            "input_error": "Valid number is required",
+            "input_error": "Se requiere un número válido",
             "message": {
-                "success": "World capacity changed"
+                "success": "Capacidad del mundo modificada"
             }
         },
         "change_world_recommended_capacity": {
-            "header": "Change Recommended Capacity",
-            "description": "Enter world recommended capacity (soft cap)",
+            "header": "Cambiar la capacidad recomendada",
+            "description": "Introduzca la capacidad recomendada del mundo (soft cap)",
             "cancel": "Cancelar",
             "ok": "Aceptar",
-            "input_error": "Valid number is required",
+            "input_error": "Se requiere un número válido",
             "message": {
-                "success": "World recommended capacity changed"
+                "success": "Capacidad recomendada del mundo modificada"
             }
         },
         "change_world_preview": {
-            "header": "Change YouTube Preview",
-            "description": "Enter world YouTube preview",
+            "header": "Cambiar la vista previa de YouTube",
+            "description": "Introduzca la vista previa de YouTube",
             "cancel": "Cancelar",
             "ok": "Aceptar",
-            "input_error": "Valid YouTube URL is required",
+            "input_error": "Se requiere una URL de YouTube válido",
             "message": {
-                "error": "Invalid YouTube URL",
-                "success": "World YouTube preview changed"
+                "error": "URL de YouTube no válido",
+                "success": "Vista previa de YouTube del mundo modificada"
             }
         },
         "change_table_size": {
             "header": "Tamaño Máximo de la Tabla",
-            "description": "Limit amount of entries loaded from database to UI pages, larger table sizes will impact RAM usage and performance (default: 1000, max: 10000)",
+            "description": "Limitar la cantidad de entradas cargadas desde la base de datos a las páginas de la interfaz de usuario, tamaños más grandes afectarán al uso y rendimiento de la RAM (por defecto: 1000, máx: 10000)",
             "cancel": "Cancelar",
             "save": "Guardar",
-            "input_error": "Valid number is required"
+            "input_error": "Se requiere un número válido"
         },
         "photon_lobby_timeout": {
             "header": "User Timeout Threshold",
-            "description": "Enter amount of seconds (default: 3)",
+            "description": "Introduzca una cantidad de segundos (por defecto: 3)",
             "cancel": "Cancelar",
             "ok": "Aceptar",
             "input_error": "Se requiere un número válido"
@@ -1518,7 +1518,7 @@
         },
         "playerList": {
             "avatar": "Avatar",
-            "timer": "Timer",
+            "timer": "Temporizador",
             "photonId": "ID de Photon",
             "icon": "Iconos",
             "platform": "Plataforma",
