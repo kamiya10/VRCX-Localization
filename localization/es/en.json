@@ -4,7 +4,7 @@
     "nav_tooltip": {
         "feed": "Actividad",
         "game_log": "Registro del juego",
-        "player_list": "Lista de Jugadores",
+        "player_list": "Lista de jugadores",
         "search": "Buscar",
         "favorites": "Favoritos",
         "friend_log": "Registro de amigos",
@@ -152,7 +152,7 @@
                 "header": "Información del Juego",
                 "online_users": "Usuarios en línea",
                 "user_online": "{count} usuarios en línea.",
-                "refresh": "Clic para actualizar"
+                "refresh": "Haga clic para actualizar"
             },
             "vrc_sdk_downloads": {
                 "header": "Descargas SDK de VRC"
@@ -190,7 +190,7 @@
                     "header": "General",
                     "version": "Versión",
                     "latest_app_version": "Última versión",
-                    "latest_app_version_refresh": "Clic para actualizar",
+                    "latest_app_version_refresh": "Haga clic para actualizar",
                     "repository_url": "URL del repositorio",
                     "support": "Soporte técnico"
                 },
@@ -565,7 +565,7 @@
                 "header": "Información",
                 "launch_invite_tooltip": "Iniciar/Invitar",
                 "self_invite_tooltip": "Invitarte a ti mismo",
-                "refresh_instance_info": "Actualizar información de instancia",
+                "refresh_instance_info": "Actualizar información de la instancia",
                 "instance_queue": "Cola:",
                 "instance_users": "Usuarios:",
                 "instance_game_version": "Versión del Juego:",
@@ -681,7 +681,7 @@
                 "private_count": "Privadas {count}",
                 "capacity_count": "Capacidad {count} ({max})",
                 "self_invite_tooltip": "Invitarte a ti mismo",
-                "refresh_instance_info": "Actualizar Información de la Instancia",
+                "refresh_instance_info": "Actualizar información de la instancia",
                 "instance_full": "lleno",
                 "instance_creator": "Creador de Instancia"
             },
