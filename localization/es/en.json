@@ -164,7 +164,7 @@
                 "world_instance": "Mundo/Instancia",
                 "avatar": "Avatar"
             },
-            "invite_messages": "Mensajes De Invitación",
+            "invite_messages": "Mensajes de Invitación",
             "invite_response_messages": "Mensajes de Respuesta a Invitaciones",
             "invite_request_messages": "Mensajes De Solicitud De Invitación",
             "invite_request_response_messages": "Mensaje de Respuesta a Solicitudes de Invitación",
@@ -396,7 +396,7 @@
                         "description": "Volver a la última instancia cuando VRChat bloquee"
                     },
                     "vrchat_quit_fix": {
-                        "header": "VRChat Quit Fix",
+                        "header": "Solución para salir de VRChat",
                         "description": "Forzar el cerrado de VRChat despues de salir del juego"
                     },
                     "auto_cache_management": {
@@ -554,7 +554,7 @@
                 "moderation_show_avatar": "Mostrar Avatar",
                 "moderation_enable_avatar_interaction": "Enable Avatar Interaction",
                 "moderation_disable_avatar_interaction": "Deshabilita las Interacciones con el Avatar",
-                "edit_status": "Social Status",
+                "edit_status": "Estatus social",
                 "edit_language": "Idioma",
                 "edit_bio": "Biografía",
                 "report_hacking": "Reportar por Hacking",
@@ -1166,7 +1166,7 @@
             "confirm": "Confirmar"
         },
         "invite_request_response_message": {
-            "header": "Send Invite Request Response Message",
+            "header": "Enviar mensaje de respuesta a la solicitud de invitación",
             "cancel": "Cancelar",
             "refresh": "Refrescar"
         },
