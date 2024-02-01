@@ -1048,7 +1048,7 @@
         "shared_feed_filters": {
             "notification": "Filtros de notificación",
             "wrist": "Filtros de Actividad en la muñeca",
-            "on": "On",
+            "on": "Activado",
             "off": "Desactivado",
             "favorite": "Favoritos",
             "friends": "Amigos",
@@ -1235,7 +1235,7 @@
         "screenshot_metadata": {
             "header": "Metadatos de las Capturas de Pantalla",
             "drag": "Arrastra y suelta una captura de pantalla aquí",
-            "browse": "Browse",
+            "browse": "Seleccionar",
             "last_screenshot": "Última captura de pantalla",
             "copy_image": "Copiar imagen",
             "open_folder": "Abrir carpeta",
