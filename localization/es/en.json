@@ -71,7 +71,7 @@
                 "remote": "Remoto",
                 "sort_name": "Ordenar por nombre",
                 "sort_update": "Ordenar por actualización",
-                "sort_created": "Ordenar por creación"
+                "sort_created": "Ordenar por fecha de creación"
             },
             "group": {
                 "header": "Grupos"
