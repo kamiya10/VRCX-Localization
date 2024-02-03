@@ -1004,8 +1004,8 @@
         },
         "download_history": {
             "header": "Historial de Descargas",
-            "queue": "Queue:",
-            "history": "History:",
+            "queue": "Cola:",
+            "history": "Historial:",
             "cancel_all": "Cancelar todo",
             "close": "Cerrar"
         },
@@ -1061,8 +1061,8 @@
         },
         "world_import": {
             "header": "Importar Mundos Favoritos",
-            "description": "Enter a list of world IDs",
-            "process_list": "Process List",
+            "description": "Introduzca una lista de IDs de mundos",
+            "process_list": "Lista de procesos",
             "process_progress": "Progreso:",
             "select_vrchat_group_placeholder": "Seleccionar grupo",
             "select_local_group_placeholder": "Seleccionar grupo",
@@ -1117,7 +1117,7 @@
         },
         "invite_to_group": {
             "header": "Invitar al Grupo",
-            "description": "Don't spam invite users, you'll get rate limited.",
+            "description": "No hagas spam invitando a usuarios, te limitarán la velocidad.",
             "choose_group_placeholder": "Elegir grupo",
             "groups": "Grupos",
             "choose_friends_placeholder": "Elegir amigos",
@@ -1142,7 +1142,7 @@
         },
         "edit_invite_message": {
             "header": "Editar Mensaje de Invitación",
-            "description": "1 hour edit cool down time.",
+            "description": "1 hora de enfriamiento.",
             "cancel": "Cancelar",
             "save": "Guardar"
         },
@@ -1172,13 +1172,13 @@
         },
         "edit_send_invite_message": {
             "header": "Editar y Enviar Mensaje de Invitación",
-            "description": "1 hour edit cool down time.",
+            "description": "1 hora de enfriamiento.",
             "cancel": "Cancelar",
             "send": "Enviar"
         },
         "edit_send_invite_response_message": {
             "header": "Editar y enviar mensaje de respuesta",
-            "description": "1 hour edit cool down time.",
+            "description": "1 hora de enfriamiento.",
             "cancel": "Cancelar",
             "send": "Enviar"
         },
