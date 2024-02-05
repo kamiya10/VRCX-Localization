@@ -44,7 +44,7 @@
                 "previous": "Anterior",
                 "search_placeholder": "Buscar",
                 "filter_placeholder": "Filtro",
-                "chatbox_blacklist": "Chatbox Blacklist",
+                "chatbox_blacklist": "Lista negra del chatbox",
                 "status_tooltip": "Estado de VRCX Companion"
             }
         },
@@ -93,7 +93,7 @@
                 "header": "Avatares"
             },
             "bulk_unfavorite_mode": "Eliminar amigos en masa",
-            "bulk_unfavorite_selection": "Bulk Unfavorite Selection",
+            "bulk_unfavorite_selection": "Quitar favoritos en masa",
             "refresh_tooltip": "Actualizar todos los favoritos",
             "export": "Exportar",
             "import": "Importar",
@@ -438,9 +438,9 @@
                     "cache_debug": {
                         "header": "Caché/Depuracion de Instancia de VRCX",
                         "udon_exception_logging": "Registrar excepciones de Udon",
-                        "gpu_fix": "SteamVR Overlay GPU Fix",
+                        "gpu_fix": "Solución de la GPU al overlay de SteamVR",
                         "gpu_fix_notice": "(requiere reiniciar)",
-                        "gpu_fix_warning": "Only enable this option if the SteamVR overlay isn't working and you have 2 GPUs",
+                        "gpu_fix_warning": "Activa esta opción sólo si el overlay de SteamVR no funciona y tienes 2 GPUs",
                         "disable_gamelog": "Deshabilitar el Registro del Juego",
                         "disable_gamelog_notice": "(probablemente romperá cosas)",
                         "user_cache": "Caché del usuario:",
@@ -466,22 +466,22 @@
                         "notification": "Notificaciones:",
                         "location": "Ubicación:",
                         "join_leave": "Uniones/Salidas:",
-                        "portal_spawn": "Portal Spawn:",
+                        "portal_spawn": "Portales:",
                         "video_play": "Reproducciones de vídeo:",
                         "event": "Eventos:"
                     }
                 },
                 "photon": {
-                    "header": "Photon Logging Overlay",
+                    "header": "Overlay de registros de Photon",
                     "event_hud": {
-                        "header": "Photon Event HUD",
+                        "header": "HUD de eventos de Photon",
                         "enable": "Habilitar",
                         "enable_tooltip": "Requiere que el overlay de SteamVR esté habilitado",
                         "filter": "Filtro",
                         "filter_favorites": "Favoritos",
                         "filter_friends": "Amigos",
                         "filter_everyone": "Todo el mundo",
-                        "message_timeout": "Message Timeout"
+                        "message_timeout": "Duración de los mensajes"
                     },
                     "timeout_hud": {
                         "header": "User Timeout HUD",
