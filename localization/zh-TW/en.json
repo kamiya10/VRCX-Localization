@@ -698,7 +698,7 @@
                 "author_tags": "作者標籤",
                 "players": "玩家人數",
                 "favorites": "收藏次數",
-                "visits": "總綁訪次數",
+                "visits": "總拜訪次數",
                 "capacity": "最大玩家上限",
                 "heat": "熱度",
                 "popularity": "熱門度",
@@ -710,7 +710,7 @@
                 "version": "版本",
                 "platform": "平台",
                 "last_visited": "上次拜訪",
-                "visit_count": "我綁訪次數",
+                "visit_count": "我拜訪次數",
                 "time_spent": "停留時長",
                 "accuracy_notice": "本地資料庫的資料可能不精確"
             },
