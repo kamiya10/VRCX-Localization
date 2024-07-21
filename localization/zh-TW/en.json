@@ -322,8 +322,7 @@
                         "when_to_display_outside_vr": "在 VR 外時",
                         "when_to_display_game_closed": "遊戲關閉時",
                         "when_to_display_game_running": "遊戲執行中",
-                        "when_to_display_always": "總是",
-                        "desktop_notification_while_afk": "Desktop Notifications While AFK"
+                        "when_to_display_always": "總是"
                     },
                     "text_to_speech": {
                         "header": "文字轉語音選項",
@@ -380,7 +379,6 @@
                     "header": "進階設定",
                     "launch_options": "啟動選項",
                     "screenshot_metadata": "螢幕截圖詳細資訊",
-                    "vrc_registry_backup": "VRC Registry Backup",
                     "common_folders": "遊戲資料夾",
                     "pending_offline": {
                         "header": "待確認離線",
@@ -425,8 +423,7 @@
                         "description_tooltip": "不幸的是，Windows 沒有本身支援查看 PNG 圖片的文字塊（很少有程式支援），但你可以使用命令列工具如 exiftool、PNG 文字塊檢查器或十六進位編輯器來查看。",
                         "enable": "啟用",
                         "modify_filename": "修改檔案名稱",
-                        "modify_filename_tooltip": "在拍攝遊戲截圖時，除了在照片的檔案元資料中儲存世界 ID 外，還會將世界 ID 加入到截圖的檔案名稱中。",
-                        "copy_to_clipboard": "Copy to Clipboard"
+                        "modify_filename_tooltip": "在拍攝遊戲截圖時，除了在照片的檔案元資料中儲存世界 ID 外，還會將世界 ID 加入到截圖的檔案名稱中。"
                     },
                     "app_launcher": {
                         "header": "應用程式啟動器",
@@ -698,7 +695,7 @@
                 "author_tags": "作者標籤",
                 "players": "玩家人數",
                 "favorites": "收藏次數",
-                "visits": "總拜訪次數",
+                "visits": "總綁訪次數",
                 "capacity": "最大玩家上限",
                 "heat": "熱度",
                 "popularity": "熱門度",
@@ -706,11 +703,10 @@
                 "last_updated": "最後更新",
                 "publication_date": "發佈日期",
                 "labs_publication_date": "實驗室發佈日期",
-                "time_in_labs": "Time In Labs:",
                 "version": "版本",
                 "platform": "平台",
                 "last_visited": "上次拜訪",
-                "visit_count": "我拜訪次數",
+                "visit_count": "我綁訪次數",
                 "time_spent": "停留時長",
                 "accuracy_notice": "本地資料庫的資料可能不精確"
             },
@@ -723,7 +719,6 @@
                 "public": "公開",
                 "private": "私人",
                 "fallback": "備用",
-                "impostor": "Impostor",
                 "future_proofing": "Future Proofing",
                 "cache": "快取",
                 "content_horror": "恐怖",
@@ -754,9 +749,7 @@
                 "change_content_tags": "變更世界內容標籤",
                 "change_image": "變更圖片",
                 "download_package": "下載 Unity Package",
-                "delete": "刪除",
-                "delete_impostor": "Delete Impostor",
-                "create_impostor": "Create Impostor"
+                "delete": "刪除"
             },
             "info": {
                 "header": "資訊",
@@ -807,7 +800,6 @@
                 "visibility_everyone": "能見度：所有人",
                 "visibility_friends": "能見度：好友",
                 "visibility_hidden": "能見度：隱藏",
-                "moderation_tools": "Moderation Tools",
                 "leave": "離開群組"
             },
             "info": {
@@ -831,13 +823,6 @@
                 "role_created_at": "創建時間：",
                 "role_permissions": "權限："
             },
-            "posts": {
-                "header": "Posts",
-                "visibility": "Visibility:",
-                "edited_by": "Edited by:",
-                "search_placeholder": "Search",
-                "posts_count": "Posts: "
-            },
             "members": {
                 "header": "成員",
                 "all_members": "所有成員",
@@ -856,9 +841,7 @@
                 },
                 "unsubscribed_announcements": "取消訂閱公告",
                 "visibility": "Visibility:",
-                "representing": "Representing",
-                "manager_notes": "Manager Notes:",
-                "search": "Search"
+                "representing": "Representing"
             },
             "gallery": {
                 "header": "畫廊"
@@ -876,8 +859,7 @@
             "header": "邀請玩家",
             "select_placeholder": "選擇好友",
             "invite_with_message": "邀請訊息",
-            "invite": "邀請",
-            "friends_in_instance": "Friends In Instance"
+            "invite": "邀請"
         },
         "social_status": {
             "header": "社交狀態",
@@ -1240,44 +1222,6 @@
             "copy_image": "複製圖片",
             "open_folder": "開啟資料夾",
             "upload": "上傳"
-        },
-        "registry_backup": {
-            "header": "VRC Registry Settings Backup",
-            "backup": "Backup",
-            "restore": "Restore",
-            "save_to_file": "Save to file",
-            "delete": "Delete",
-            "restore_from_file": "Restore from file",
-            "reset": "Reset",
-            "name": "Name",
-            "date": "Date",
-            "action": "Action",
-            "auto_backup": "Weekly Auto Backup",
-            "restore_prompt": "VRCX has noticed auto backup of VRC registry settings is enabled but this computer doesn't have any, if you'd like to restore from backup you can do so from here."
-        },
-        "group_member_moderation": {
-            "header": "Group Member Moderation",
-            "notes": "Manager Note",
-            "note_placeholder": "Click to add a note",
-            "actions": "Actions",
-            "kick": "Kick",
-            "ban": "Ban",
-            "save_note": "Save Note",
-            "group_members": "Group Members",
-            "progress": "Progress:",
-            "display_name": "Display Name",
-            "visibility": "Visibility",
-            "avatar": "Avatar",
-            "joined_at": "Joined At",
-            "note": "Note",
-            "roles": "Roles",
-            "selected_users": "Selected Users",
-            "select_all": "Select All",
-            "cancel": "Cancel",
-            "choose_roles_placeholder": "Choose Roles",
-            "selected_roles": "Selected Roles",
-            "remove_roles": "Remove Roles",
-            "add_roles": "Add Roles"
         }
     },
     "prompt": {
