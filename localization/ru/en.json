@@ -21,7 +21,7 @@
             "register": "Регистрация",
             "forgotPassword": "Забыли пароль?",
             "updater": "Updater",
-            "proxy_settings": "Proxy settings",
+            "proxy_settings": "Настройки прокси-сервера",
             "field": {
                 "username": "Имя пользователя или Email",
                 "password": "Пароль",
@@ -96,7 +96,7 @@
                 "header": "Аватары",
                 "search": "Поиск",
                 "vrchat_favorites": "Избранное VRChat",
-                "local_favorites": "Local Favorites (Requires VRC+)",
+                "local_favorites": "Локальное избранное (требуется VRC+)",
                 "new_group": "Новая Группа"
             },
             "bulk_unfavorite_mode": "Массовый режим удаления избранного",
@@ -219,7 +219,7 @@
                     "startup": "Запускать при старте Windows",
                     "minimized": "Запускать в свернутом режиме",
                     "tray": "Сворачивать в трей",
-                    "proxy": "Proxy settings"
+                    "proxy": "Настройки прокси-сервера"
                 },
                 "favorites": {
                     "header": "Избранные друзья",
@@ -382,7 +382,7 @@
                     "background_color": "Цвет фона",
                     "minimal_feed_icons": "Маленькие иконки в ленте",
                     "hide_vr_devices": "Скрыть VR устройства",
-                    "show_cpu_usage": "Show CPU Usage",
+                    "show_cpu_usage": "Показывать нагрузку ЦП",
                     "hide_game_uptime": "Скрыть время игры",
                     "show_pc_uptime": "Показывать аптайм ПК",
                     "wrist_feed_filters": "Фильтры ленты на запястье"
@@ -425,8 +425,8 @@
                         "description": "Завершить процесс VRChat после выхода из игры"
                     },
                     "vrchat_osc_fix": {
-                        "header": "VRChat OSC Fix",
-                        "description": "Kill install process after exiting game"
+                        "header": "Исправить VRChat OSC",
+                        "description": "Завершить процесс установки после выхода из игры"
                     },
                     "auto_cache_management": {
                         "header": "Автоматически управлять кэшем при закрытии VRChat",
@@ -606,7 +606,7 @@
                 "instance_queue": "Очередь:",
                 "instance_users": "Пользователи:",
                 "instance_game_version": "Версия игры:",
-                "last_join": "Last Join:",
+                "last_join": "Последнее присоединение:",
                 "instance_queuing_enabled": "Очередь включена",
                 "instance_creator": "Создатель инстанса",
                 "note": "Заметка VRC",
@@ -922,7 +922,7 @@
             "header": "Выбрать группу",
             "vrchat_favorites": "Избранное VRChat",
             "local_favorites": "Локальное избранное",
-            "local_avatar_favorites": "Local Favorites (Requires VRC+)"
+            "local_avatar_favorites": "Локальное избранное (требуется VRC+)"
         },
         "invite": {
             "header": "Пригласить",
@@ -1326,8 +1326,8 @@
         },
         "group_member_moderation": {
             "header": "Модерация участников группы",
-            "filter_type": "Filter Type",
-            "select_type": "Select Type",
+            "filter_type": "Тип фильтра",
+            "select_type": "Выбрать тип",
             "search_placeholder": "Поиск",
             "members": "Участники",
             "bans": "Баны",
@@ -1616,11 +1616,11 @@
             "input_error": "Требуется корректное число"
         },
         "proxy_settings": {
-            "header": "Proxy Settings",
-            "description": "Enter proxy server address and port",
+            "header": "Настройки прокси",
+            "description": "Введите адрес прокси-сервера и порт",
             "placeholder": "127.0.0.1:8080",
             "close": "Закрыть",
-            "restart": "Restart"
+            "restart": "Перезапустить"
         }
     },
     "table": {
