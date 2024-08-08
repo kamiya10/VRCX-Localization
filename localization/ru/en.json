@@ -90,14 +90,14 @@
                 "search": "Поиск",
                 "vrchat_favorites": "Избранное VRChat",
                 "local_favorites": "Локальное избранное",
-                "new_group": "Новая Группа"
+                "new_group": "Новая группа"
             },
             "avatars": {
                 "header": "Аватары",
                 "search": "Поиск",
                 "vrchat_favorites": "Избранное VRChat",
                 "local_favorites": "Локальное избранное (требуется VRC+)",
-                "new_group": "Новая Группа"
+                "new_group": "Новая группа"
             },
             "bulk_unfavorite_mode": "Массовый режим удаления избранного",
             "bulk_unfavorite_selection": "Удалить выбранное",
@@ -149,7 +149,7 @@
                 "two_factor": "Двухфакторная аутентификация (2FA)",
                 "two_factor_enabled": "Включена",
                 "two_factor_disabled": "Выключено",
-                "v_bucks": "V-Баксы",
+                "v_bucks": "VRChat Кредиты",
                 "refresh": "Нажмите, чтобы обновить",
                 "logout": "Выйти",
                 "manage_gallery_icon": "Управление Фото/Иконки/Эмодзи",
@@ -161,7 +161,7 @@
             "game_info": {
                 "header": "Информация об игре",
                 "online_users": "Пользователей онлайн",
-                "user_online": "{count} пользователей онлайн.",
+                "user_online": "{count} пользователей онлайн",
                 "refresh": "Нажмите, чтобы обновить"
             },
             "vrc_sdk_downloads": {
@@ -237,8 +237,8 @@
                     "auto_state_change_off": "Выкл",
                     "auto_state_change_active_or_ask_me": "Спроси меня",
                     "auto_state_change_active_or_busy": "Занят",
-                    "auto_state_change_join_me_or_ask_me": "Присоединяйтесь к мне / Спросить меня",
-                    "auto_state_change_join_me_or_busy": "Присоединиться к мне / Занят",
+                    "auto_state_change_join_me_or_ask_me": "Присоединяйтесь ко мне / Спросить меня",
+                    "auto_state_change_join_me_or_busy": "Присоединиться ко мне / Занят",
                     "auto_state_change_ask_me_or_busy": "Спросить меня / Занят",
                     "auto_invite_request_accept": "Автоматическое принятие запросов на приглашение",
                     "auto_invite_request_accept_tooltip": "Автоматически принимать запросы на приглашение от избранных друзей",
@@ -268,7 +268,7 @@
                     "theme_mode_darkvanilla": "Dark Vanilla",
                     "theme_mode_pink": "Pink",
                     "theme_mode_material3": "Material 3",
-                    "zoom": "Зум",
+                    "zoom": "Масштаб",
                     "vrcplus_profile_icons": "Иконки профиля VRCPlus",
                     "disable_tooltips": "Отключить подсказки",
                     "disable_nicknames": "Отключить ники в заметках",
@@ -445,7 +445,7 @@
                         "header": "Youtube API",
                         "enable": "Включить",
                         "youtube_api_key": "API ключ YouTube",
-                        "enable_tooltip": "Получает названия видео для использования с gameLog и длительность для наложения прогресс-бара"
+                        "enable_tooltip": "Получать названия видео и его продолжительность для использования с журналом игры для наложения прогресс-бара"
                     },
                     "video_progress_pie": {
                         "header": "Наложение диаграммы прогресса для видео",
@@ -454,7 +454,7 @@
                         "dance_world_only": "Только поддерживаемый мир"
                     },
                     "screenshot_helper": {
-                        "header": "Помощник Скриншота",
+                        "header": "Помощник скриншота",
                         "description": "Будет храниться ID мира, имя мира и игроков, в метаданных файла, любых фотографий, которые вы делаете в игре.",
                         "description_tooltip": "К сожалению, Windows (за некоторыми исключениями) не поддерживает просмотр EXIF информации PNG, поэтому вы можете посмотреть ее с помощью инструмента командной строки, такого как EXIFTool, инспектора PNG или HEX-редактора.",
                         "enable": "Включить",
@@ -564,8 +564,8 @@
                 "vrchat_team": "Команда VRChat"
             },
             "actions": {
-                "favorite_tooltip": "Добавить в Избранное",
-                "unfavorite_tooltip": "Убрать из Избранного",
+                "favorite_tooltip": "Добавить в избранное",
+                "unfavorite_tooltip": "Убрать из избранного",
                 "refresh": "Обновить",
                 "invite": "Пригласить",
                 "invite_with_message": "Пригласить с сообщением",
@@ -582,8 +582,8 @@
                 "show_fallback_avatar": "Показать детали fallback аватара",
                 "show_previous_instances": "Показать предыдущие инстансы",
                 "show_previous_images": "Показать предыдущие изображения",
-                "moderation_block": "Заблокировать",
-                "moderation_unblock": "Разблокировать",
+                "moderation_block": "Забанить",
+                "moderation_unblock": "Разбанить",
                 "moderation_mute": "Заглушить",
                 "moderation_unmute": "Восстановить голос",
                 "moderation_hide_avatar": "Скрывать аватар",
@@ -594,7 +594,7 @@
                 "edit_language": "Язык",
                 "edit_bio": "Био",
                 "edit_pronouns": "Местоимение",
-                "report_hacking": "Зарепортить",
+                "report_hacking": "Пожаловаться",
                 "unfriend": "Удалить из друзей",
                 "logout": "Выйти"
             },
@@ -642,7 +642,7 @@
                 "instance_full": "заполнен",
                 "instance_closed": "закрыт",
                 "instance_hard_closed": "жёстко закрыт",
-                "close_instance": "Закрыть Инстанс"
+                "close_instance": "Закрыть инстанс"
             },
             "groups": {
                 "header": "Группы",
@@ -704,7 +704,7 @@
                 "refresh": "Обновить",
                 "new_instance": "Новый инстанс",
                 "make_home": "Сделать Домом",
-                "reset_home": "Сбросить Дом",
+                "reset_home": "Сбросить домашний мир",
                 "show_previous_instances": "Показать предыдущие инстансы",
                 "show_previous_images": "Показать предыдущие изображения",
                 "rename": "Переименовать",
@@ -737,7 +737,7 @@
                 "id_tooltip": "Копировать в буфер обмена",
                 "copy_id": "Скопировать ID",
                 "copy_url": "Скопировать URL",
-                "copy_name": "Скопировать Имя",
+                "copy_name": "Скопировать имя",
                 "youtube_preview": "Просмотр превью YouTube",
                 "author_tags": "Теги автора",
                 "players": "Игроки",
@@ -767,7 +767,7 @@
                 "public": "Публичный",
                 "private": "Приватный",
                 "fallback": "Резервный",
-                "impostor": "Импортер",
+                "impostor": "Импостор",
                 "future_proofing": "Перспективные решения",
                 "cache": "Кэш",
                 "content_horror": "Ужасы",
@@ -784,7 +784,7 @@
             "actions": {
                 "delete_cache_tooltip": "Удалить аватар из кэша",
                 "favorite_tooltip": "Избранное",
-                "unfavorite_tooltip": "Убрать из Избранного",
+                "unfavorite_tooltip": "Убрать из избранного",
                 "refresh": "Обновить",
                 "select": "Выбрать аватар",
                 "select_fallback": "Выбрать fallback аватар",
@@ -799,8 +799,8 @@
                 "change_image": "Изменить изображение",
                 "download_package": "Скачать пакет Unity",
                 "delete": "Удалить",
-                "delete_impostor": "Удалить Импостера",
-                "create_impostor": "Создать Импостера"
+                "delete_impostor": "Удалить импостора",
+                "create_impostor": "Создать импостора"
             },
             "info": {
                 "header": "Информация",
@@ -853,9 +853,9 @@
                 "visibility_hidden": "Видимость: Только я",
                 "create_post": "Создать объявление",
                 "moderation_tools": "Инструменты модерации",
-                "leave": "Покинуть Группу",
-                "block": "Заблокировать Группу",
-                "unblock": "Разблокирвоать Группу"
+                "leave": "Покинуть группу",
+                "block": "Заблокировать группу",
+                "unblock": "Разблокировать группу"
             },
             "info": {
                 "header": "Информация",
@@ -981,7 +981,7 @@
             "instance_id_placeholder": "Случайный",
             "instance_creator": "Создатель инстанса",
             "instance_creator_placeholder": "Выбрать пользователя",
-            "group_placeholder": "Выберите Группу",
+            "group_placeholder": "Выберите группу",
             "role_placeholder": "Выбрать роли",
             "group_id": "Группа",
             "location": "Местоположение",
@@ -1341,7 +1341,7 @@
             "actions": "Действия",
             "kick": "Кик",
             "ban": "Бан",
-            "unban": "Разбан",
+            "unban": "Разбанить",
             "save_note": "Сохранить заметку",
             "delete_sent_invite": "Удалить отправленное приглашение",
             "delete_blocked_requests": "Удаление заблокированных запросов",
@@ -1388,9 +1388,9 @@
         "boop_dialog": {
             "header": "Буп",
             "emoji_manager": "Менеджер эмодзи",
-            "select_emoji": "Выберите Эмодзи",
-            "my_emojis": "Мои Эмодзи",
-            "default_emojis": "Стандартные Эмодзи",
+            "select_emoji": "Выберите эмодзи",
+            "my_emojis": "Мои эмодзи",
+            "default_emojis": "Стандартные эмодзи",
             "cancel": "Отмена",
             "send": "Отправить"
         }
