@@ -20,7 +20,7 @@
             "login": "Вход",
             "register": "Регистрация",
             "forgotPassword": "Забыли пароль?",
-            "updater": "Updater",
+            "updater": "Обновление",
             "proxy_settings": "Настройки прокси-сервера",
             "field": {
                 "username": "Имя пользователя или Email",
@@ -382,7 +382,7 @@
                     "background_color": "Цвет фона",
                     "minimal_feed_icons": "Маленькие иконки в ленте",
                     "hide_vr_devices": "Скрыть VR устройства",
-                    "show_cpu_usage": "Показывать нагрузку ЦП",
+                    "show_cpu_usage": "Показывать потребление CPU",
                     "hide_game_uptime": "Скрыть время игры",
                     "show_pc_uptime": "Показывать аптайм ПК",
                     "wrist_feed_filters": "Фильтры ленты на запястье"
@@ -425,7 +425,7 @@
                         "description": "Завершить процесс VRChat после выхода из игры"
                     },
                     "vrchat_osc_fix": {
-                        "header": "Исправить VRChat OSC",
+                        "header": "Исправить OSC VRChat",
                         "description": "Завершить процесс установки после выхода из игры"
                     },
                     "auto_cache_management": {
@@ -640,7 +640,7 @@
                 "copy_display_name": "Скопировать имя",
                 "accuracy_notice": "Информация из локальной базы данных может быть неточной",
                 "instance_full": "заполнен",
-                "instance_closed": "закрытый",
+                "instance_closed": "закрыт",
                 "instance_hard_closed": "жёстко закрыт",
                 "close_instance": "Закрыть Инстанс"
             },
@@ -994,7 +994,7 @@
             "queueEnabled": "Очередь",
             "normal": "Обычный",
             "group": "Группа",
-            "legacy": "Легаси",
+            "legacy": "Устаревший",
             "roles": "Роли"
         },
         "launch_options": {
@@ -1256,7 +1256,7 @@
             "upload": "Загрузить",
             "clear": "Очистить",
             "emoji_animation_styles": "Стиль анимации",
-            "emoji_animation_type": "Анимированные Emoji",
+            "emoji_animation_type": "Анимированные эмодзи",
             "emoji_animation_fps": "FPS:",
             "emoji_animation_frame_count": "Количество кадров:",
             "emoji_loop_pingpong": "Зацикленный PingPong",
@@ -1377,7 +1377,7 @@
             "title": "Заголовок",
             "message": "Сообщение",
             "send_notification": "Отправить уведомление",
-            "post_visibility": "Пидемость обьявления",
+            "post_visibility": "Видемость обьявления",
             "visibility_public": "Публичные",
             "visibility_group": "Группа",
             "image": "Изображение",
@@ -1616,7 +1616,7 @@
             "input_error": "Требуется корректное число"
         },
         "proxy_settings": {
-            "header": "Настройки прокси",
+            "header": "Параметры прокси-сервера",
             "description": "Введите адрес прокси-сервера и порт",
             "placeholder": "127.0.0.1:8080",
             "close": "Закрыть",
