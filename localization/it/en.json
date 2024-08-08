@@ -93,7 +93,11 @@
                 "new_group": "New Group"
             },
             "avatars": {
-                "header": "Avatars"
+                "header": "Avatars",
+                "search": "Search",
+                "vrchat_favorites": "VRChat Favorites",
+                "local_favorites": "Local Favorites (Requires VRC+)",
+                "new_group": "New Group"
             },
             "bulk_unfavorite_mode": "Bulk Unfavorite Mode",
             "bulk_unfavorite_selection": "Bulk Unfavorite Selection",
@@ -108,7 +112,8 @@
             "delete_tooltip": "Delete",
             "unavailable_tooltip": "Unavailable",
             "private": "Private",
-            "sort_by": "Sort By"
+            "sort_by": "Sort By",
+            "select_avatar_tooltip": "Select Avatar"
         },
         "friend_log": {
             "filter_placeholder": "Filter",
@@ -211,7 +216,7 @@
                 },
                 "application": {
                     "header": "Application",
-                    "startup": "Start as Windows startup",
+                    "startup": "Start at Windows startup",
                     "minimized": "Start as minimized state",
                     "tray": "Close to tray",
                     "proxy": "Proxy settings"
@@ -419,6 +424,10 @@
                         "header": "VRChat Quit Fix",
                         "description": "Kill VRChat after exiting game"
                     },
+                    "vrchat_osc_fix": {
+                        "header": "VRChat OSC Fix",
+                        "description": "Kill install process after exiting game"
+                    },
                     "auto_cache_management": {
                         "header": "Automatically Manage Cache When Closing VRChat",
                         "description": "Auto delete old versions from cache"
@@ -546,7 +555,7 @@
                 "online": "Online",
                 "join_me": "Join Me",
                 "ask_me": "Ask Me",
-                "busy": "Do Not Disturb"
+                "busy": "Busy"
             },
             "previous_display_names": "Previous Display Names:",
             "pronouns": "Pronouns",
@@ -623,7 +632,7 @@
                 "booping": "Booping",
                 "avatar_cloning_allow": "Allowed",
                 "avatar_cloning_deny": "Deny",
-                "home_location": "Home Location",
+                "home_location": "Home World",
                 "id": "User ID",
                 "id_tooltip": "Copy to clipboard",
                 "copy_id": "Copy ID",
@@ -774,7 +783,7 @@
             },
             "actions": {
                 "delete_cache_tooltip": "Delete avatar from cache",
-                "favorite_tooltip": "Add to favorites",
+                "favorite_tooltip": "Favorites",
                 "unfavorite_tooltip": "Remove from favorites",
                 "refresh": "Refresh",
                 "select": "Select Avatar",
@@ -912,7 +921,8 @@
         "favorite": {
             "header": "Choose Group",
             "vrchat_favorites": "VRChat Favorites",
-            "local_favorites": "Local Favorites"
+            "local_favorites": "Local Favorites",
+            "local_avatar_favorites": "Local Favorites (Requires VRC+)"
         },
         "invite": {
             "header": "Invite",
