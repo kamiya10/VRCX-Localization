@@ -2,7 +2,7 @@
     "language": "Русский (ru)",
     "translator": "Ronner (Ronner231), like3ds, Sergey004",
     "nav_tooltip": {
-        "feed": "Лента новостей",
+        "feed": "Лента",
         "game_log": "Журнал игры",
         "player_list": "Список игроков",
         "search": "Поиск",
@@ -17,7 +17,7 @@
     "view": {
         "login": {
             "savedAccounts": "Сохраненные аккаунты",
-            "login": "Вход в систему",
+            "login": "Вход",
             "register": "Регистрация",
             "forgotPassword": "Забыли пароль?",
             "updater": "Updater",
@@ -93,7 +93,11 @@
                 "new_group": "Новая Группа"
             },
             "avatars": {
-                "header": "Аватары"
+                "header": "Аватары",
+                "search": "Поиск",
+                "vrchat_favorites": "Избранное VRChat",
+                "local_favorites": "Local Favorites (Requires VRC+)",
+                "new_group": "Новая Группа"
             },
             "bulk_unfavorite_mode": "Массовый режим удаления избранного",
             "bulk_unfavorite_selection": "Удалить выбранное",
@@ -107,8 +111,9 @@
             "clear_tooltip": "Удалить",
             "delete_tooltip": "Удалить",
             "unavailable_tooltip": "Недоступен",
-            "private": "Приватные",
-            "sort_by": "Сортировать по"
+            "private": "Приватный",
+            "sort_by": "Сортировать по",
+            "select_avatar_tooltip": "Выбрать аватар"
         },
         "friend_log": {
             "filter_placeholder": "Фильтр",
@@ -291,7 +296,7 @@
                         "sort_by_status": "Сортировать по статусу",
                         "sort_gps_to_top": "Сортировать GPS сверху",
                         "sort_gps_to_top_notice": "(Только онлайн)",
-                        "sort_favorite_by": "Сортировать избранное по",
+                        "sort_favorite_by": "Сортировать избранные по",
                         "sort_favorite_by_alphabet": "алфавиту",
                         "sort_favorite_by_online_time": "онлайн",
                         "sort_online_by": "Сортировать онлайн по",
@@ -311,7 +316,7 @@
                     "hide_vrchat_notes": "Скрыть заметки VRChat",
                     "hide_vrcx_memos": "Скрыть заметки VRCX",
                     "export_vrcx_memos_into_vrchat_notes": "Экспортировать заметки VRCX в заметки VRChat",
-                    "export_notes": "Экспорт заметок"
+                    "export_notes": "Экспортировать заметки"
                 },
                 "user_colors": {
                     "header": "Пользовательские цвета",
@@ -418,6 +423,10 @@
                     "vrchat_quit_fix": {
                         "header": "Исправить остановку процесса VRChat",
                         "description": "Завершить процесс VRChat после выхода из игры"
+                    },
+                    "vrchat_osc_fix": {
+                        "header": "VRChat OSC Fix",
+                        "description": "Kill install process after exiting game"
                     },
                     "auto_cache_management": {
                         "header": "Автоматически управлять кэшем при закрытии VRChat",
@@ -543,7 +552,7 @@
             "status": {
                 "active": "Активный",
                 "offline": "Офлайн",
-                "online": "Online",
+                "online": "Онлайн",
                 "join_me": "Присоединиться ко мне",
                 "ask_me": "Спросить меня",
                 "busy": "Занят"
@@ -564,7 +573,7 @@
                 "request_invite_with_message": "Запросить приглашение с сообщением",
                 "invite_to_group": "Пригласить в группу",
                 "send_boop": "Отрпвить Буп",
-                "manage_gallery_icon": "Управление Фото/Иконки/Эмодзи",
+                "manage_gallery_icon": "Настроить Фото/Иконки/Эмодзи",
                 "accept_friend_request": "Принять запрос в друзья",
                 "decline_friend_request": "Отклонить предложение дружбы",
                 "cancel_friend_request": "Отменить запрос в друзья",
@@ -666,7 +675,7 @@
                 "header": "Аватары",
                 "total_count": "Всего {count}",
                 "sort_by_name": "Сортировать по имени",
-                "sort_by_update": "Сортировать по дате",
+                "sort_by_update": "Сортировать по обновлению",
                 "all": "Все",
                 "public": "Публичные",
                 "private": "Приватные"
@@ -736,7 +745,7 @@
                 "visits": "Посещений",
                 "capacity": "Вместимость",
                 "heat": "Нагрев",
-                "popularity": "Популярности",
+                "popularity": "Популярность",
                 "created_at": "Дата и время создания",
                 "last_updated": "Последнее обновление",
                 "publication_date": "Дата публикации",
@@ -755,8 +764,8 @@
         },
         "avatar": {
             "tags": {
-                "public": "Публичные",
-                "private": "Приватные",
+                "public": "Публичный",
+                "private": "Приватный",
                 "fallback": "Резервный",
                 "impostor": "Импортер",
                 "future_proofing": "Перспективные решения",
@@ -774,7 +783,7 @@
             },
             "actions": {
                 "delete_cache_tooltip": "Удалить аватар из кэша",
-                "favorite_tooltip": "Добавить в Избранное",
+                "favorite_tooltip": "Избранное",
                 "unfavorite_tooltip": "Убрать из Избранного",
                 "refresh": "Обновить",
                 "select": "Выбрать аватар",
@@ -814,11 +823,11 @@
         "group": {
             "tags": {
                 "verified": "Проверен",
-                "public": "Публичные",
-                "private": "Приватные",
+                "public": "Публичная",
+                "private": "Приватная",
                 "open": "Открытая",
                 "request": "По запросу",
-                "invite": "Пригласить",
+                "invite": "Инвайт",
                 "closed": "Закрытая",
                 "joined": "В группе",
                 "banned": "Заблокирован",
@@ -844,7 +853,7 @@
                 "visibility_hidden": "Видимость: Только я",
                 "create_post": "Создать объявление",
                 "moderation_tools": "Инструменты модерации",
-                "leave": "Покинуть группу",
+                "leave": "Покинуть Группу",
                 "block": "Заблокировать Группу",
                 "unblock": "Разблокирвоать Группу"
             },
@@ -897,7 +906,7 @@
                     "users_with_no_role": "Пользователи без роли"
                 },
                 "unsubscribed_announcements": "Отписаться от объявлений",
-                "visibility": "Видемость:",
+                "visibility": "Видимость:",
                 "representing": "Установить как репрезентативную группу",
                 "manager_notes": "Заметки руководителя:",
                 "search": "Поиск"
@@ -912,7 +921,8 @@
         "favorite": {
             "header": "Выбрать группу",
             "vrchat_favorites": "Избранное VRChat",
-            "local_favorites": "Локальное избранное"
+            "local_favorites": "Локальное избранное",
+            "local_avatar_favorites": "Local Favorites (Requires VRC+)"
         },
         "invite": {
             "header": "Пригласить",
@@ -951,16 +961,16 @@
         "new_instance": {
             "header": "Новый инстанс",
             "access_type": "Тип доступа",
-            "access_type_public": "Публичные",
+            "access_type_public": "Публичный",
             "access_type_group": "Группа",
             "access_type_friend_plus": "Друзья+",
             "access_type_friend": "Друзья",
             "access_type_invite_plus": "Инвайт+",
-            "access_type_invite": "Пригласить",
+            "access_type_invite": "Инвайт",
             "group_access_type": "Доступ к группе",
             "group_access_type_members": "Участники",
             "group_access_type_plus": "Плюс",
-            "group_access_type_public": "Публичные",
+            "group_access_type_public": "Публичная",
             "region": "Регион",
             "region_usw": "США Запад",
             "region_use": "США Восток",
@@ -971,12 +981,12 @@
             "instance_id_placeholder": "Случайный",
             "instance_creator": "Создатель инстанса",
             "instance_creator_placeholder": "Выбрать пользователя",
-            "group_placeholder": "Выбрать группу",
+            "group_placeholder": "Выберите Группу",
             "role_placeholder": "Выбрать роли",
             "group_id": "Группа",
             "location": "Местоположение",
             "url": "URL",
-            "copy_url": "Скопировать URL",
+            "copy_url": "﻿Копировать ссылку",
             "self_invite": "Пригласить себя",
             "invite": "Пригласить",
             "launch": "Открыть",
@@ -1069,7 +1079,7 @@
             "install": "Установить"
         },
         "launch": {
-            "header": "Открыть",
+            "header": "Запустить",
             "url": "URL",
             "short_url": "Короткий URL",
             "short_url_notice": "Срок действия короткого URL истечет через заданный период времени",
@@ -1078,7 +1088,7 @@
             "start_as_desktop": "Запускать на рабочем столе (без VR)",
             "info": "Информация",
             "invite": "Пригласить",
-            "launch": "Открыть"
+            "launch": "Запустить"
         },
         "export_friends_list": {
             "header": "Экспорт списка друзей",
@@ -1093,7 +1103,7 @@
             "description": "Кликните загрузить отсутствующие записи во вкладке \"Список друзей\", чтобы найти список всех друзей"
         },
         "notification_position": {
-            "header": "Положение уведомлений",
+            "header": "Позиция уведомления",
             "description": "Выберите позицию уведомления.",
             "ok": "ОК"
         },
@@ -1170,7 +1180,7 @@
         "invite_to_group": {
             "header": "Пригласить в группу",
             "description": "Не спамьте приглашениями пользователей присоединиться к группе, вы получите ограничение.",
-            "choose_group_placeholder": "Выбрать группу",
+            "choose_group_placeholder": "Выберите Группу",
             "groups": "Группы",
             "choose_friends_placeholder": "Выбрать друзей",
             "selected_users": "Выбранные пользователи"
@@ -1200,7 +1210,7 @@
         },
         "invite_message": {
             "header": "Отправить пригласительное сообщение",
-            "confirmation": "Подтвердить отправку?",
+            "confirmation": "Вы уверены, что хотите отправить?",
             "select_image": "Выбрать изображение",
             "clear_selected_image": "Очистить выбранное изображение",
             "cancel": "Отмена",
@@ -1244,7 +1254,7 @@
             "emojis": "Эмодзи",
             "refresh": "Обновить",
             "upload": "Загрузить",
-            "clear": "Удалить",
+            "clear": "Очистить",
             "emoji_animation_styles": "Стиль анимации",
             "emoji_animation_type": "Анимированные Emoji",
             "emoji_animation_fps": "FPS:",
@@ -1327,7 +1337,7 @@
             "join_requests": "Заявки на присоединение",
             "blocked_requests": "Заблокированные запросы",
             "notes": "Земетки руководителя",
-            "note_placeholder": "Нажмите, чтобы добавить заметку",
+            "note_placeholder": "Нажмите для добавления заметки",
             "actions": "Действия",
             "kick": "Кик",
             "ban": "Бан",
@@ -1349,7 +1359,7 @@
             "type": "Тип",
             "description": "Описание",
             "data": "Данные",
-            "note": "Заметка VRC",
+            "note": "Заметка",
             "roles": "Роли",
             "user_id": "ID пользователя",
             "user_id_placeholder": "Введите ID пользователя(ей)",
@@ -1357,7 +1367,7 @@
             "selected_users": "Выбранные пользователи",
             "select_all": "Выбрать все",
             "cancel": "Отмена",
-            "choose_roles_placeholder": "Выбрать роли",
+            "choose_roles_placeholder": "Выбор ролей",
             "selected_roles": "Выбранные роли",
             "remove_roles": "Удалить роли",
             "add_roles": "Добавить роли"
@@ -1419,7 +1429,7 @@
             "description": "Введите новое название",
             "cancel": "Отмена",
             "change": "Изменить",
-            "input_placeholder": "Имя",
+            "input_placeholder": "Название",
             "input_error": "Необходимо ввести название",
             "message": {
                 "success": "Группа переименована"
@@ -1666,7 +1676,7 @@
             "action": "Действие"
         },
         "friendList": {
-            "no": "Нет.",
+            "no": "№",
             "avatar": "Аватар",
             "displayName": "Отображаемое имя",
             "rank": "Ранг",
@@ -1694,7 +1704,7 @@
             }
         },
         "social_status": {
-            "no": "Нет.",
+            "no": "№",
             "status": "Статус"
         },
         "download_history": {
@@ -1709,7 +1719,7 @@
             "name": "Имя",
             "author": "Автор",
             "status": "Статус",
-            "note": "Заметка VRC",
+            "note": "Заметка",
             "skip_export": "Пропустить экспорт",
             "action": "Действие"
         },
