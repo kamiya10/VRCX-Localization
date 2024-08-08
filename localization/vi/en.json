@@ -7,7 +7,7 @@
         "player_list": "Danh sách người chơi",
         "search": "Tìm kiếm",
         "favorites": "Yêu thích",
-        "friend_log": "Trữ tin bạn bè",
+        "friend_log": "Friend Log",
         "moderation": "Quản lý kiểm duyệt",
         "notification": "Thông báo",
         "friend_list": "Danh sách bạn bè",
@@ -17,9 +17,11 @@
     "view": {
         "login": {
             "savedAccounts": "Tài khoản đã lưu",
-            "login": "Đăng nhập",
+            "login": "Login",
             "register": "Đăng ký",
             "forgotPassword": "Quên mật khẩu?",
+            "updater": "Updater",
+            "proxy_settings": "Proxy settings",
             "field": {
                 "username": "Tên người dùng hoặc email",
                 "password": "Mật khẩu",
@@ -36,7 +38,7 @@
         },
         "game_log": {
             "filter_placeholder": "Lọc",
-            "search_placeholder": "Tìm Kiếm"
+            "search_placeholder": "Tìm kiếm"
         },
         "player_list": {
             "photon": {
@@ -55,7 +57,7 @@
                 "header": "Người chơi"
             },
             "world": {
-                "header": "Thế giới",
+                "header": "World",
                 "category": "Tìm kiếm lọc qua thể loại",
                 "community_lab": "Bao gồm community labs"
             },
@@ -85,6 +87,7 @@
             },
             "worlds": {
                 "header": "Worlds",
+                "search": "Tìm kiếm",
                 "vrchat_favorites": "Yêu thích lưu trên VRChat",
                 "local_favorites": "Yêu thích lưu trong máy",
                 "new_group": "Nhóm mới"
@@ -127,7 +130,7 @@
             "bulk_unfriend_selection": "Chọn loạt để xóa bạn bè",
             "load": "Tải thông tin thiếu",
             "load_tooltip": "Tải về",
-            "favorites_only_tooltip": "Lọc chỉ mỗi yêu thích",
+            "favorites_only_tooltip": "Lọc mỗi yêu thích",
             "search_placeholder": "Tìm kiếm",
             "filter_placeholder": "Lọc",
             "refresh_tooltip": "Làm mới",
@@ -141,6 +144,8 @@
                 "two_factor": "Xác thực 2 bưới (2FA)",
                 "two_factor_enabled": "Bật",
                 "two_factor_disabled": "Tắt",
+                "v_bucks": "V-Bucks",
+                "refresh": "Bấm để làm mới",
                 "logout": "Đăng xuất",
                 "manage_gallery_icon": "Quản lý Ảnh/Icons/Emojis",
                 "export_friend_list": "Xuất dữ liệu danh sách bạn bè",
@@ -208,11 +213,17 @@
                     "header": "Ứng dụng",
                     "startup": "Khởi động cùng với Windows",
                     "minimized": "Khởi động ở trạng thái thu nhỏ",
-                    "tray": "Đóng nhỏ vào khay hệ thống"
+                    "tray": "Đóng nhỏ vào khay hệ thống",
+                    "proxy": "Proxy settings"
                 },
-                "game_log": {
-                    "header": "Game Log",
-                    "resource_load": "Log dữ liệu Udon"
+                "favorites": {
+                    "header": "VRCX Favorite Friends",
+                    "group_placeholder": "Choose Groups"
+                },
+                "logging": {
+                    "header": "Logging",
+                    "resource_load": "Log Udon string/image load",
+                    "empty_avatar": "Log avatars in feed without names"
                 },
                 "automation": {
                     "header": "Tự động hóa",
@@ -223,7 +234,12 @@
                     "auto_state_change_active_or_busy": "Active / Busy",
                     "auto_state_change_join_me_or_ask_me": "Join Me / Ask Me",
                     "auto_state_change_join_me_or_busy": "Join Me / Busy",
-                    "auto_state_change_ask_me_or_busy": "Ask Me / Busy"
+                    "auto_state_change_ask_me_or_busy": "Ask Me / Busy",
+                    "auto_invite_request_accept": "Auto Accept Invite Requests",
+                    "auto_invite_request_accept_tooltip": "Automatically accept invite requests from favorite friends",
+                    "auto_invite_request_accept_off": "Tắt",
+                    "auto_invite_request_accept_favs": "All Favorites",
+                    "auto_invite_request_accept_selected_favs": "VRCX Favorites"
                 },
                 "legal_notice": {
                     "header": "Lưu ý pháp lý (Tiếng Anh)",
@@ -247,8 +263,10 @@
                     "theme_mode_darkvanilla": "Tối (Vanilla)",
                     "theme_mode_pink": "Hồng",
                     "theme_mode_material3": "Material 3",
+                    "zoom": "Zoom",
                     "vrcplus_profile_icons": "VRCPlus Profile Icons",
                     "disable_tooltips": "Tắt Tooltips",
+                    "disable_nicknames": "Disable Memo Nicknames",
                     "sort_favorite_by": "Sắp xếp mục yêu thích theo",
                     "sort_favorite_by_name": "Tên",
                     "sort_favorite_by_date": "Ngày",
@@ -274,16 +292,16 @@
                         "sort_gps_to_top": "Sắp xếp vị trí GPS lên đầu",
                         "sort_gps_to_top_notice": "(Chỉ bao gồm online trong thời gian)",
                         "sort_favorite_by": "Sắp xếp mục yêu thích theo",
-                        "sort_favorite_by_alphabet": "bảng chữ cái",
+                        "sort_favorite_by_alphabet": "Bảng chữ cái",
                         "sort_favorite_by_online_time": "online trong",
                         "sort_online_by": "Sắp xếp online theo",
-                        "sort_online_by_alphabet": "bản chữ cái",
+                        "sort_online_by_alphabet": "Bảng chữ cái",
                         "sort_online_by_online_time": "online trong",
                         "sort_active_by": "Sắp xếp active theo",
-                        "sort_active_by_alphabet": "bảng chữ cái",
+                        "sort_active_by_alphabet": "Bảng chữ cái",
                         "sort_active_by_online_time": "online trong",
                         "sort_offline_by": "Sắp xếp offline theo",
-                        "sort_offline_by_alphabet": "bảng chữ cái",
+                        "sort_offline_by_alphabet": "Bảng chữ cái",
                         "sort_offline_by_offline_time": "offline trong"
                     },
                     "width": "Chiều rộng"
@@ -293,7 +311,7 @@
                     "hide_vrchat_notes": "Dấu ghi chú VRChat",
                     "hide_vrcx_memos": "Dấu ghi chú VRCX",
                     "export_vrcx_memos_into_vrchat_notes": "Xuất dấu ghi chú VRCX vào VRChat Notes",
-                    "export_notes": "Xuất ghi chú"
+                    "export_notes": "Xuất dữ liệu ghi chú"
                 },
                 "user_colors": {
                     "header": "Màu của người dùng",
@@ -310,6 +328,8 @@
                         "overlay_notifications": "Thông báo Overlay",
                         "notification_position": "Vị trí thông báo",
                         "xsoverlay_notifications": "Thông báo XSOverlay",
+                        "ovrtoolkit_hud_notifications": "OVR Toolkit HUD Notifications",
+                        "ovrtoolkit_wrist_notifications": "OVR Toolkit Wrist Notifications",
                         "user_images": "Ảnh người chơi (chậm hơn)",
                         "notification_timeout": "Thời gian chờ thông báo tối đa (Timeout)"
                     },
@@ -322,7 +342,8 @@
                         "when_to_display_outside_vr": "Ngoài VR",
                         "when_to_display_game_closed": "Đóng trò chơi",
                         "when_to_display_game_running": "Khi trò chơi đang chạy",
-                        "when_to_display_always": "Luôn luôn"
+                        "when_to_display_always": "Luôn luôn",
+                        "desktop_notification_while_afk": "Desktop Notifications While AFK"
                     },
                     "text_to_speech": {
                         "header": "Lựa chọn Text-To-Speech (Chữ sang tiếng)",
@@ -356,7 +377,7 @@
                     "background_color": "Màu nền",
                     "minimal_feed_icons": "Minimal Feed Icons",
                     "hide_vr_devices": "Dấu các thiết bị VR",
-                    "hide_cpu_usage": "Dấu CPU Usage",
+                    "show_cpu_usage": "Show CPU Usage",
                     "hide_game_uptime": "Dấu thời gian chơi game",
                     "show_pc_uptime": "Hiện thời gian chạy PC",
                     "wrist_feed_filters": "Lọc Wrist Feed"
@@ -364,7 +385,7 @@
             },
             "discord_presence": {
                 "discord_presence": {
-                    "header": "Hiển thị Discord Presence",
+                    "header": "Hiển thị trên Discord",
                     "description": "* Chỉ hoạt động khi VRChat đang chạy.",
                     "enable": "Bật",
                     "enable_tooltip": "Khuyên nên tắt Rich Presence trong VRChat config.json để tránh bị giao động.",
@@ -379,6 +400,7 @@
                     "header": "Nâng cao",
                     "launch_options": "Lựa chọn khởi động",
                     "screenshot_metadata": "Screenshot Metadata",
+                    "vrc_registry_backup": "VRC Registry Backup",
                     "common_folders": "Thư mục chung",
                     "pending_offline": {
                         "header": "Đang chờ Offline",
@@ -401,15 +423,20 @@
                         "header": "Tự động quản lý cache khi đóng VRChat",
                         "description": "Tự động xóa phiên bản cũ trong cache"
                     },
+                    "disable_local_world_persistence": {
+                        "header": "Disable Local World Persistence",
+                        "description": "Disable localhost webserver (requires restart)"
+                    },
                     "remote_database": {
                         "header": "Dữa liệu avatar từ xa",
                         "enable": "Bật",
                         "avatar_database_provider": "Nguôn dữ liệu avatar"
                     },
                     "youtube_api": {
-                        "header": "Youtube API",
+                        "header": "YouTube API",
                         "enable": "Bật",
-                        "youtube_api_key": "Youtube API Key"
+                        "youtube_api_key": "YouTube API Key",
+                        "enable_tooltip": "Fetches video titles for use with gameLog and duration for overlay progress bar"
                     },
                     "video_progress_pie": {
                         "header": "Progress pie overlay cho video",
@@ -423,7 +450,8 @@
                         "description_tooltip": "Rất tiếc, windowskhông hỗ trợ xem PNG text chunks(một số có) native, nhưng nó vẫn có thể xem được sử dụng kiểu command-line tool như exiftool, png chunk inspector, hoặc hex editor.",
                         "enable": "Bật",
                         "modify_filename": "Thay đổi Filename",
-                        "modify_filename_tooltip": "Sẽ thêm thông tin World ID trong tên của filename, đằng trước file metadata."
+                        "modify_filename_tooltip": "Sẽ thêm thông tin World ID trong tên của filename, đằng trước file metadata.",
+                        "copy_to_clipboard": "Copy to Clipboard"
                     },
                     "app_launcher": {
                         "header": "khởi động ứng dụng",
@@ -453,7 +481,7 @@
                     },
                     "sqlite_table_size": {
                         "header": "SQLite Table Size",
-                        "refresh": "Refresh",
+                        "refresh": "Làm mới",
                         "gps": "GPS:",
                         "status": "Status:",
                         "bio": "Bio:",
@@ -473,21 +501,21 @@
                     "event_hud": {
                         "header": "Photon Event HUD",
                         "enable": "Bật",
-                        "enable_tooltip": "Yêu cầu bật SteamVR overlay",
+                        "enable_tooltip": "Yêu cầu phải bật SteamVR overlay",
                         "filter": "Lọc",
                         "filter_favorites": "Yêu thích",
-                        "filter_friends": "Ban bè",
+                        "filter_friends": "Bạn bè",
                         "filter_everyone": "Tấy cả",
                         "message_timeout": "Message Timeout"
                     },
                     "timeout_hud": {
                         "header": "User Timeout HUD",
                         "enable": "Bật",
-                        "enable_tooltip": "Yêu cầu bật SteamVR overlay",
+                        "enable_tooltip": "Yêu cầu phải bật SteamVR overlay",
                         "filter": "Lọc",
                         "filter_favorites": "Yêu thích",
-                        "filter_friends": "Ban bè",
-                        "filter_everyone": "Tất cả",
+                        "filter_friends": "Bạn bè",
+                        "filter_everyone": "Tấy cả",
                         "timeout_threshold": "Timeout Threshold"
                     }
                 }
@@ -521,6 +549,7 @@
                 "busy": "Do Not Disturb"
             },
             "previous_display_names": "Tên hiển thị trước đây:",
+            "pronouns": "Pronouns",
             "tags": {
                 "friend_no": "Bạn bè thứ {number}",
                 "vrchat_team": "VRChat Team"
@@ -534,6 +563,7 @@
                 "request_invite": "Yêu cầu lời mời",
                 "request_invite_with_message": "Yêu cầu lời mời với tin nhắn",
                 "invite_to_group": "Mời đến nhóm",
+                "send_boop": "Send Boop",
                 "manage_gallery_icon": "Quản lý Ảnh/Icons/Emojis",
                 "accept_friend_request": "Chấp nhận lời mời kết bạn",
                 "decline_friend_request": "Từ chối lời mời kết bạn",
@@ -554,9 +584,10 @@
                 "edit_status": "Social Status",
                 "edit_language": "Ngôn ngữ",
                 "edit_bio": "Bio",
+                "edit_pronouns": "Pronouns",
                 "report_hacking": "Báo cáo Hack",
                 "unfriend": "Bỏ bạn",
-                "logout": "Đang xuất"
+                "logout": "Đăng xuất"
             },
             "info": {
                 "header": "Thông tin",
@@ -566,6 +597,7 @@
                 "instance_queue": "Chờ:",
                 "instance_users": "Người chơi:",
                 "instance_game_version": "Phiên bản trò chơi:",
+                "last_join": "Last Join:",
                 "instance_queuing_enabled": "Bật chế độ chờ",
                 "instance_creator": "Tạo Instance",
                 "note": "Ghi chú",
@@ -579,6 +611,7 @@
                 "last_seen": "Lần cuối gặp",
                 "join_count": "Lần tham gia",
                 "time_together": "Thời gian cùng nhau",
+                "play_time": "Play Time",
                 "online_for": "Online trong",
                 "offline_for": "Offline trong",
                 "last_activity": "Lần cuối hoạt động",
@@ -587,30 +620,35 @@
                 "friended": "Đã kết bạn",
                 "unfriended": "Đã bỏ kết bạn",
                 "avatar_cloning": "Sao chép avatar",
+                "booping": "Booping",
                 "avatar_cloning_allow": "Cho phép",
                 "avatar_cloning_deny": "Từ chối",
                 "home_location": "Vị trí world nhà",
-                "id": "User ID",
+                "id": "ID người dùng",
                 "id_tooltip": "Copy to clipboard",
                 "copy_id": "Copy ID",
                 "copy_url": "Copy URL",
                 "copy_display_name": "Copy DisplayName",
                 "accuracy_notice": "Thông tin từ dữ liệu trong máy có thể không chính xác",
-                "instance_full": "đầu"
+                "instance_full": "đầu",
+                "instance_closed": "closed",
+                "instance_hard_closed": "hard closed",
+                "close_instance": "Close Instance"
             },
             "groups": {
                 "header": "Nhóm",
                 "total_count": "Tổng cộng {count}",
                 "own_groups": "Group riêng",
                 "mutual_groups": "Group chung",
-                "groups": "Group"
+                "groups": "Nhóm"
             },
             "worlds": {
                 "header": "Worlds",
-                "total_count": "Tổng {count}",
+                "total_count": "Tổng cộng {count}",
                 "sort_by": "Sắp xếp theo:",
                 "order_by": "Thứ tự theo:",
                 "sorting": {
+                    "name": "Name",
                     "updated": "Cập nhật",
                     "created": "Tạo lúc",
                     "favorites": "Yêu thích",
@@ -626,9 +664,9 @@
             },
             "avatars": {
                 "header": "Avatars",
-                "total_count": "Tổng {count}",
+                "total_count": "Tổng cộng {count}",
                 "sort_by_name": "Sắp xếp theo tên",
-                "sort_by_update": "Sắp xếp theo cập nhật",
+                "sort_by_update": "Sắp xếp theo lần cuối cập nhật",
                 "all": "Tất cả",
                 "public": "Public",
                 "private": "Private"
@@ -658,8 +696,8 @@
                 "new_instance": "Instance mới",
                 "make_home": "Làm Home",
                 "reset_home": "Cài lại Home (rết)",
-                "show_previous_instances": "Hiện Instances trước",
-                "show_previous_images": "Hiện ảnh trước",
+                "show_previous_instances": "Xem Instance trước đây",
+                "show_previous_images": "Xem Ảnh trước đây",
                 "rename": "Đổi tên",
                 "change_description": "Đổi mô tả",
                 "change_capacity": "Đổi số lượng người chứa",
@@ -679,17 +717,17 @@
                 "capacity_count": "Sức chứa {count} ({max})",
                 "self_invite_tooltip": "Tự mời bản thân",
                 "refresh_instance_info": "Làm mới thông tin Instance",
-                "instance_full": "đầy",
-                "instance_creator": "Người tạo Instance"
+                "instance_full": "đầu",
+                "instance_creator": "Tạo Instance"
             },
             "info": {
                 "header": "Thông tin",
                 "memo": "Ghi nhớ",
                 "memo_placeholder": "Bấm để tạo ghi nhớ",
                 "id": "World ID",
-                "id_tooltip": "Sao chếp đến clipboard",
-                "copy_id": "Sao chép ID",
-                "copy_url": "Sao chép URL",
+                "id_tooltip": "Copy to clipboard",
+                "copy_id": "Copy ID",
+                "copy_url": "Copy URL",
                 "copy_name": "Sao chép tên",
                 "youtube_preview": "Youtube Preview",
                 "author_tags": "Author Tags",
@@ -703,6 +741,7 @@
                 "last_updated": "Lần cập nhật cuối",
                 "publication_date": "Publication Date",
                 "labs_publication_date": "Labs Publication Date",
+                "time_in_labs": "Time In Labs:",
                 "version": "Phiên bản",
                 "platform": "Nền tảng",
                 "last_visited": "Lần cuối ghé thăm",
@@ -719,6 +758,7 @@
                 "public": "Public",
                 "private": "Private",
                 "fallback": "Fallback",
+                "impostor": "Impostor",
                 "future_proofing": "Future Proofing",
                 "cache": "Cache",
                 "content_horror": "Horror",
@@ -741,22 +781,24 @@
                 "select_fallback": "Chọn Fallback Avatar",
                 "block": "Chặn Avatar",
                 "unblock": "Bỏ chặn Avatar",
-                "show_previous_images": "Hiện ảnh trước",
+                "show_previous_images": "Xem Ảnh trước đây",
                 "make_public": "Làm Public",
                 "make_private": "Làm Private",
                 "rename": "Đổi tên",
                 "change_description": "Đổi mô tả",
                 "change_content_tags": "Change Content Tags",
                 "change_image": "Đổi ảnh",
-                "download_package": "Tải về Unity Package",
-                "delete": "Xóa"
+                "download_package": "Tải Unity Package",
+                "delete": "Xóa",
+                "delete_impostor": "Delete Impostor",
+                "create_impostor": "Create Impostor"
             },
             "info": {
                 "header": "Thông tin",
                 "id": "Avatar ID",
-                "id_tooltip": "Sao chép đến clipboard",
-                "copy_id": "Sao chép ID",
-                "copy_url": "Sao chép URL",
+                "id_tooltip": "Copy to clipboard",
+                "copy_id": "Copy ID",
+                "copy_url": "Copy URL",
                 "created_at": "Tạo lúc",
                 "last_updated": "Lần cập nhật cuối",
                 "version": "Phiên bản",
@@ -776,12 +818,12 @@
                 "private": "Private",
                 "open": "Open",
                 "request": "Request",
-                "invite": "Invite",
+                "invite": "Gửi lời mời",
                 "closed": "Closed",
                 "joined": "Joined",
                 "banned": "Banned",
                 "visible": "Visible",
-                "friends": "Friends",
+                "friends": "Bạn bè",
                 "hidden": "Hidden",
                 "subscribed": "Subscribed"
             },
@@ -796,17 +838,21 @@
                 "refresh": "Làm mới",
                 "unsubscribe": "Bỏ đăng ký thông báo",
                 "subscribe": "Đăng ký thông báo",
-                "invite_to_group": "Mời vào nhóm",
+                "invite_to_group": "Mời đến nhóm",
                 "visibility_everyone": "Hiển thị tới tất cả",
                 "visibility_friends": "Hiển thị tới bạn bè",
                 "visibility_hidden": "Dấu hiển thị",
-                "leave": "Rời khỏi nhóm Group"
+                "create_post": "Create Post",
+                "moderation_tools": "Moderation Tools",
+                "leave": "Rời khỏi nhóm Group",
+                "block": "Block Group",
+                "unblock": "Unblock Group"
             },
             "info": {
                 "header": "Thông tin",
                 "instances": "Instances",
                 "announcement": "Thông báo",
-                "instance_full": "đầy",
+                "instance_full": "đầu",
                 "rules": "Luật lệ",
                 "members": "Thành viên",
                 "created_at": "Tạo lúc",
@@ -823,6 +869,17 @@
                 "role_created_at": "Tạo lúc:",
                 "role_permissions": "Quyền:"
             },
+            "posts": {
+                "header": "Posts",
+                "visibility": "Visibility:",
+                "edited_at": "Edited At:",
+                "created_at": "Tạo lúc:",
+                "edit_tooltip": "Edit Post",
+                "delete_tooltip": "Delete Post",
+                "edited_by": "Edited by:",
+                "search_placeholder": "Tìm kiếm",
+                "posts_count": "Posts: "
+            },
             "members": {
                 "header": "Thành viên",
                 "all_members": "Tất cả thành viên",
@@ -836,12 +893,14 @@
                 },
                 "filter": "Lọc:",
                 "filters": {
-                    "everyone": "Tất cả",
+                    "everyone": "Tấy cả",
                     "users_with_no_role": "Không có vai trò"
                 },
                 "unsubscribed_announcements": "Đã bỏ đnagw ký thông báo",
-                "visibility": "Độ hiển thị:",
-                "representing": "Đại diện"
+                "visibility": "Visibility:",
+                "representing": "Đại diện",
+                "manager_notes": "Manager Notes:",
+                "search": "Tìm kiếm"
             },
             "gallery": {
                 "header": "Ảnh"
@@ -852,14 +911,18 @@
         },
         "favorite": {
             "header": "Chọn Group",
-            "vrchat_favorites": "Yêu thích lưu trong VRChat",
+            "vrchat_favorites": "Yêu thích lưu trên VRChat",
             "local_favorites": "Yêu thích lưu trong máy"
         },
         "invite": {
-            "header": "Mời",
+            "header": "Gửi lời mời",
             "select_placeholder": "Chọn bạn bè",
-            "invite_with_message": "Mời với tin nhắn",
-            "invite": "Mời"
+            "add_self": "Add Self",
+            "add_friends_in_instance": "Add Friends In Instance",
+            "add_favorite_friends": "Add Favorite Friends",
+            "invite_with_message": "Gửi lời mời với tin nhắn",
+            "invite": "Gửi lời mời",
+            "friends_in_instance": "Friends In Instance"
         },
         "social_status": {
             "header": "Social Status",
@@ -880,17 +943,22 @@
             "add_link": "Thêm đường dẫn link",
             "update": "Cập nhật"
         },
+        "pronouns": {
+            "header": "Pronouns",
+            "pronouns_placeholder": "Please input your pronouns",
+            "update": "Cập nhật"
+        },
         "new_instance": {
-            "header": "Tạo Instance",
+            "header": "Instance mới",
             "access_type": "Kiểu truy cập",
             "access_type_public": "Public",
-            "access_type_group": "Group",
+            "access_type_group": "Nhóm",
             "access_type_friend_plus": "Friends+",
-            "access_type_friend": "Friends",
+            "access_type_friend": "Bạn bè",
             "access_type_invite_plus": "Invite+",
-            "access_type_invite": "Invite",
+            "access_type_invite": "Gửi lời mời",
             "group_access_type": "Group Access",
-            "group_access_type_members": "Members",
+            "group_access_type_members": "Thành viên",
             "group_access_type_plus": "Plus",
             "group_access_type_public": "Public",
             "region": "Vùng",
@@ -901,21 +969,22 @@
             "world_id": "World ID",
             "instance_id": "Instance ID",
             "instance_id_placeholder": "Ngẫu nhiên",
-            "instance_creator": "Người tạo Instance",
+            "instance_creator": "Tạo Instance",
             "instance_creator_placeholder": "Chọn người chơi",
-            "group_placeholder": "Chọn nhóm Group",
+            "group_placeholder": "Chọn Group",
             "role_placeholder": "Chọn vai trò",
-            "group_id": "Group",
+            "group_id": "Nhóm",
             "location": "Vị trí",
             "url": "URL",
-            "copy_url": "Sao chép URL",
+            "copy_url": "Copy URL",
             "self_invite": "Tự mời chính mình",
-            "invite": "Mời",
+            "invite": "Gửi lời mời",
             "launch": "Khởi động",
             "create_instance": "Tạo Instance",
             "queueEnabled": "Chờ",
             "normal": "Bình thường",
-            "group": "Group",
+            "group": "Nhóm",
+            "legacy": "Legacy",
             "roles": "Vai trò"
         },
         "launch_options": {
@@ -929,7 +998,7 @@
         },
         "config_json": {
             "header": "VRChat Config JSON",
-            "description1": "Lựa chọn này chỉ dành cho người cần nâng cao.",
+            "description1": "Lựa chọn này chỉ dạh cho người cần nâng cao.",
             "description2": "Để trống để đặt mặc định, yêu cầu khởi động lại để áp dụng cài đặt.",
             "cache_size": "Cache Size:",
             "refresh": "Làm mới",
@@ -973,19 +1042,20 @@
         },
         "set_avatar_tags": {
             "header": "Set Avatar Tags",
-            "content_tags": "Content Warning Tags",
+            "content_tags": "Content Tags (Chia bằng dấu phẩy)",
             "content_horror": "Horror",
             "content_gore": "Gore",
             "content_violence": "Violence",
             "content_adult": "Adult",
             "content_sex": "Sexual",
+            "custom_tags_placeholder": "Custom tags",
             "select_all": "Select All",
             "select_none": "Select None",
-            "cancel": "Cancel",
-            "save": "Save"
+            "cancel": "Hủy",
+            "save": "Lưu"
         },
         "download_history": {
-            "header": "Tải xuống lịch sử",
+            "header": "Lịch sử tải về",
             "queue": "Chờ:",
             "history": "Lịch sử:",
             "cancel_all": "Hủy tất cả",
@@ -1004,19 +1074,19 @@
             "short_url": "URL ngắn",
             "short_url_notice": "URL ngắn sẽ hết hạn trong thời gian nhất định",
             "location": "Vị trí",
-            "copy_tooltip": "Sao chép vào clipboard",
+            "copy_tooltip": "Copy to clipboard",
             "start_as_desktop": "Khởi dộng trên Desktop (Không VR)",
             "info": "Thông tin",
-            "invite": "Mời",
+            "invite": "Gửi lời mời",
             "launch": "Khởi động"
         },
         "export_friends_list": {
-            "header": "Xuất danh sách bạn bè",
+            "header": "Xuất dữ liệu danh sách bạn bè",
             "csv": "CSV",
             "json": "JSON"
         },
         "export_own_avatars": {
-            "header": "Xuất Avatar của bạn"
+            "header": "Xuất dữ liệu avatar cá nhân"
         },
         "discord_names": {
             "header": "Tên Discord",
@@ -1034,9 +1104,9 @@
             "off": "Tắt",
             "favorite": "Yêu thích",
             "friends": "Bạn bè",
-            "everyone": "Tất cả",
-            "cancel": "Hủy",
-            "save": "Lưu"
+            "everyone": "Tấy cả",
+            "reset": "Reset",
+            "close": "Đóng"
         },
         "world_export": {
             "header": "Xuất World yêu thích"
@@ -1088,20 +1158,20 @@
             "clear_errors": "Xóa lỗi"
         },
         "avatar_database_provider": {
-            "header": "Nguồn Avatar Database",
+            "header": "Nguôn dữ liệu avatar",
             "add_provider": "Thêm Nguồn"
         },
         "chatbox_blacklist": {
-            "header": "Danh sách đen Chatbox",
+            "header": "Cho chatbox vào danh sách đen",
             "keyword_blacklist": "Từ khóa trong danh sách đen",
             "user_blacklist": "Người dùng trong danh sách đen",
             "add_item": "Thêm mục"
         },
         "invite_to_group": {
-            "header": "Mời vào Group",
+            "header": "Mời đến nhóm",
             "description": "Đừng spam mời người chơi vào group, hiện đang được biết là mời nhiều người vào nhóm quá sẽ bị ban.",
             "choose_group_placeholder": "Chọn Group",
-            "groups": "Groups",
+            "groups": "Nhóm",
             "choose_friends_placeholder": "Chọn bạn bè",
             "selected_users": "Đã chọn"
         },
@@ -1116,7 +1186,7 @@
             "description7": "- Làm cái này sẽ xóa ghi chú có sắn trên nhưng người lưu đó.",
             "description8": "- Tất cả thay đổi trên đây sẽ không tác động đến ghi chú trên VRCX nhưng sẽ ảnh hưởng trên VRChat sau khi xuất xong",
             "refresh": "Làm mới",
-            "export": "Xuất",
+            "export": "Xuất dữ liệu",
             "cancel": "Hủy",
             "progress": "Đang xử lý:",
             "errors": "Lỗi:",
@@ -1131,6 +1201,8 @@
         "invite_message": {
             "header": "Gửi yêu cầu lời mời",
             "confirmation": "Bạn có chắc muốn gửi không?",
+            "select_image": "Chọn ảnh",
+            "clear_selected_image": "Clear Selected Image",
             "cancel": "Hủy",
             "refresh": "Làm mới",
             "confirm": "Xác nhận"
@@ -1167,18 +1239,23 @@
         "gallery_icons": {
             "header": "Ảnh, Icon và Emoji",
             "description": "Kích thước ảnh khuyên dùng: 1200x900px",
-            "gallery": "Thư viện ảnh",
+            "gallery": "Ảnh",
             "icons": "Icons",
             "emojis": "Emojis",
             "refresh": "Làm mới",
             "upload": "Tải lên",
             "clear": "Xóa hết",
-            "emoji_animation_styles": "Kiểu Animation"
+            "emoji_animation_styles": "Kiểu Animation",
+            "emoji_animation_type": "Animated Emoji",
+            "emoji_animation_fps": "FPS:",
+            "emoji_animation_frame_count": "Frame Count:",
+            "emoji_loop_pingpong": "Loop PingPong",
+            "flipbook_info": "Select a 1024x1024 PNG spritesheet to use as an animated emoji, available frame grid sizes: 4, 16 or 64 (max FPS 64, max frames 64)"
         },
         "change_content_image": {
             "avatar": "Đổi ảnh Avatar",
             "world": "Đổi ảnh World",
-            "description": "Kích thước ảnh khuyên dùng: 1200x900px (4:3)",
+            "description": "Kích thước ảnh khuyên dùng: 1200x900px",
             "refresh": "Làm mới",
             "upload": "Tải lên ảnh"
         },
@@ -1191,7 +1268,7 @@
             "search_placeholder": "Tìm kiếm"
         },
         "change_log": {
-            "header": "Change Log",
+            "header": "Thông tin về thay đổi (log)",
             "description": "Nếu bạn thích thì hãy xem xét donate để phát triển tương lai VRCX",
             "close": "Đóng",
             "donate": "Donate",
@@ -1205,7 +1282,7 @@
             "upload": "Tải lên"
         },
         "open_source": {
-            "header": "Thông báo phần mềm mở (Tiếng Anh) - Open Source Software Notice",
+            "header": "Open Source Software Notice",
             "description": "VRCX is based on open source software. It was possible because of their contribution."
         },
         "primary_password": {
@@ -1222,6 +1299,90 @@
             "copy_image": "Sao chép ảnh",
             "open_folder": "Mở thư mục",
             "upload": "Tải lên"
+        },
+        "registry_backup": {
+            "header": "VRC Registry Settings Backup",
+            "backup": "Backup",
+            "restore": "Restore",
+            "save_to_file": "Save to file",
+            "delete": "Xóa",
+            "restore_from_file": "Restore from file",
+            "reset": "Reset",
+            "name": "Name",
+            "date": "Date",
+            "action": "Action",
+            "auto_backup": "Weekly Auto Backup",
+            "restore_prompt": "VRCX has noticed auto backup of VRC registry settings is enabled but this computer doesn't have any, if you'd like to restore from backup you can do so from here."
+        },
+        "group_member_moderation": {
+            "header": "Group Member Moderation",
+            "filter_type": "Filter Type",
+            "select_type": "Select Type",
+            "search_placeholder": "Tìm kiếm",
+            "members": "Thành viên",
+            "bans": "Bans",
+            "invites": "Invites",
+            "logs": "Logs",
+            "sent_invites": "Sent Invites",
+            "join_requests": "Join Requests",
+            "blocked_requests": "Blocked Requests",
+            "notes": "Manager Note",
+            "note_placeholder": "Bấm để tạo ghi chú",
+            "actions": "Actions",
+            "kick": "Kick",
+            "ban": "Ban",
+            "unban": "Unban",
+            "save_note": "Save Note",
+            "delete_sent_invite": "Delete Sent Invite",
+            "delete_blocked_requests": "Delete Blocked Requests",
+            "accept_join_requests": "Accept Join Requests",
+            "reject_join_requests": "Reject Join Requests",
+            "block_join_requests": "Block Join Requests",
+            "group_members": "Group Members",
+            "progress": "Đang xử lý:",
+            "display_name": "Display Name",
+            "visibility": "Visibility",
+            "avatar": "Avatar",
+            "joined_at": "Tham gia lúc",
+            "banned_at": "Banned At",
+            "created_at": "Tạo lúc",
+            "type": "Type",
+            "description": "Description",
+            "data": "Data",
+            "note": "Ghi chú",
+            "roles": "Vai trò",
+            "user_id": "ID người dùng",
+            "user_id_placeholder": "Enter User ID(s)",
+            "select_user": "Select User",
+            "selected_users": "Đã chọn",
+            "select_all": "Select All",
+            "cancel": "Hủy",
+            "choose_roles_placeholder": "Chọn vai trò",
+            "selected_roles": "Selected Roles",
+            "remove_roles": "Remove Roles",
+            "add_roles": "Add Roles"
+        },
+        "group_post_edit": {
+            "header": "Create/Edit Post",
+            "title": "Title",
+            "message": "Message",
+            "send_notification": "Send Notification",
+            "post_visibility": "Post Visibility",
+            "visibility_public": "Public",
+            "visibility_group": "Nhóm",
+            "image": "Image",
+            "cancel": "Hủy",
+            "create_post": "Create Post",
+            "edit_post": "Edit Post"
+        },
+        "boop_dialog": {
+            "header": "Boop",
+            "emoji_manager": "Emoji Manager",
+            "select_emoji": "Select Emoji",
+            "my_emojis": "My Emojis",
+            "default_emojis": "Default Emojis",
+            "cancel": "Hủy",
+            "send": "Gửi"
         }
     },
     "prompt": {
@@ -1258,14 +1419,14 @@
             "description": "Nhập tên mới",
             "cancel": "Hủy",
             "change": "Thay đổi",
-            "input_placeholder": "Tên",
+            "input_placeholder": "Name",
             "input_error": "Yêu cầu nhập tên",
             "message": {
                 "success": "Tên Group đã được thay đổi"
             }
         },
         "direct_access_user_id": {
-            "header": "Direct Access",
+            "header": "Truy cập thẳng",
             "description": "Vui lòng nhập User URL hoặc ID (UUID)",
             "cancel": "Hủy",
             "ok": "OK",
@@ -1275,14 +1436,14 @@
             }
         },
         "direct_access_username": {
-            "header": "Direct Access",
+            "header": "Truy cập thẳng",
             "description": "Vui lòng nhập username",
             "cancel": "Hủy",
             "ok": "OK",
             "input_error": "Yêu cầu nhập username"
         },
         "direct_access_world_id": {
-            "header": "Direct Access",
+            "header": "Truy cập thẳng",
             "description": "Vui lòng nhập World URL hoặc ID (UUID)",
             "cancel": "Hủy",
             "ok": "OK",
@@ -1292,7 +1453,7 @@
             }
         },
         "direct_access_avatar_id": {
-            "header": "Direct Access",
+            "header": "Truy cập thẳng",
             "description": "Vui lòng nhập Avatar URL hoặc ID (UUID)",
             "cancel": "Hủy",
             "ok": "OK",
@@ -1302,7 +1463,7 @@
             }
         },
         "direct_access_omni": {
-            "header": "Direct Access",
+            "header": "Truy cập thẳng",
             "description": "Vui lòng nhập User/World/Instance/Avatar/Group URL hoặc ID (UUID)",
             "cancel": "Hủy",
             "ok": "OK",
@@ -1312,7 +1473,7 @@
             }
         },
         "notification_timeout": {
-            "header": "Thông báo đã quá hạn (Timeout)",
+            "header": "Thời gian chờ thông báo tối đa (Timeout)",
             "description": "Nhập thời gian (giây)",
             "cancel": "Hủy",
             "ok": "OK",
@@ -1336,7 +1497,7 @@
             }
         },
         "change_avatar_description": {
-            "header": "Thay đổi mô tả",
+            "header": "Đổi mô tả",
             "description": "Nhập mô tả mới",
             "cancel": "Hủy",
             "ok": "OK",
@@ -1356,7 +1517,7 @@
             }
         },
         "change_world_description": {
-            "header": "Thay đổi mô tả world",
+            "header": "Đổi mô tả",
             "description": "Nhập mô tả mới",
             "cancel": "Hủy",
             "ok": "OK",
@@ -1366,11 +1527,11 @@
             }
         },
         "change_world_capacity": {
-            "header": "Thay đổi sức chứa World",
+            "header": "Đổi số lượng người chứa",
             "description": "Nhập sức chứa mới, tối đa: 40",
             "cancel": "Hủy",
             "ok": "OK",
-            "input_error": "Valid number is required",
+            "input_error": "Yêu cầu số hợp lệ",
             "message": {
                 "success": "World capacity changed"
             }
@@ -1378,9 +1539,9 @@
         "change_world_recommended_capacity": {
             "header": "Change Recommended Capacity",
             "description": "Enter world recommended capacity (soft cap)",
-            "cancel": "Cancel",
+            "cancel": "Hủy",
             "ok": "OK",
-            "input_error": "Valid number is required",
+            "input_error": "Yêu cầu số hợp lệ",
             "message": {
                 "success": "World recommended capacity changed"
             }
@@ -1401,7 +1562,7 @@
             "description": "Giới hạn số lượng thông tin trên bảng UI, bảng lớn sẽ sử dụng RAM và hiệu năng nhiều hơn (mặc định: 1000, tối đa: 10000)",
             "cancel": "Hủy",
             "save": "Lưu",
-            "input_error": "Valid number is required"
+            "input_error": "Yêu cầu số hợp lệ"
         },
         "photon_lobby_timeout": {
             "header": "User Timeout Threshold",
@@ -1418,11 +1579,11 @@
             "input_error": "Yêu cầu số hợp lệ"
         },
         "new_local_favorite_group": {
-            "header": "Group mới",
+            "header": "Nhóm mới",
             "description": "Vui lòng nhập tên group sẽ được yêu thích",
             "cancel": "Hủy",
             "ok": "OK",
-            "input_error": "Yêu cầu tên hợp lệ",
+            "input_error": "Yêu cầu nhập tên",
             "message": {
                 "error": "Tên Group đã tồn tại với tên {name}"
             }
@@ -1432,7 +1593,7 @@
             "description": "Vui lòng nhập tên group sẽ được yêu thích",
             "cancel": "Hủy",
             "save": "Lưu",
-            "input_error": "Yêu cầu tên hợp lệ",
+            "input_error": "Yêu cầu nhập tên",
             "message": {
                 "error": "Tên Group đã tồn tại với tên {name}"
             }
@@ -1443,20 +1604,27 @@
             "cancel": "Hủy",
             "save": "Lưu",
             "input_error": "Yêu cầu số hợp lệ"
+        },
+        "proxy_settings": {
+            "header": "Proxy Settings",
+            "description": "Enter proxy server address and port",
+            "placeholder": "127.0.0.1:8080",
+            "close": "Đóng",
+            "restart": "Restart"
         }
     },
     "table": {
         "feed": {
             "date": "Date",
             "type": "Type",
-            "user": "User",
+            "user": "Người chơi",
             "detail": "Detail"
         },
         "gameLog": {
             "date": "Date",
             "type": "Type",
             "icon": "Icons",
-            "user": "User",
+            "user": "Người chơi",
             "detail": "Detail",
             "action": "Action"
         },
@@ -1465,21 +1633,21 @@
             "timer": "Timer",
             "photonId": "Photon ID",
             "icon": "Icons",
-            "platform": "Platform",
+            "platform": "Nền tảng",
             "displayName": "Display Name",
             "status": "Status",
             "rank": "Rank",
-            "language": "Language",
+            "language": "Ngôn ngữ",
             "bioLink": "Bio Links",
             "date": "Date",
-            "user": "User",
+            "user": "Người chơi",
             "type": "Type",
             "detail": "Detail"
         },
         "friendLog": {
             "date": "Date",
             "type": "Type",
-            "user": "User",
+            "user": "Người chơi",
             "action": "Action"
         },
         "moderation": {
@@ -1492,7 +1660,7 @@
         "notification": {
             "date": "Date",
             "type": "Type",
-            "user": "User",
+            "user_group": "User/Group",
             "photo": "Photo",
             "message": "Message",
             "action": "Action"
@@ -1503,15 +1671,15 @@
             "displayName": "Display Name",
             "rank": "Rank",
             "status": "Status",
-            "language": "Language",
+            "language": "Ngôn ngữ",
             "bioLink": "Bio Links",
-            "joinCount": "Join Counts",
-            "timeTogether": "Time Together",
-            "lastSeen": "Last Seen",
-            "lastActivity": "Last Activity",
-            "lastLogin": "Last Login",
-            "dateJoined": "Date Joined",
-            "unfriend": "Unfriend"
+            "joinCount": "Lần tham gia",
+            "timeTogether": "Thời gian cùng nhau",
+            "lastSeen": "Lần cuối gặp",
+            "lastActivity": "Lần cuối hoạt động",
+            "lastLogin": "Lần cuối đăng nhập",
+            "dateJoined": "Ngày tham gia",
+            "unfriend": "Bỏ bạn"
         },
         "profile": {
             "invite_messages": {
@@ -1534,14 +1702,14 @@
             "name": "Name",
             "type": "Type",
             "status": "Status",
-            "cancel": "Cancel"
+            "cancel": "Hủy"
         },
         "import": {
             "image": "Image",
             "name": "Name",
             "author": "Author",
             "status": "Status",
-            "note": "Note",
+            "note": "Ghi chú",
             "skip_export": "Skip Export",
             "action": "Action"
         },
@@ -1550,7 +1718,7 @@
             "display_name": "Display Name",
             "world": "World",
             "instance_name": "Instance Name",
-            "instance_creator": "Instance Creator",
+            "instance_creator": "Tạo Instance",
             "time": "Time",
             "count": "Count",
             "action": "Action"
