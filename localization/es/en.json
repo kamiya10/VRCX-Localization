@@ -20,6 +20,8 @@
             "login": "Inicio de sesión",
             "register": "Registrarse",
             "forgotPassword": "¿Ha olvidado su contraseña?",
+            "updater": "Actualizador",
+            "proxy_settings": "Ajustes de proxy",
             "field": {
                 "username": "Usuario o Email",
                 "password": "Contraseña",
@@ -91,7 +93,11 @@
                 "new_group": "Nuevo Grupo"
             },
             "avatars": {
-                "header": "Avatares"
+                "header": "Avatares",
+                "search": "Buscar",
+                "vrchat_favorites": "Favoritos de VRChat",
+                "local_favorites": "Favoritos locales (Requiere VRC+)",
+                "new_group": "Nuevo Grupo"
             },
             "bulk_unfavorite_mode": "Eliminar favoritos en masa",
             "bulk_unfavorite_selection": "Eliminar favoritos seleccionados",
@@ -106,7 +112,8 @@
             "delete_tooltip": "Eliminar",
             "unavailable_tooltip": "No disponible",
             "private": "Privado",
-            "sort_by": "Ordenar por"
+            "sort_by": "Ordenar por",
+            "select_avatar_tooltip": "Seleccionar avatar"
         },
         "friend_log": {
             "filter_placeholder": "Filtro",
@@ -211,10 +218,11 @@
                     "header": "Aplicación",
                     "startup": "Iniciar al ejecutar Windows",
                     "minimized": "Iniciar minimizado",
-                    "tray": "Cerrar en la bandeja"
+                    "tray": "Cerrar en la bandeja",
+                    "proxy": "Ajustes de proxy"
                 },
                 "favorites": {
-                    "header": "Amigos Favoritos",
+                    "header": "Amigos favoritos de VRCX",
                     "group_placeholder": "Seleccionar grupos"
                 },
                 "logging": {
@@ -236,7 +244,7 @@
                     "auto_invite_request_accept_tooltip": "Acepta automáticamente las solicitudes de invitación de tus amigos favoritos",
                     "auto_invite_request_accept_off": "Desactivado",
                     "auto_invite_request_accept_favs": "Todos los favoritos",
-                    "auto_invite_request_accept_selected_favs": "Favoritos seleccionados"
+                    "auto_invite_request_accept_selected_favs": "Favoritos de VRCX"
                 },
                 "legal_notice": {
                     "header": "Aviso Legal",
@@ -416,6 +424,10 @@
                         "header": "Solución para salir de VRChat",
                         "description": "Forzar el cerrado de VRChat despues de salir del juego"
                     },
+                    "vrchat_osc_fix": {
+                        "header": "VRChat OSC Fix",
+                        "description": "Kill install process after exiting game"
+                    },
                     "auto_cache_management": {
                         "header": "Gestionar Caché Automáticamente al Cerrar VRChat",
                         "description": "Eliminar automáticamente versiones antiguas de la caché"
@@ -432,7 +444,7 @@
                     "youtube_api": {
                         "header": "API de YouTube",
                         "enable": "Habilitar",
-                        "youtube_api_key": "Clave de la API de YouTube",
+                        "youtube_api_key": "Clave del API de YouTube",
                         "enable_tooltip": "Obtiene títulos de vídeo para utilizarlos con gameLog y la duración de la barra de progreso superpuesta"
                     },
                     "video_progress_pie": {
@@ -579,7 +591,7 @@
                 "moderation_enable_avatar_interaction": "Habilitar interacciones de avatar",
                 "moderation_disable_avatar_interaction": "Deshabilita las Interacciones con el Avatar",
                 "edit_status": "Estatus social",
-                "edit_language": "Idiomas",
+                "edit_language": "Idioma",
                 "edit_bio": "Biografía",
                 "edit_pronouns": "Pronombres",
                 "report_hacking": "Reportar por Hacking",
@@ -594,6 +606,7 @@
                 "instance_queue": "Cola:",
                 "instance_users": "Usuarios:",
                 "instance_game_version": "Versión del Juego:",
+                "last_join": "Última unión:",
                 "instance_queuing_enabled": "Cola habilitada",
                 "instance_creator": "Creador de la instancia",
                 "note": "Nota",
@@ -770,7 +783,7 @@
             },
             "actions": {
                 "delete_cache_tooltip": "Eliminar avatar de la caché",
-                "favorite_tooltip": "Añadir a favoritos",
+                "favorite_tooltip": "Favoritos",
                 "unfavorite_tooltip": "Quitar de favoritos",
                 "refresh": "Refrescar",
                 "select": "Seleccionar avatar",
@@ -869,7 +882,7 @@
                 "header": "Publicaciónes",
                 "visibility": "Visibilidad:",
                 "edited_at": "Editado en:",
-                "created_at": "Creado en:",
+                "created_at": "Creado el:",
                 "edit_tooltip": "Editar publicación",
                 "delete_tooltip": "Eliminar publicación",
                 "edited_by": "Editado por:",
@@ -908,7 +921,8 @@
         "favorite": {
             "header": "Elegir Grupo",
             "vrchat_favorites": "Favoritos de VRChat",
-            "local_favorites": "Favoritos locales"
+            "local_favorites": "Favoritos locales",
+            "local_avatar_favorites": "Favoritos locales (Requiere VRC+)"
         },
         "invite": {
             "header": "Invitar",
@@ -927,7 +941,7 @@
             "update": "Actualizar"
         },
         "language": {
-            "header": "Idiomas",
+            "header": "Idioma",
             "add_language": "Añadir Idioma",
             "select_language": "Seleccionar idioma",
             "ok": "Aceptar",
@@ -1101,8 +1115,8 @@
             "favorite": "Favoritos",
             "friends": "Amigos",
             "everyone": "Todo el mundo",
-            "cancel": "Cancelar",
-            "save": "Guardar"
+            "reset": "Restablecer",
+            "close": "Cerrar"
         },
         "world_export": {
             "header": "Exportar Mundos Favoritos"
@@ -1197,7 +1211,7 @@
         "invite_message": {
             "header": "Enviar Mensaje de Invitación",
             "confirmation": "¿Estás seguro de que lo quieres enviar?",
-            "select_image": "Seleccionar imagen",
+            "select_image": "Seleccionar Imagen",
             "clear_selected_image": "Quitar imagen seleccionada",
             "cancel": "Cancelar",
             "refresh": "Refrescar",
@@ -1315,7 +1329,7 @@
             "filter_type": "Tipo de filtro",
             "select_type": "Seleccionar tipo",
             "search_placeholder": "Buscar",
-            "members": "Members",
+            "members": "Miembros",
             "bans": "Bans",
             "invites": "Invites",
             "logs": "Logs",
@@ -1341,35 +1355,35 @@
             "avatar": "Avatar",
             "joined_at": "Se unió el",
             "banned_at": "Banned At",
-            "created_at": "Created At",
-            "type": "Type",
+            "created_at": "Creado el",
+            "type": "Tipo",
             "description": "Description",
             "data": "Data",
             "note": "Nota",
             "roles": "Roles",
-            "user_id": "User ID",
+            "user_id": "ID de usuario",
             "user_id_placeholder": "Enter User ID(s)",
             "select_user": "Select User",
-            "selected_users": "Selected Users",
-            "select_all": "Select All",
-            "cancel": "Cancel",
-            "choose_roles_placeholder": "Choose Roles",
-            "selected_roles": "Selected Roles",
-            "remove_roles": "Remove Roles",
-            "add_roles": "Add Roles"
+            "selected_users": "Usuarios seleccionados",
+            "select_all": "Seleccionar todos",
+            "cancel": "Cancelar",
+            "choose_roles_placeholder": "Seleccionar roles",
+            "selected_roles": "Roles seleccionados",
+            "remove_roles": "Quitar roles",
+            "add_roles": "Añadir roles"
         },
         "group_post_edit": {
             "header": "Create/Edit Post",
             "title": "Title",
-            "message": "Message",
+            "message": "Mensaje",
             "send_notification": "Send Notification",
             "post_visibility": "Post Visibility",
-            "visibility_public": "Public",
-            "visibility_group": "Group",
-            "image": "Image",
-            "cancel": "Cancel",
-            "create_post": "Create Post",
-            "edit_post": "Edit Post"
+            "visibility_public": "Públicos",
+            "visibility_group": "Grupos",
+            "image": "Imagen",
+            "cancel": "Cancelar",
+            "create_post": "Crear publicación",
+            "edit_post": "Editar publicación"
         },
         "boop_dialog": {
             "header": "Boop",
@@ -1600,6 +1614,13 @@
             "cancel": "Cancelar",
             "save": "Guardar",
             "input_error": "Se requiere un número válido"
+        },
+        "proxy_settings": {
+            "header": "Ajustes de proxy",
+            "description": "Introduzca la dirección y el puerto del servidor proxy",
+            "placeholder": "127.0.0.1:8080",
+            "close": "Cerrar",
+            "restart": "Reiniciar"
         }
     },
     "table": {
@@ -1626,7 +1647,7 @@
             "displayName": "Mostrar nombre",
             "status": "Estado",
             "rank": "Rango",
-            "language": "Idiomas",
+            "language": "Idioma",
             "bioLink": "Enlaces",
             "date": "Fecha",
             "user": "Usuario",
@@ -1660,14 +1681,14 @@
             "displayName": "Mostrar nombre",
             "rank": "Rango",
             "status": "Estado",
-            "language": "Idiomas",
+            "language": "Idioma",
             "bioLink": "Enlaces",
-            "joinCount": "N.º de uniones",
-            "timeTogether": "Tiempo juntos",
-            "lastSeen": "Última vez visto",
-            "lastActivity": "Última actividad",
-            "lastLogin": "Último inicio de sesión",
-            "dateJoined": "Fecha de registro",
+            "joinCount": "Número de uniones",
+            "timeTogether": "Tiempo Juntos",
+            "lastSeen": "Última Vez Visto",
+            "lastActivity": "Última Actividad",
+            "lastLogin": "Último Inicio De Sesión",
+            "dateJoined": "Fecha De Registro",
             "unfriend": "Eliminar amigo"
         },
         "profile": {
