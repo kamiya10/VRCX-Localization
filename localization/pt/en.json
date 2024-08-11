@@ -2,12 +2,12 @@
     "language": "Portuguese (pt)",
     "translator": "-",
     "nav_tooltip": {
-        "feed": "Feed",
+        "feed": "Atividade",
         "game_log": "Registro do Jogo",
         "player_list": "Lista de Jogadores",
         "search": "Procurar",
         "favorites": "Favoritos",
-        "friend_log": "Friend Log",
+        "friend_log": "Registro do Amigo",
         "moderation": "Moderação",
         "notification": "Notificação",
         "friend_list": "Lista de amigos",
@@ -57,7 +57,7 @@
                 "header": "Usuário"
             },
             "world": {
-                "header": "World",
+                "header": "Mundo",
                 "category": "Procurar por categoria",
                 "community_lab": "Incluir laboratórios da comunidade"
             },
@@ -99,8 +99,8 @@
                 "local_favorites": "Favoritos Locais (Requer VRC+)",
                 "new_group": "Novo Grupo"
             },
-            "bulk_unfavorite_mode": "Modo não favorito em massa",
-            "bulk_unfavorite_selection": "Seleção não favorita em massa",
+            "bulk_unfavorite_mode": "Modo Desfazer Favorito em Massa",
+            "bulk_unfavorite_selection": "Seleção Desfazer Favorito em Massa",
             "refresh_tooltip": "Atualizar todos os favoritos",
             "export": "Exportar",
             "import": "Importar",
@@ -131,8 +131,8 @@
         },
         "friend_list": {
             "header": "Lista de amigos",
-            "bulk_unfriend": "Bulk Unfriend Mode",
-            "bulk_unfriend_selection": "Bulk Unfriend Selection",
+            "bulk_unfriend": "Modo Desfazer Amizade em Massa",
+            "bulk_unfriend_selection": "Seleção Desfazer Amizade em Massa",
             "load": "Carregar entradas ausentes",
             "load_tooltip": "Carregar",
             "favorites_only_tooltip": "Filtrar apenas favoritos",
@@ -178,7 +178,7 @@
             "invite_response_messages": "Mensagens de Resposta do Convite",
             "invite_request_messages": "Mensagens de Solicitação de Convite",
             "invite_request_response_messages": "Invite Request Response Messages",
-            "past_display_names": "Past Display Names",
+            "past_display_names": "Nome de Exibição Passado",
             "config_json": "Configuração JSON",
             "current_user_json": "Current User JSON",
             "feedback": "Feedback",
@@ -191,7 +191,7 @@
                 "general": "Geral",
                 "appearance": "Aparência",
                 "notifications": "Notificações",
-                "wrist_overlay": "Wrist Overlay",
+                "wrist_overlay": "Sobreposição de Pulso",
                 "discord_presence": "Presença do Discord",
                 "advanced": "Avançado"
             },
@@ -201,7 +201,7 @@
                     "version": "Versão",
                     "latest_app_version": "Versão mais recente",
                     "latest_app_version_refresh": "Clique para atualizar",
-                    "repository_url": "Repository URL",
+                    "repository_url": "URL do Repositório",
                     "support": "Suporte"
                 },
                 "vrcx_updater": {
@@ -269,8 +269,8 @@
                     "theme_mode_pink": "Rosa",
                     "theme_mode_material3": "Material 3",
                     "zoom": "Zoom",
-                    "vrcplus_profile_icons": "VRCPlus Profile Icons",
-                    "disable_tooltips": "Disable Tooltips",
+                    "vrcplus_profile_icons": "Ícones do Perfil do VRCPlus",
+                    "disable_tooltips": "Desativar Dicas",
                     "disable_nicknames": "Disable Memo Nicknames",
                     "sort_favorite_by": "Ordenar Favoritos por",
                     "sort_favorite_by_name": "nome",
@@ -364,7 +364,7 @@
             },
             "wrist_overlay": {
                 "steamvr_wrist_overlay": {
-                    "header": "SteamVR Wrist Overlay",
+                    "header": "Sobreposição de pulso SteamVR",
                     "description": "* It runs automatically when VRChat is running.",
                     "grip": "Grip: Vive or Other Controllers Grab, Oculus X/A Buttons",
                     "menu": "Menu: Vive Menu, Index B, Oculus Y/B Buttons",
@@ -372,19 +372,19 @@
                     "wrist_feed_overlay": "Wrist Feed Overlay",
                     "hide_private_worlds": "Ocultar Mundos Privados",
                     "start_overlay_with": "Inicial Sobreposição Com",
-                    "overlay_button": "Overlay Button",
+                    "overlay_button": "Botão de Sobreposição",
                     "overlay_button_grip": "Grip",
                     "overlay_button_menu": "Menu",
-                    "display_overlay_on": "Display Overlay On",
+                    "display_overlay_on": "Exibir Sobreposição Ligada",
                     "display_overlay_on_left": "Mão Esquerda",
                     "display_overlay_on_right": "Mão Direita",
                     "display_overlay_on_both": "Ambas as Mãos",
                     "background_color": "Cor de Fundo",
                     "minimal_feed_icons": "Minimal Feed Icons",
-                    "hide_vr_devices": "Hide VR Devices",
+                    "hide_vr_devices": "Ocultar Dispositivos VR",
                     "show_cpu_usage": "Mostrar Uso da CPU",
-                    "hide_game_uptime": "Hide Game Uptime",
-                    "show_pc_uptime": "Show PC Uptime",
+                    "hide_game_uptime": "Ocultar Tempo de Atividade no Jogo",
+                    "show_pc_uptime": "Mostrar Tempo de Atividade do PC",
                     "wrist_feed_filters": "Wrist Feed Filters"
                 }
             },
@@ -409,31 +409,31 @@
                     "common_folders": "Pastas Comuns",
                     "pending_offline": {
                         "header": "Pending Offline",
-                        "description": "Delay before marking user as offline (fixes false positives)",
+                        "description": "Atraso antes de marcar o usuário como offline (corrige falsos positivos)",
                         "set_delay": "Definir Atraso"
                     },
                     "primary_password": {
                         "header": "Senha Primaria",
-                        "description": "Encrypt password (disables auto login)"
+                        "description": "Criptografar senha (desativa o login automático)"
                     },
                     "relaunch_vrchat": {
-                        "header": "Relaunch VRChat after crashing",
-                        "description": "Rejoin last instance when VRChat crashes"
+                        "header": "Reiniciar o VRChat após dele travar",
+                        "description": "Reentrar na última instância quando o VRChat travar"
                     },
                     "vrchat_quit_fix": {
                         "header": "VRChat Quit Fix",
-                        "description": "Kill VRChat after exiting game"
+                        "description": "Elimine o VRChat após sair do jogo"
                     },
                     "vrchat_osc_fix": {
                         "header": "VRChat OSC Fix",
-                        "description": "Kill install process after exiting game"
+                        "description": "Eliminar o processo de instalação após sair do jogo"
                     },
                     "auto_cache_management": {
                         "header": "Automatically Manage Cache When Closing VRChat",
-                        "description": "Auto delete old versions from cache"
+                        "description": "Excluir automaticamente versões antigas do cache"
                     },
                     "disable_local_world_persistence": {
-                        "header": "Disable Local World Persistence",
+                        "header": "Desativar Persistência Local no Mundo",
                         "description": "Disable localhost webserver (requires restart)"
                     },
                     "remote_database": {
@@ -450,11 +450,11 @@
                     "video_progress_pie": {
                         "header": "Progress pie overlay for videos",
                         "enable": "Ativado",
-                        "enable_tooltip": "Requires SteamVR overlay to be enabled",
-                        "dance_world_only": "Supported world only"
+                        "enable_tooltip": "Requer sobreposição do SteamVR para ser ativado",
+                        "dance_world_only": "Apenas no mundo"
                     },
                     "screenshot_helper": {
-                        "header": "Screenshot Helper",
+                        "header": "Auxílio de Captura de Tela",
                         "description": "Will store the world ID, world name and players in instance inside the file metadata of any pictures you take in-game.",
                         "description_tooltip": "Unfortunately, windows doesn't support viewing PNG text chunks(few things do) natively, but you can view it using a command-line tool like exiftool, a png chunk inspector, or a hex editor.",
                         "enable": "Ativado",
@@ -474,9 +474,9 @@
                         "udon_exception_logging": "Udon Exception Logging",
                         "gpu_fix": "SteamVR Overlay GPU Fix",
                         "gpu_fix_notice": "(requer reinicialização)",
-                        "gpu_fix_warning": "Only enable this option if the SteamVR overlay isn't working and you have 2 GPUs",
-                        "disable_gamelog": "Disable GameLog",
-                        "disable_gamelog_notice": "(will likely break things)",
+                        "gpu_fix_warning": "Somente ative esta opção se a sobreposição de SteamVR não estiver funcionando e você tiver 2 GPUs",
+                        "disable_gamelog": "Desabilitar Registro De Jogo",
+                        "disable_gamelog_notice": "(provavelmente quebrará coisas)",
                         "user_cache": "Cache do Usuário:",
                         "world_cache": "Cache do Mundo:",
                         "avatar_cache": "Cache do Avatar:",
@@ -484,9 +484,9 @@
                         "avatar_name_cache": "Cache do Nome do Avatar:",
                         "instance_cache": "Cache de Instância:",
                         "clear_cache": "Limpar Cache",
-                        "auto_clear_cache": "Auto Clear Cache",
-                        "download_history": "Download History",
-                        "show_console": "Show Console"
+                        "auto_clear_cache": "Limpar Cache Automaticmente",
+                        "download_history": "Histórico de Download",
+                        "show_console": "Mostrar Console"
                     },
                     "sqlite_table_size": {
                         "header": "SQLite Table Size",
@@ -501,7 +501,7 @@
                         "location": "Localização:",
                         "join_leave": "Entrada/Saída:",
                         "portal_spawn": "Portal Spawn:",
-                        "video_play": "Video Play:",
+                        "video_play": "Reprodutor de Vídeo:",
                         "event": "Evento:"
                     }
                 },
@@ -510,17 +510,17 @@
                     "event_hud": {
                         "header": "Photon Event HUD",
                         "enable": "Ativado",
-                        "enable_tooltip": "Requires SteamVR overlay to be enabled",
+                        "enable_tooltip": "Requer sobreposição do SteamVR para ser ativado",
                         "filter": "Filtro",
                         "filter_favorites": "Favoritos",
                         "filter_friends": "Amigos",
                         "filter_everyone": "Todos",
-                        "message_timeout": "Message Timeout"
+                        "message_timeout": "Tempo Limite de Mensagem"
                     },
                     "timeout_hud": {
                         "header": "User Timeout HUD",
                         "enable": "Ativado",
-                        "enable_tooltip": "Requires SteamVR overlay to be enabled",
+                        "enable_tooltip": "Requer sobreposição do SteamVR para ser ativado",
                         "filter": "Filtro",
                         "filter_favorites": "Favoritos",
                         "filter_friends": "Amigos",
@@ -557,7 +557,7 @@
                 "ask_me": "Pergunte-me",
                 "busy": "Ocupado"
             },
-            "previous_display_names": "Previous Display Names:",
+            "previous_display_names": "Nomes de Exibição Anteriores:",
             "pronouns": "Pronomes",
             "tags": {
                 "friend_no": "Amigo Número {number}",
@@ -594,7 +594,7 @@
                 "edit_language": "Idioma",
                 "edit_bio": "Bio",
                 "edit_pronouns": "Pronomes",
-                "report_hacking": "Report For Hacking",
+                "report_hacking": "Reportar por Trapaça",
                 "unfriend": "Remover Amizade",
                 "logout": "Encerrar Sessão"
             },
@@ -627,7 +627,7 @@
                 "last_login": "Última Sessão",
                 "date_joined": "Data de Entrada",
                 "friended": "Amigos",
-                "unfriended": "Unfriended",
+                "unfriended": "Desfez Amizade",
                 "avatar_cloning": "Clonagem de Avatar",
                 "booping": "Booping",
                 "avatar_cloning_allow": "Permitido",
@@ -744,7 +744,7 @@
                 "favorites": "Favoritos",
                 "visits": "Visitas",
                 "capacity": "Capacidade",
-                "heat": "Heat",
+                "heat": "Em alta",
                 "popularity": "Popularidade",
                 "created_at": "Criado Em",
                 "last_updated": "Última Atualização",
@@ -1009,13 +1009,13 @@
         "config_json": {
             "header": "VRChat Config JSON",
             "description1": "Estas opções são apenas para usuários avançados.",
-            "description2": "Leave field empty to set as default, game restart required to apply settings.",
+            "description2": "Deixe o campo vazio para definir como padrão, é necessário reiniciar o jogo para aplicar as configurações.",
             "cache_size": "Tamanho do Cache:",
             "refresh": "Atualizar",
             "delete_all_cache": "Excluir todo o cache",
             "delete_cache": "Excluir Cache",
             "delete_old_cache": "Excluir versões antigas do cache",
-            "sweep_cache": "Sweep Cache",
+            "sweep_cache": "Varrer Cache",
             "max_cache_size": "Tamanho máximo do cache [GB] (20 min)",
             "cache_expiry_delay": "Cache Expirado [Dias] (30 min)",
             "cache_directory": "Localização da Pasta de Cache Personalizada",
@@ -1039,8 +1039,8 @@
         "set_world_tags": {
             "header": "Definir Etiquetas do Mundo",
             "avatar_scaling_disabled": "Desativar dimensionamento do avatar",
-            "enable_debugging": "Enable world debugging for others",
-            "author_tags": "Author Tags (comma separated)",
+            "enable_debugging": "Ativar depuração do mundo para outros",
+            "author_tags": "Etiqueta do Autor (separadas por vírgula)",
             "content_tags": "Etiquetas de Aviso de Conteúdo",
             "content_horror": "Terror",
             "content_gore": "Gore",
@@ -1065,7 +1065,7 @@
             "save": "Salvar"
         },
         "download_history": {
-            "header": "Download History",
+            "header": "Histórico de Download",
             "queue": "Fila:",
             "history": "Histórico:",
             "cancel_all": "Cancelar Todos",
@@ -1188,7 +1188,7 @@
         "note_export": {
             "header": "Exportar Nota",
             "description1": "This process will export all of your VRCX memos and import them into VRChat notes.",
-            "description2": "Be warned of the following limitations:",
+            "description2": "Esteja avisado das seguintes limitações:",
             "description3": "- API endpoint has a rate limit that requires a large delay between requests.",
             "description4": "- Limite de caracteres de 256 por nota.",
             "description5": "- Swear words filter (no fun allowed).",
@@ -1398,7 +1398,7 @@
     "prompt": {
         "totp": {
             "header": "Autenticação de Dois-Fatores",
-            "description": "Enter a numeric code from your authenticator app",
+            "description": "Insira um código numérico do seu aplicativo de autenticação",
             "use_otp": "Usar OTP",
             "verify": "Verificar",
             "input_placeholder": "Código",
@@ -1406,7 +1406,7 @@
         },
         "otp": {
             "header": "Autenticação de Dois-Fatores",
-            "description": "Enter one of your saved recovery codes",
+            "description": "Insira um dos seus códigos de recuperação salvos",
             "use_totp": "Usar TOTP",
             "verify": "Verificar",
             "input_placeholder": "Código",
@@ -1414,7 +1414,7 @@
         },
         "email_otp": {
             "header": "Autenticação de Dois-Fatores",
-            "description": "Enter a numeric code that was sent to your email",
+            "description": "Insira um código numérico que foi enviado para o seu email",
             "resend": "Reenviar Email",
             "verify": "Verificar",
             "input_placeholder": "Código",
@@ -1564,19 +1564,19 @@
             "input_error": "Validação da URL do YouTube é obrigatória",
             "message": {
                 "error": "URL do YouTube Inválida",
-                "success": "World YouTube preview changed"
+                "success": "Pré-visualização do YouTube no Mundo foi alterada"
             }
         },
         "change_table_size": {
             "header": "Max Table Size",
-            "description": "Limit amount of entries loaded from database to UI pages, larger table sizes will impact RAM usage and performance (default: 1000, max: 10000)",
+            "description": "Limitar quantidade de entradas carregadas do banco de dados para páginas da interface, tamanhos maiores de tabela terão impacto no uso e desempenho da memória RAM (padrão: 1000, max: 10000)",
             "cancel": "Cancelar",
             "save": "Salvar",
             "input_error": "Validação do número é obrigatório"
         },
         "photon_lobby_timeout": {
-            "header": "User Timeout Threshold",
-            "description": "Enter amount of seconds (default: 3)",
+            "header": "Tempo limite do usuário",
+            "description": "Insira o valor em segundos (padrão: 3)",
             "cancel": "Cancelar",
             "ok": "OK",
             "input_error": "Validação do número é obrigatório"
@@ -1590,7 +1590,7 @@
         },
         "new_local_favorite_group": {
             "header": "Novo Grupo",
-            "description": "Enter a world favorite group name",
+            "description": "Insira um nome do grupo favorito de mundo",
             "cancel": "Cancelar",
             "ok": "OK",
             "input_error": "Nome é obrigatório",
@@ -1600,7 +1600,7 @@
         },
         "local_favorite_group_rename": {
             "header": "Renomear Grupo",
-            "description": "Enter a world favorite group name",
+            "description": "Insira um nome do grupo favorito de mundo",
             "cancel": "Cancelar",
             "save": "Salvar",
             "input_error": "Nome é obrigatório",
@@ -1676,7 +1676,7 @@
             "action": "Ação"
         },
         "friendList": {
-            "no": "No.",
+            "no": "Não.",
             "avatar": "Avatar",
             "displayName": "Mostrar Nome",
             "rank": "Rank",
@@ -1695,7 +1695,7 @@
             "invite_messages": {
                 "slot": "Vaga",
                 "message": "Mensagem",
-                "cool_down": "Cool Down",
+                "cool_down": "Limitar",
                 "action": "Ação"
             },
             "previous_display_name": {
@@ -1704,7 +1704,7 @@
             }
         },
         "social_status": {
-            "no": "No.",
+            "no": "Não.",
             "status": "Status"
         },
         "download_history": {
@@ -1726,7 +1726,7 @@
         "previous_instances": {
             "date": "Data",
             "display_name": "Mostrar Nome",
-            "world": "World",
+            "world": "Mundo",
             "instance_name": "Nome da Instância",
             "instance_creator": "Criador da Instância",
             "time": "Tempo",
