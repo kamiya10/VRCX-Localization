@@ -170,7 +170,7 @@
             "direct_access": {
                 "header": "Közvetlen hozzáférés",
                 "username": "Felhasználónév",
-                "user_id": "User ID",
+                "user_id": "Azonosító",
                 "world_instance": "World/Instance",
                 "avatar": "Avatar"
             },
@@ -633,7 +633,7 @@
                 "avatar_cloning_allow": "Allowed",
                 "avatar_cloning_deny": "Deny",
                 "home_location": "Home World",
-                "id": "User ID",
+                "id": "Azonosító",
                 "id_tooltip": "Copy to clipboard",
                 "copy_id": "Copy ID",
                 "copy_url": "Copy URL",
@@ -1361,7 +1361,7 @@
             "data": "Data",
             "note": "Note",
             "roles": "Roles",
-            "user_id": "User ID",
+            "user_id": "Azonosító",
             "user_id_placeholder": "Enter User ID(s)",
             "select_user": "Select User",
             "selected_users": "Selected Users",
