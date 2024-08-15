@@ -59,11 +59,11 @@
             "world": {
                 "header": "World",
                 "category": "Keresés kategória szerint",
-                "community_lab": "Include community labs"
+                "community_lab": "Tartalmazza a közösségi laborokat"
             },
             "avatar": {
                 "header": "Avatar",
-                "search_provider": "Search Provider",
+                "search_provider": "Keresőszolgáltató",
                 "refresh_tooltip": "Saját avatarok frissítése",
                 "result_count": "{count} eredmény",
                 "all": "Összes",
@@ -96,19 +96,19 @@
                 "header": "Avatárok",
                 "search": "Keresés",
                 "vrchat_favorites": "VRChat-es kedvencek",
-                "local_favorites": "Local Favorites (Requires VRC+)",
+                "local_favorites": "Helyi kedvencek (VRC+ szükséges)",
                 "new_group": "Új csoport"
             },
-            "bulk_unfavorite_mode": "Bulk Unfavorite Mode",
-            "bulk_unfavorite_selection": "Bulk Unfavorite Selection",
-            "refresh_tooltip": "Refresh all favorites",
+            "bulk_unfavorite_mode": "Tömeges kedvenc-eltávolítás mód",
+            "bulk_unfavorite_selection": "Tömeges kedvenc-eltávolítás kijelölés",
+            "refresh_tooltip": "Összes kedvenc frissítése",
             "export": "Exportálás",
             "import": "Importálás",
-            "move_tooltip": "Move",
-            "unfavorite_tooltip": "Unfavorite",
-            "visibility_tooltip": "Change Visibility",
+            "move_tooltip": "Mozgatás",
+            "unfavorite_tooltip": "Törlés kedvencekből",
+            "visibility_tooltip": "Láthatóság módosítása",
             "rename_tooltip": "Átnevezés",
-            "clear_tooltip": "Clear",
+            "clear_tooltip": "Törlés",
             "delete_tooltip": "Törlés",
             "unavailable_tooltip": "Nem elérhető",
             "private": "Privát",
@@ -131,9 +131,9 @@
         },
         "friend_list": {
             "header": "Barátlista",
-            "bulk_unfriend": "Bulk Unfriend Mode",
-            "bulk_unfriend_selection": "Bulk Unfriend Selection",
-            "load": "Load missing entries",
+            "bulk_unfriend": "Tömeges barát-eltávolítás mód",
+            "bulk_unfriend_selection": "Tömeges barát-eltávolítás kijelölés",
+            "load": "Hiányzó bejegyzések betöltése",
             "load_tooltip": "Betöltés",
             "favorites_only_tooltip": "Csak a kedvencek szűrése",
             "search_placeholder": "Keresés",
@@ -145,22 +145,22 @@
         "profile": {
             "profile": {
                 "header": "Profil",
-                "last_activity": "Last Activity",
-                "two_factor": "Two-Factor Auth (2FA)",
-                "two_factor_enabled": "Enabled",
-                "two_factor_disabled": "Disabled",
-                "v_bucks": "V-Bucks",
+                "last_activity": "Utolsó aktivitás",
+                "two_factor": "Kétlépcsős hitelesítés (2FA)",
+                "two_factor_enabled": "Bekapcsolva",
+                "two_factor_disabled": "Kikapcsolva",
+                "v_bucks": "V-Buckok",
                 "refresh": "Kattints ide a frissítéshez",
                 "logout": "Kijelentkezés",
-                "manage_gallery_icon": "Manage Photos/Icons/Emojis",
-                "export_friend_list": "Export Friends List",
-                "export_own_avatars": "Export Own Avatars",
-                "discord_names": "Discord Names",
-                "export_notes": "Export Notes"
+                "manage_gallery_icon": "Képek/ikonok/emojik kezelése",
+                "export_friend_list": "Barátlista exportálása",
+                "export_own_avatars": "Saját avatarok exportálása",
+                "discord_names": "Discord nevek",
+                "export_notes": "Jegyzetek exportálása"
             },
             "game_info": {
-                "header": "Game Info",
-                "online_users": "Online Users",
+                "header": "Játékinformáció",
+                "online_users": "Online felhasználók",
                 "user_online": "{count} online felhasználó.",
                 "refresh": "Kattints ide a frissítéshez"
             },
@@ -316,7 +316,7 @@
                     "hide_vrchat_notes": "Hide VRChat Notes",
                     "hide_vrcx_memos": "Hide VRCX Memos",
                     "export_vrcx_memos_into_vrchat_notes": "Export VRCX Memos into VRChat notes",
-                    "export_notes": "Export Notes"
+                    "export_notes": "Jegyzetek exportálása"
                 },
                 "user_colors": {
                     "header": "Felhasználói színek",
@@ -573,7 +573,7 @@
                 "request_invite_with_message": "Request Invite With Message",
                 "invite_to_group": "Invite To Group",
                 "send_boop": "Send Boop",
-                "manage_gallery_icon": "Manage Photos/Icons/Emojis",
+                "manage_gallery_icon": "Képek/ikonok/emojik kezelése",
                 "accept_friend_request": "Accept Friend Request",
                 "decline_friend_request": "Decline Friend Request",
                 "cancel_friend_request": "Cancel Friend Request",
@@ -623,7 +623,7 @@
                 "play_time": "Play Time",
                 "online_for": "Online For",
                 "offline_for": "Offline For",
-                "last_activity": "Last Activity",
+                "last_activity": "Utolsó aktivitás",
                 "last_login": "Last Login",
                 "date_joined": "Date Joined",
                 "friended": "Friended",
@@ -922,7 +922,7 @@
             "header": "Choose Group",
             "vrchat_favorites": "VRChat-es kedvencek",
             "local_favorites": "Helyi kedvencek",
-            "local_avatar_favorites": "Local Favorites (Requires VRC+)"
+            "local_avatar_favorites": "Helyi kedvencek (VRC+ szükséges)"
         },
         "invite": {
             "header": "Invite",
@@ -1091,15 +1091,15 @@
             "launch": "Launch"
         },
         "export_friends_list": {
-            "header": "Export Friends List",
+            "header": "Barátlista exportálása",
             "csv": "CSV",
             "json": "JSON"
         },
         "export_own_avatars": {
-            "header": "Export Own Avatars"
+            "header": "Saját avatarok exportálása"
         },
         "discord_names": {
-            "header": "Discord Names",
+            "header": "Discord nevek",
             "description": "Click load missing entries in the Friends List tab to search entire friends list"
         },
         "notification_position": {
@@ -1254,7 +1254,7 @@
             "emojis": "Emojis",
             "refresh": "Frissítés",
             "upload": "Upload",
-            "clear": "Clear",
+            "clear": "Törlés",
             "emoji_animation_styles": "Animation Styles",
             "emoji_animation_type": "Animated Emoji",
             "emoji_animation_fps": "FPS:",
@@ -1686,7 +1686,7 @@
             "joinCount": "Join Count",
             "timeTogether": "Time Together",
             "lastSeen": "Last Seen",
-            "lastActivity": "Last Activity",
+            "lastActivity": "Utolsó aktivitás",
             "lastLogin": "Last Login",
             "dateJoined": "Date Joined",
             "unfriend": "Unfriend"
