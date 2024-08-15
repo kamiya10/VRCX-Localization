@@ -177,7 +177,7 @@
             "invite_messages": "Mensagens de Convite",
             "invite_response_messages": "Mensagens de Resposta do Convite",
             "invite_request_messages": "Mensagens de Solicitação de Convite",
-            "invite_request_response_messages": "Invite Request Response Messages",
+            "invite_request_response_messages": "Enviar Pedido de Solicitação de Convite por Mensagem",
             "past_display_names": "Nome de Exibição Passado",
             "config_json": "Configuração JSON",
             "current_user_json": "Current User JSON",
@@ -572,7 +572,7 @@
                 "request_invite": "Solicitar Convite",
                 "request_invite_with_message": "Solicitar Convite Com Mensagem",
                 "invite_to_group": "Convidar Para Grupo",
-                "send_boop": "Send Boop",
+                "send_boop": "Enviar Boop",
                 "manage_gallery_icon": "Gerenciar Fotos/Icones/Emojis",
                 "accept_friend_request": "Aceitar Pedido de Amizade",
                 "decline_friend_request": "Recusar Pedido de Amizade",
@@ -1131,7 +1131,7 @@
             "import": "Importar Mundos",
             "cancel": "Cancelar",
             "import_progress": "Importar Processo:",
-            "clear_table": "Clear Table",
+            "clear_table": "Limpar Tabela",
             "errors": "Erros:",
             "clear_errors": "Limpar Erros"
         },
@@ -1147,7 +1147,7 @@
             "import": "Importar Avatares",
             "cancel": "Cancelar",
             "import_progress": "Importar Processo:",
-            "clear_table": "Clear Table",
+            "clear_table": "Limpar Tabela",
             "errors": "Erros:",
             "clear_errors": "Limpar Erros"
         },
@@ -1163,13 +1163,13 @@
             "import": "Importar Amigos",
             "cancel": "Cancelar",
             "import_progress": "Importar Processo:",
-            "clear_table": "Clear Table",
+            "clear_table": "Limpar Tabela",
             "errors": "Erros:",
             "clear_errors": "Limpar Erros"
         },
         "avatar_database_provider": {
             "header": "Avatar Database Provider",
-            "add_provider": "Add Provider"
+            "add_provider": "Adicionar Fornecedor"
         },
         "chatbox_blacklist": {
             "header": "Lista negra Chatbox",
@@ -1616,7 +1616,7 @@
             "input_error": "Validação do número é obrigatório"
         },
         "proxy_settings": {
-            "header": "Proxy Settings",
+            "header": "Definições de Proxy",
             "description": "Enter proxy server address and port",
             "placeholder": "127.0.0.1:8080",
             "close": "Fechar",
