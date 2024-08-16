@@ -265,13 +265,14 @@
                     "theme_mode_system": "Theo hệ thống",
                     "theme_mode_light": "Sáng",
                     "theme_mode_dark": "Tối",
+                    "theme_mode_darkvanillaold": "Dark Vanilla (old)",
                     "theme_mode_darkvanilla": "Tối (Vanilla)",
                     "theme_mode_pink": "Hồng",
                     "theme_mode_material3": "Material 3",
                     "zoom": "Zoom",
                     "vrcplus_profile_icons": "VRCPlus Profile Icons",
-                    "disable_tooltips": "Tắt Tooltips",
-                    "disable_nicknames": "Disable Memo Nicknames",
+                    "tooltips": "Tooltips",
+                    "nicknames": "Memo Nicknames",
                     "sort_favorite_by": "Sắp xếp mục yêu thích theo",
                     "sort_favorite_by_name": "Tên",
                     "sort_favorite_by_date": "Ngày",
@@ -313,8 +314,8 @@
                 },
                 "user_dialog": {
                     "header": "User Dialog",
-                    "hide_vrchat_notes": "Dấu ghi chú VRChat",
-                    "hide_vrcx_memos": "Dấu ghi chú VRCX",
+                    "vrchat_notes": "VRChat Notes",
+                    "vrcx_memos": "VRCX Memos",
                     "export_vrcx_memos_into_vrchat_notes": "Xuất dấu ghi chú VRCX vào VRChat Notes",
                     "export_notes": "Xuất ghi chú"
                 },
@@ -351,7 +352,7 @@
                         "desktop_notification_while_afk": "Desktop Notifications While AFK"
                     },
                     "text_to_speech": {
-                        "header": "Lựa chọn Text-To-Speech (Chữ sang tiếng)",
+                        "header": "Text-To-Speech",
                         "when_to_play": "Thông báo TTS. khi nào báo",
                         "when_to_play_never": "Không bao giờ",
                         "when_to_play_inside_vr": "Trong VR",
@@ -365,7 +366,7 @@
             "wrist_overlay": {
                 "steamvr_wrist_overlay": {
                     "header": "SteamVR Wrist Overlay",
-                    "description": "* Chạy tự động khi VRChat đang chạy.",
+                    "description": "* Runs automatically while VRChat is running.",
                     "grip": "Grip: Vive hoặc tay cầm khác Grab, Oculus nút bấm X/A",
                     "menu": "Menu: Vive Menu, Index B, Oculus nút bấm Y/B",
                     "steamvr_overlay": "SteamVR Overlay",
@@ -378,12 +379,12 @@
                     "display_overlay_on": "Bật Display Overlay",
                     "display_overlay_on_left": "Tay trái",
                     "display_overlay_on_right": "Tay phải",
-                    "display_overlay_on_both": "Cả hai tay",
-                    "background_color": "Màu nền",
+                    "display_overlay_on_both": "Both Hands",
+                    "grey_background": "Grey Background",
                     "minimal_feed_icons": "Minimal Feed Icons",
-                    "hide_vr_devices": "Dấu các thiết bị VR",
+                    "show_vr_devices": "Show VR Devices",
                     "show_cpu_usage": "Show CPU Usage",
-                    "hide_game_uptime": "Dấu thời gian chơi game",
+                    "show_game_uptime": "Show Game Uptime",
                     "show_pc_uptime": "Hiện thời gian chạy PC",
                     "wrist_feed_filters": "Lọc Wrist Feed"
                 }
@@ -391,13 +392,13 @@
             "discord_presence": {
                 "discord_presence": {
                     "header": "Hiển thị Discord Presence",
-                    "description": "* Chỉ hoạt động khi VRChat đang chạy.",
+                    "description": "* Only active while VRChat is running.",
                     "enable": "Bật",
                     "enable_tooltip": "Khuyên nên tắt Rich Presence trong VRChat config.json để tránh bị giao động.",
                     "instance_type_player_count": "Kiểu Instance/số người chơi",
                     "join_button": "Hiện mời vào chơi (chỉ public)",
-                    "hide_details_in_private": "Dấu thông tin world khi ở private",
-                    "hide_images": "Dấu hình ảnh world"
+                    "show_details_in_private": "Show world details in private",
+                    "show_images": "Show world images"
                 }
             },
             "advanced": {
@@ -426,15 +427,15 @@
                     },
                     "vrchat_osc_fix": {
                         "header": "VRChat OSC Fix",
-                        "description": "Kill install process after exiting game"
+                        "description": "Resuming and terminating the suspended install.exe process after exiting game"
                     },
                     "auto_cache_management": {
                         "header": "Tự động quản lý cache khi đóng VRChat",
                         "description": "Tự động xóa phiên bản cũ trong cache"
                     },
-                    "disable_local_world_persistence": {
-                        "header": "Disable Local World Persistence",
-                        "description": "Disable localhost webserver (requires restart)"
+                    "local_world_persistence": {
+                        "header": "Local World Persistence",
+                        "description": "Localhost webserver (requires restart)"
                     },
                     "remote_database": {
                         "header": "Dữa liệu avatar từ xa",
