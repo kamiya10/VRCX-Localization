@@ -243,8 +243,8 @@
                     "auto_invite_request_accept": "Auto Accept Invite Requests",
                     "auto_invite_request_accept_tooltip": "Automatically accept invite requests from favorite friends",
                     "auto_invite_request_accept_off": "關閉",
-                    "auto_invite_request_accept_favs": "All Favorites",
-                    "auto_invite_request_accept_selected_favs": "VRCX Favorites"
+                    "auto_invite_request_accept_favs": "所有收藏",
+                    "auto_invite_request_accept_selected_favs": "VRCX 收藏"
                 },
                 "legal_notice": {
                     "header": "法律聲明",
@@ -265,11 +265,11 @@
                     "theme_mode_system": "系統",
                     "theme_mode_light": "淺色",
                     "theme_mode_dark": "深色",
-                    "theme_mode_darkvanillaold": "Dark Vanilla (old)",
+                    "theme_mode_darkvanillaold": "Dark Vanilla (舊版)",
                     "theme_mode_darkvanilla": "Dark Vanilla",
                     "theme_mode_pink": "Pink",
                     "theme_mode_material3": "Material 3",
-                    "zoom": "Zoom",
+                    "zoom": "介面縮放",
                     "vrcplus_profile_icons": "VRChat+ 個人檔案圖示",
                     "tooltips": "Tooltips",
                     "nicknames": "Memo Nicknames",
@@ -315,7 +315,7 @@
                 "user_dialog": {
                     "header": "玩家資訊",
                     "vrchat_notes": "VRChat Notes",
-                    "vrcx_memos": "VRCX Memos",
+                    "vrcx_memos": "VRCX 備註",
                     "export_vrcx_memos_into_vrchat_notes": "將 VRCX 備忘錄匯出成 VRChat 備註",
                     "export_notes": "匯出備註"
                 },
@@ -334,8 +334,8 @@
                         "overlay_notifications": "疊層通知",
                         "notification_position": "通知位置",
                         "xsoverlay_notifications": "XSOverlay 通知",
-                        "ovrtoolkit_hud_notifications": "OVR Toolkit HUD Notifications",
-                        "ovrtoolkit_wrist_notifications": "OVR Toolkit Wrist Notifications",
+                        "ovrtoolkit_hud_notifications": "OVR Toolkit HUD 通知",
+                        "ovrtoolkit_wrist_notifications": "OVR Toolkit 手腕通知",
                         "user_images": "玩家照片（較慢）",
                         "notification_timeout": "通知時長"
                     },
@@ -349,10 +349,10 @@
                         "when_to_display_game_closed": "遊戲關閉時",
                         "when_to_display_game_running": "遊戲執行中",
                         "when_to_display_always": "總是",
-                        "desktop_notification_while_afk": "Desktop Notifications While AFK"
+                        "desktop_notification_while_afk": "在 AFK 時顯示桌面通知"
                     },
                     "text_to_speech": {
-                        "header": "Text-To-Speech",
+                        "header": "文字轉語音",
                         "when_to_play": "通知文字轉語音播放時機",
                         "when_to_play_never": "永不",
                         "when_to_play_inside_vr": "在 VR 裡時",
@@ -379,12 +379,12 @@
                     "display_overlay_on": "疊層顯示位置",
                     "display_overlay_on_left": "左手",
                     "display_overlay_on_right": "右手",
-                    "display_overlay_on_both": "Both Hands",
+                    "display_overlay_on_both": "雙手",
                     "grey_background": "Grey Background",
                     "minimal_feed_icons": "迷你動態圖示",
-                    "show_vr_devices": "Show VR Devices",
-                    "show_cpu_usage": "Show CPU Usage",
-                    "show_game_uptime": "Show Game Uptime",
+                    "show_vr_devices": "顯示 VR 裝置",
+                    "show_cpu_usage": "顯示 CPU 使用率",
+                    "show_game_uptime": "顯示遊戲啟動時長",
                     "show_pc_uptime": "顯示電腦啟動時長",
                     "wrist_feed_filters": "手腕動態篩選器"
                 }
@@ -426,7 +426,7 @@
                         "description": "在離開遊戲時強制停止 VRChat"
                     },
                     "vrchat_osc_fix": {
-                        "header": "VRChat OSC Fix",
+                        "header": "VRChat OSC 修正",
                         "description": "Resuming and terminating the suspended install.exe process after exiting game"
                     },
                     "auto_cache_management": {
@@ -461,7 +461,7 @@
                         "enable": "啟用",
                         "modify_filename": "修改檔案名稱",
                         "modify_filename_tooltip": "在拍攝遊戲截圖時，除了在照片的檔案元資料中儲存世界 ID 外，還會將世界 ID 加入到截圖的檔案名稱中。",
-                        "copy_to_clipboard": "Copy to Clipboard"
+                        "copy_to_clipboard": "複製到剪貼簿"
                     },
                     "app_launcher": {
                         "header": "應用程式啟動器",
@@ -559,7 +559,7 @@
                 "busy": "請勿打擾"
             },
             "previous_display_names": "過去的顯示名稱：",
-            "pronouns": "Pronouns",
+            "pronouns": "代稱",
             "tags": {
                 "friend_no": "第 {number} 位好友",
                 "vrchat_team": "VRChat 團隊"
@@ -594,7 +594,7 @@
                 "edit_status": "社交狀態",
                 "edit_language": "語言",
                 "edit_bio": "自我介紹",
-                "edit_pronouns": "Pronouns",
+                "edit_pronouns": "代稱",
                 "report_hacking": "檢舉駭客行為",
                 "unfriend": "解除好友",
                 "logout": "登出"
@@ -658,7 +658,7 @@
                 "sort_by": "分類依據：",
                 "order_by": "排序依據：",
                 "sorting": {
-                    "name": "Name",
+                    "name": "名稱",
                     "updated": "已更新",
                     "created": "已建立",
                     "favorites": "收藏",
@@ -852,7 +852,7 @@
                 "visibility_everyone": "能見度：所有人",
                 "visibility_friends": "能見度：好友",
                 "visibility_hidden": "能見度：隱藏",
-                "create_post": "Create Post",
+                "create_post": "創建貼文",
                 "moderation_tools": "Moderation Tools",
                 "leave": "離開群組",
                 "block": "Block Group",
@@ -880,15 +880,15 @@
                 "role_permissions": "權限："
             },
             "posts": {
-                "header": "Posts",
-                "visibility": "Visibility:",
-                "edited_at": "Edited At:",
+                "header": "貼文",
+                "visibility": "可見度：",
+                "edited_at": "最後編輯於：",
                 "created_at": "創建時間：",
-                "edit_tooltip": "Edit Post",
-                "delete_tooltip": "Delete Post",
-                "edited_by": "Edited by:",
+                "edit_tooltip": "編輯貼文",
+                "delete_tooltip": "刪除貼文",
+                "edited_by": "編輯：",
                 "search_placeholder": "搜尋",
-                "posts_count": "Posts: "
+                "posts_count": "貼文數： "
             },
             "members": {
                 "header": "成員",
@@ -907,7 +907,7 @@
                     "users_with_no_role": "沒有身分的玩家"
                 },
                 "unsubscribed_announcements": "取消訂閱公告",
-                "visibility": "Visibility:",
+                "visibility": "可見度：",
                 "representing": "Representing",
                 "manager_notes": "Manager Notes:",
                 "search": "搜尋"
@@ -955,8 +955,8 @@
             "update": "更新"
         },
         "pronouns": {
-            "header": "Pronouns",
-            "pronouns_placeholder": "Please input your pronouns",
+            "header": "代稱",
+            "pronouns_placeholder": "請輸入你的代稱",
             "update": "更新"
         },
         "new_instance": {
@@ -1059,7 +1059,7 @@
             "content_violence": "暴力",
             "content_adult": "成人",
             "content_sex": "色情",
-            "custom_tags_placeholder": "Custom tags",
+            "custom_tags_placeholder": "自定標籤",
             "select_all": "全選",
             "select_none": "取消選取",
             "cancel": "取消",
@@ -1116,7 +1116,7 @@
             "favorite": "收藏",
             "friends": "好友",
             "everyone": "所有人",
-            "reset": "Reset",
+            "reset": "重置",
             "close": "關閉"
         },
         "world_export": {
@@ -1257,11 +1257,11 @@
             "upload": "上傳",
             "clear": "清除",
             "emoji_animation_styles": "動畫樣式",
-            "emoji_animation_type": "Animated Emoji",
+            "emoji_animation_type": "動態表情符號",
             "emoji_animation_fps": "FPS:",
-            "emoji_animation_frame_count": "Frame Count:",
+            "emoji_animation_frame_count": "影格數：",
             "emoji_loop_pingpong": "Loop PingPong",
-            "flipbook_info": "Select a 1024x1024 PNG spritesheet to use as an animated emoji, available frame grid sizes: 4, 16 or 64 (max FPS 64, max frames 64)"
+            "flipbook_info": "選擇一個 1024 × 1024 的 PNG 精靈圖來作為動態表情符號（可用繪圖格大小：4、16 或 64 ，最\n大 FPS ：64，最大影格數：64）"
         },
         "change_content_image": {
             "avatar": "變更角色圖片",
@@ -1313,16 +1313,16 @@
         },
         "registry_backup": {
             "header": "VRC Registry Settings Backup",
-            "backup": "Backup",
-            "restore": "Restore",
-            "save_to_file": "Save to file",
+            "backup": "備份",
+            "restore": "還原",
+            "save_to_file": "儲存至檔案",
             "delete": "刪除",
-            "restore_from_file": "Restore from file",
-            "reset": "Reset",
-            "name": "Name",
-            "date": "Date",
-            "action": "Action",
-            "auto_backup": "Weekly Auto Backup",
+            "restore_from_file": "從檔案還原",
+            "reset": "重置",
+            "name": "名稱",
+            "date": "日期",
+            "action": "操作",
+            "auto_backup": "每週自動備份",
             "restore_prompt": "VRCX has noticed auto backup of VRC registry settings is enabled but this computer doesn't have any, if you'd like to restore from backup you can do so from here."
         },
         "group_member_moderation": {
@@ -1334,64 +1334,64 @@
             "bans": "Bans",
             "invites": "Invites",
             "logs": "Logs",
-            "sent_invites": "Sent Invites",
-            "join_requests": "Join Requests",
-            "blocked_requests": "Blocked Requests",
+            "sent_invites": "已傳送的邀請",
+            "join_requests": "加入請求",
+            "blocked_requests": "已封鎖的加入請求",
             "notes": "Manager Note",
             "note_placeholder": "點擊新增備註",
-            "actions": "Actions",
-            "kick": "Kick",
-            "ban": "Ban",
-            "unban": "Unban",
-            "save_note": "Save Note",
-            "delete_sent_invite": "Delete Sent Invite",
-            "delete_blocked_requests": "Delete Blocked Requests",
-            "accept_join_requests": "Accept Join Requests",
-            "reject_join_requests": "Reject Join Requests",
-            "block_join_requests": "Block Join Requests",
-            "group_members": "Group Members",
+            "actions": "操作",
+            "kick": "踢出",
+            "ban": "封禁",
+            "unban": "解除封禁",
+            "save_note": "儲存備註",
+            "delete_sent_invite": "刪除已傳送的邀請",
+            "delete_blocked_requests": "刪除已封鎖的請求",
+            "accept_join_requests": "接受加入請求",
+            "reject_join_requests": "拒絕加入請求",
+            "block_join_requests": "封鎖加入請求",
+            "group_members": "群組成員",
             "progress": "進度：",
-            "display_name": "Display Name",
-            "visibility": "Visibility",
+            "display_name": "顯示名稱",
+            "visibility": "可見度",
             "avatar": "Avatar",
             "joined_at": "加入時間",
-            "banned_at": "Banned At",
+            "banned_at": "封禁日期",
             "created_at": "創建時間",
             "type": "類型",
-            "description": "Description",
+            "description": "敘述",
             "data": "Data",
             "note": "備註",
             "roles": "身分",
             "user_id": "玩家 ID",
-            "user_id_placeholder": "Enter User ID(s)",
-            "select_user": "Select User",
+            "user_id_placeholder": "輸入玩家 ID",
+            "select_user": "選擇玩家",
             "selected_users": "已選擇的玩家",
             "select_all": "全選",
             "cancel": "取消",
             "choose_roles_placeholder": "選擇身分",
             "selected_roles": "Selected Roles",
-            "remove_roles": "Remove Roles",
-            "add_roles": "Add Roles"
+            "remove_roles": "移除身份組",
+            "add_roles": "新增身份組"
         },
         "group_post_edit": {
-            "header": "Create/Edit Post",
-            "title": "Title",
+            "header": "創建/編輯貼文",
+            "title": "標題",
             "message": "訊息",
-            "send_notification": "Send Notification",
-            "post_visibility": "Post Visibility",
+            "send_notification": "傳送通知",
+            "post_visibility": "貼文可見度",
             "visibility_public": "公開",
             "visibility_group": "群組",
             "image": "圖片",
             "cancel": "取消",
-            "create_post": "Create Post",
-            "edit_post": "Edit Post"
+            "create_post": "創建貼文",
+            "edit_post": "編輯貼文"
         },
         "boop_dialog": {
             "header": "Boop",
-            "emoji_manager": "Emoji Manager",
-            "select_emoji": "Select Emoji",
-            "my_emojis": "My Emojis",
-            "default_emojis": "Default Emojis",
+            "emoji_manager": "管理表情符號",
+            "select_emoji": "選擇表情符號",
+            "my_emojis": "我的表情符號",
+            "default_emojis": "預設表情符號",
             "cancel": "取消",
             "send": "傳送"
         }
@@ -1408,7 +1408,7 @@
         "otp": {
             "header": "雙重認證",
             "description": "輸入你儲存的其中一個備份驗證碼",
-            "use_totp": "Use TOTP",
+            "use_totp": "使用驗證碼",
             "verify": "驗證",
             "input_placeholder": "備份驗證碼",
             "input_error": "無效的代碼"
@@ -1539,7 +1539,7 @@
         },
         "change_world_capacity": {
             "header": "變更世界最大人數",
-            "description": "Enter world maximum capacity (hard cap), Max: 80",
+            "description": "輸入最大房間人數限制（最大：80）",
             "cancel": "取消",
             "ok": "確定",
             "input_error": "請輸入有效的人數",
@@ -1549,12 +1549,12 @@
         },
         "change_world_recommended_capacity": {
             "header": "變更建立人數",
-            "description": "Enter world recommended capacity (soft cap)",
+            "description": "輸入推薦房間人數限制",
             "cancel": "取消",
             "ok": "確定",
             "input_error": "請輸入有效的秒數",
             "message": {
-                "success": "World recommended capacity changed"
+                "success": "已變更推薦房間人數限制"
             }
         },
         "change_world_preview": {
@@ -1617,11 +1617,11 @@
             "input_error": "請輸入有效的秒數"
         },
         "proxy_settings": {
-            "header": "Proxy Settings",
-            "description": "Enter proxy server address and port",
+            "header": "代理伺服器設定",
+            "description": "輸入代理伺服器地址和連接埠",
             "placeholder": "127.0.0.1:8080",
             "close": "關閉",
-            "restart": "Restart"
+            "restart": "重新啟動"
         }
     },
     "table": {
@@ -1671,7 +1671,7 @@
         "notification": {
             "date": "時間",
             "type": "類型",
-            "user_group": "User/Group",
+            "user_group": "玩家/群組",
             "photo": "照片",
             "message": "訊息",
             "action": "動作"
