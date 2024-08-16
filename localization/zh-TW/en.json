@@ -244,7 +244,7 @@
                     "auto_invite_request_accept_tooltip": "Automatically accept invite requests from favorite friends",
                     "auto_invite_request_accept_off": "關閉",
                     "auto_invite_request_accept_favs": "All Favorites",
-                    "auto_invite_request_accept_selected_favs": "VRCX Favorites"
+                    "auto_invite_request_accept_selected_favs": "VRCX 收藏"
                 },
                 "legal_notice": {
                     "header": "法律聲明",
@@ -265,7 +265,7 @@
                     "theme_mode_system": "系統",
                     "theme_mode_light": "淺色",
                     "theme_mode_dark": "深色",
-                    "theme_mode_darkvanillaold": "Dark Vanilla (old)",
+                    "theme_mode_darkvanillaold": "Dark Vanilla (舊版)",
                     "theme_mode_darkvanilla": "Dark Vanilla",
                     "theme_mode_pink": "Pink",
                     "theme_mode_material3": "Material 3",
@@ -315,7 +315,7 @@
                 "user_dialog": {
                     "header": "玩家資訊",
                     "vrchat_notes": "VRChat Notes",
-                    "vrcx_memos": "VRCX Memos",
+                    "vrcx_memos": "VRCX 備註",
                     "export_vrcx_memos_into_vrchat_notes": "將 VRCX 備忘錄匯出成 VRChat 備註",
                     "export_notes": "匯出備註"
                 },
@@ -334,8 +334,8 @@
                         "overlay_notifications": "疊層通知",
                         "notification_position": "通知位置",
                         "xsoverlay_notifications": "XSOverlay 通知",
-                        "ovrtoolkit_hud_notifications": "OVR Toolkit HUD Notifications",
-                        "ovrtoolkit_wrist_notifications": "OVR Toolkit Wrist Notifications",
+                        "ovrtoolkit_hud_notifications": "OVR Toolkit HUD 通知",
+                        "ovrtoolkit_wrist_notifications": "OVR Toolkit 手腕通知",
                         "user_images": "玩家照片（較慢）",
                         "notification_timeout": "通知時長"
                     },
@@ -352,7 +352,7 @@
                         "desktop_notification_while_afk": "Desktop Notifications While AFK"
                     },
                     "text_to_speech": {
-                        "header": "Text-To-Speech",
+                        "header": "文字轉語音",
                         "when_to_play": "通知文字轉語音播放時機",
                         "when_to_play_never": "永不",
                         "when_to_play_inside_vr": "在 VR 裡時",
@@ -379,12 +379,12 @@
                     "display_overlay_on": "疊層顯示位置",
                     "display_overlay_on_left": "左手",
                     "display_overlay_on_right": "右手",
-                    "display_overlay_on_both": "Both Hands",
+                    "display_overlay_on_both": "雙手",
                     "grey_background": "Grey Background",
                     "minimal_feed_icons": "迷你動態圖示",
-                    "show_vr_devices": "Show VR Devices",
-                    "show_cpu_usage": "Show CPU Usage",
-                    "show_game_uptime": "Show Game Uptime",
+                    "show_vr_devices": "顯示 VR 裝置",
+                    "show_cpu_usage": "顯示 CPU 使用率",
+                    "show_game_uptime": "顯示遊戲啟動時長",
                     "show_pc_uptime": "顯示電腦啟動時長",
                     "wrist_feed_filters": "手腕動態篩選器"
                 }
@@ -426,7 +426,7 @@
                         "description": "在離開遊戲時強制停止 VRChat"
                     },
                     "vrchat_osc_fix": {
-                        "header": "VRChat OSC Fix",
+                        "header": "VRChat OSC 修正",
                         "description": "Resuming and terminating the suspended install.exe process after exiting game"
                     },
                     "auto_cache_management": {
@@ -461,7 +461,7 @@
                         "enable": "啟用",
                         "modify_filename": "修改檔案名稱",
                         "modify_filename_tooltip": "在拍攝遊戲截圖時，除了在照片的檔案元資料中儲存世界 ID 外，還會將世界 ID 加入到截圖的檔案名稱中。",
-                        "copy_to_clipboard": "Copy to Clipboard"
+                        "copy_to_clipboard": "複製到剪貼簿"
                     },
                     "app_launcher": {
                         "header": "應用程式啟動器",
@@ -559,7 +559,7 @@
                 "busy": "請勿打擾"
             },
             "previous_display_names": "過去的顯示名稱：",
-            "pronouns": "Pronouns",
+            "pronouns": "代稱",
             "tags": {
                 "friend_no": "第 {number} 位好友",
                 "vrchat_team": "VRChat 團隊"
@@ -594,7 +594,7 @@
                 "edit_status": "社交狀態",
                 "edit_language": "語言",
                 "edit_bio": "自我介紹",
-                "edit_pronouns": "Pronouns",
+                "edit_pronouns": "代稱",
                 "report_hacking": "檢舉駭客行為",
                 "unfriend": "解除好友",
                 "logout": "登出"
@@ -955,7 +955,7 @@
             "update": "更新"
         },
         "pronouns": {
-            "header": "Pronouns",
+            "header": "代稱",
             "pronouns_placeholder": "Please input your pronouns",
             "update": "更新"
         },
@@ -1340,9 +1340,9 @@
             "notes": "Manager Note",
             "note_placeholder": "點擊新增備註",
             "actions": "Actions",
-            "kick": "Kick",
-            "ban": "Ban",
-            "unban": "Unban",
+            "kick": "踢出",
+            "ban": "封禁",
+            "unban": "解除封禁",
             "save_note": "Save Note",
             "delete_sent_invite": "Delete Sent Invite",
             "delete_blocked_requests": "Delete Blocked Requests",
@@ -1389,9 +1389,9 @@
         "boop_dialog": {
             "header": "Boop",
             "emoji_manager": "Emoji Manager",
-            "select_emoji": "Select Emoji",
-            "my_emojis": "My Emojis",
-            "default_emojis": "Default Emojis",
+            "select_emoji": "選擇表情符號",
+            "my_emojis": "我的表情符號",
+            "default_emojis": "預設表情符號",
             "cancel": "取消",
             "send": "傳送"
         }
@@ -1621,7 +1621,7 @@
             "description": "Enter proxy server address and port",
             "placeholder": "127.0.0.1:8080",
             "close": "關閉",
-            "restart": "Restart"
+            "restart": "重新啟動"
         }
     },
     "table": {
