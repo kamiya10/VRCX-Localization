@@ -1364,7 +1364,7 @@
             "roles": "Roles",
             "user_id": "ID de usuario",
             "user_id_placeholder": "Enter User ID(s)",
-            "select_user": "Select User",
+            "select_user": "Seleccionar usuario",
             "selected_users": "Usuarios seleccionados",
             "select_all": "Seleccionar todos",
             "cancel": "Cancelar",
@@ -1374,10 +1374,10 @@
             "add_roles": "Añadir roles"
         },
         "group_post_edit": {
-            "header": "Create/Edit Post",
-            "title": "Title",
+            "header": "Crear/Editar publicación",
+            "title": "Título",
             "message": "Mensaje",
-            "send_notification": "Send Notification",
+            "send_notification": "Enviar notificación",
             "post_visibility": "Post Visibility",
             "visibility_public": "Públicos",
             "visibility_group": "Grupos",
