@@ -20,15 +20,15 @@
             "login": "로그인",
             "register": "가입",
             "forgotPassword": "비밀번호를 잊어버리셨나요?",
-            "updater": "Updater",
-            "proxy_settings": "Proxy settings",
+            "updater": "업데이터",
+            "proxy_settings": "프록시 설정",
             "field": {
                 "username": "닉네임 혹은 이메일",
                 "password": "비밀번호",
                 "saveCredentials": "로그인 정보 저장",
                 "devEndpoint": "개발자용 API",
-                "endpoint": "Endpoint",
-                "websocket": "WebSocket"
+                "endpoint": "엔드포인트",
+                "websocket": "웹 소켓"
             }
         },
         "feed": {
@@ -96,7 +96,7 @@
                 "header": "아바타",
                 "search": "검색",
                 "vrchat_favorites": "VRChat 즐겨찾기",
-                "local_favorites": "Local Favorites (Requires VRC+)",
+                "local_favorites": "장소 즐겨찾기(VRC+ 필요)",
                 "new_group": "새 그룹"
             },
             "bulk_unfavorite_mode": "즐겨찾기 해제 모드",
@@ -219,7 +219,7 @@
                     "startup": "Windows 시작 시 실행",
                     "minimized": "최소화 상태로 시작",
                     "tray": "닫지 않고 트레이로 최소화하기",
-                    "proxy": "Proxy settings"
+                    "proxy": "프록시 설정"
                 },
                 "favorites": {
                     "header": "VRCX Favorite Friends",
@@ -923,7 +923,7 @@
             "header": "그룹 선택",
             "vrchat_favorites": "VRChat 즐겨찾기",
             "local_favorites": "VRCX 즐겨찾기",
-            "local_avatar_favorites": "Local Favorites (Requires VRC+)"
+            "local_avatar_favorites": "장소 즐겨찾기(VRC+ 필요)"
         },
         "invite": {
             "header": "초대",
