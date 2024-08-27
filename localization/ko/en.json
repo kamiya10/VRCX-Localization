@@ -3,12 +3,12 @@
     "translator": "pypy",
     "nav_tooltip": {
         "feed": "피드",
-        "game_log": "VRChat 로그",
+        "game_log": "게임 기록",
         "player_list": "플레이어 목록",
         "search": "검색",
         "favorites": "즐겨찾기",
         "friend_log": "친구 기록",
-        "moderation": "음소거 및 차단",
+        "moderation": "관리",
         "notification": "알림",
         "friend_list": "친구 목록",
         "profile": "프로필",
@@ -16,23 +16,23 @@
     },
     "view": {
         "login": {
-            "savedAccounts": "계정 선택",
+            "savedAccounts": "저장한 계정",
             "login": "로그인",
             "register": "가입",
             "forgotPassword": "비밀번호를 잊어버리셨나요?",
             "updater": "업데이터",
             "proxy_settings": "프록시 설정",
             "field": {
-                "username": "닉네임 혹은 이메일",
+                "username": "사용자명 또는 이메일",
                 "password": "비밀번호",
                 "saveCredentials": "로그인 정보 저장",
-                "devEndpoint": "개발자용 API",
+                "devEndpoint": "개발자용 엔드포인트",
                 "endpoint": "엔드포인트",
                 "websocket": "웹 소켓"
             }
         },
         "feed": {
-            "favorites_only_tooltip": "친한 친구만 보기",
+            "favorites_only_tooltip": "즐겨찾기의 친구로 필터링",
             "filter_placeholder": "필터",
             "search_placeholder": "검색"
         },
@@ -52,7 +52,7 @@
         },
         "search": {
             "search_placeholder": "검색",
-            "clear_results_tooltip": "비우기",
+            "clear_results_tooltip": "검색 결과 초기화",
             "user": {
                 "header": "유저"
             },
