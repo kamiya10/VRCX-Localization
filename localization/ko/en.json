@@ -46,7 +46,7 @@
                 "previous": "이전",
                 "search_placeholder": "검색",
                 "filter_placeholder": "필터",
-                "chatbox_blacklist": "채팅창 블랙리스트",
+                "chatbox_blacklist": "채팅 창 차단 목록",
                 "status_tooltip": "VRCX Companion 상태"
             }
         },
@@ -54,19 +54,19 @@
             "search_placeholder": "검색",
             "clear_results_tooltip": "검색 결과 초기화",
             "user": {
-                "header": "유저"
+                "header": "사용자"
             },
             "world": {
                 "header": "월드",
-                "category": "카테고리별 검색",
+                "category": "카테고리로 검색",
                 "community_lab": "커뮤니티 랩스 포함"
             },
             "avatar": {
                 "header": "아바타",
                 "search_provider": "검색 제공자",
-                "refresh_tooltip": "새로고침",
-                "result_count": "전체 {count}개",
-                "all": "전체",
+                "refresh_tooltip": "소유한 아바타 새로고침",
+                "result_count": "결과 {count}개",
+                "all": "모두",
                 "public": "공개",
                 "private": "비공개",
                 "local": "로컬",
@@ -89,7 +89,7 @@
                 "header": "월드",
                 "search": "검색",
                 "vrchat_favorites": "VRChat 즐겨찾기",
-                "local_favorites": "VRCX 즐겨찾기",
+                "local_favorites": "로컬 즐겨찾기",
                 "new_group": "새 그룹"
             },
             "avatars": {
@@ -99,20 +99,20 @@
                 "local_favorites": "장소 즐겨찾기(VRC+ 필요)",
                 "new_group": "새 그룹"
             },
-            "bulk_unfavorite_mode": "즐겨찾기 해제 모드",
-            "bulk_unfavorite_selection": "선택한 즐겨찾기 해제",
-            "refresh_tooltip": "새로고침",
+            "bulk_unfavorite_mode": "일괄 즐겨찾기 해제 모드",
+            "bulk_unfavorite_selection": "일괄 즐겨찾기 해제 선택",
+            "refresh_tooltip": "모든 즐겨찾기 새로고침",
             "export": "내보내기",
             "import": "가져오기",
             "move_tooltip": "이동",
             "unfavorite_tooltip": "즐겨찾기 해제",
             "visibility_tooltip": "공개/비공개 설정",
             "rename_tooltip": "이름 변경",
-            "clear_tooltip": "비우기",
-            "delete_tooltip": "지우기",
-            "unavailable_tooltip": "Unavailable",
+            "clear_tooltip": "초기화",
+            "delete_tooltip": "삭제",
+            "unavailable_tooltip": "사용할 수 없음",
             "private": "비공개",
-            "sort_by": "Sort By",
+            "sort_by": "정렬 기준",
             "select_avatar_tooltip": "아바타 선택"
         },
         "friend_log": {
@@ -135,11 +135,11 @@
             "bulk_unfriend_selection": "선택한 친구 끊기",
             "load": "누락된 친구 불러오기",
             "load_tooltip": "불러오기",
-            "favorites_only_tooltip": "친한 친구만 보기",
+            "favorites_only_tooltip": "즐겨찾기만 정렬",
             "search_placeholder": "검색",
             "filter_placeholder": "필터",
             "refresh_tooltip": "새로고침",
-            "clear_tooltip": "비우기",
+            "clear_tooltip": "결과 지우기",
             "cancel_tooltip": "취소"
         },
         "profile": {
@@ -1316,7 +1316,7 @@
             "backup": "Backup",
             "restore": "Restore",
             "save_to_file": "Save to file",
-            "delete": "지우기",
+            "delete": "삭제",
             "restore_from_file": "Restore from file",
             "reset": "Reset",
             "name": "Name",
