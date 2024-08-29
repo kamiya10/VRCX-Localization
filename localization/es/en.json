@@ -149,7 +149,7 @@
                 "two_factor": "Autenticación de doble factor (2FA)",
                 "two_factor_enabled": "Habilitado",
                 "two_factor_disabled": "Deshabilitado",
-                "v_bucks": "PaVos",
+                "v_bucks": "V-Bucks",
                 "refresh": "Clic para actualizar",
                 "logout": "Cerrar sesión",
                 "manage_gallery_icon": "Administrar Fotos/Iconos/Emojis",
@@ -265,7 +265,7 @@
                     "theme_mode_system": "Sistema",
                     "theme_mode_light": "Claro",
                     "theme_mode_dark": "Oscuro",
-                    "theme_mode_darkvanillaold": "Dark Vanilla (old)",
+                    "theme_mode_darkvanillaold": "Dark Vanilla (antiguo)",
                     "theme_mode_darkvanilla": "Dark Vanilla",
                     "theme_mode_pink": "Rosa",
                     "theme_mode_material3": "Material 3",
@@ -314,7 +314,7 @@
                 },
                 "user_dialog": {
                     "header": "Diálogo del usuario",
-                    "vrchat_notes": "VRChat Notes",
+                    "vrchat_notes": "Notas de VRChat",
                     "vrcx_memos": "VRCX Memos",
                     "export_vrcx_memos_into_vrchat_notes": "Exportar las notas de VRCX a las notas de VRChat",
                     "export_notes": "Exportar notas"
@@ -562,7 +562,7 @@
             "pronouns": "Pronombres",
             "tags": {
                 "friend_no": "Amigo N.º{number}",
-                "vrchat_team": "VRChat Team"
+                "vrchat_team": "Equipo de VRChat"
             },
             "actions": {
                 "favorite_tooltip": "Añadir a favoritos",
@@ -630,7 +630,7 @@
                 "friended": "Amigos desde",
                 "unfriended": "Amigo eliminado",
                 "avatar_cloning": "Clonación del avatar",
-                "booping": "Booping",
+                "booping": "Dando toque",
                 "avatar_cloning_allow": "Permitido",
                 "avatar_cloning_deny": "Denegar",
                 "home_location": "Ubicación de Casa",
@@ -690,7 +690,7 @@
                 "public": "Público",
                 "private": "Privado",
                 "avatar_scaling_disabled": "Escalado de Avatares Deshabilitado",
-                "future_proofing": "Future Proofing",
+                "future_proofing": "Soluciones prometedoras",
                 "labs": "Labs",
                 "cache": "Caché",
                 "content_horror": "Horror",
@@ -767,7 +767,7 @@
             "tags": {
                 "public": "Público",
                 "private": "Privado",
-                "fallback": "Fallback",
+                "fallback": "Sustituto",
                 "impostor": "Impostor",
                 "future_proofing": "Future Proofing",
                 "cache": "Caché",
@@ -1002,7 +1002,7 @@
             "header": "Opciones de Lanzamiento de VRChat",
             "description": "Estas opciones son sólo para usuarios avanzados.",
             "example": "(para cambiar los FPS máximos: --fps=<N> por ejemplo)",
-            "path_override": "VRChat Path Override",
+            "path_override": "Reemplazo de la ruta de VRChat",
             "vrchat_docs": "Documentación de VRChat",
             "unity_manual": "Manual de Unity",
             "save": "Guardar"
@@ -1358,12 +1358,12 @@
             "banned_at": "Baneado en",
             "created_at": "Creado el",
             "type": "Tipo",
-            "description": "Description",
-            "data": "Data",
+            "description": "Descripción",
+            "data": "Datos",
             "note": "Nota",
             "roles": "Roles",
             "user_id": "ID de usuario",
-            "user_id_placeholder": "Enter User ID(s)",
+            "user_id_placeholder": "Introducir ID(s) de usuario",
             "select_user": "Seleccionar usuario",
             "selected_users": "Usuarios seleccionados",
             "select_all": "Seleccionar todos",
@@ -1378,7 +1378,7 @@
             "title": "Título",
             "message": "Mensaje",
             "send_notification": "Enviar notificación",
-            "post_visibility": "Post Visibility",
+            "post_visibility": "Visibilidad de la publicación",
             "visibility_public": "Públicos",
             "visibility_group": "Grupos",
             "image": "Imagen",
@@ -1387,7 +1387,7 @@
             "edit_post": "Editar publicación"
         },
         "boop_dialog": {
-            "header": "Boop",
+            "header": "Toque",
             "emoji_manager": "Gestor de Emojis",
             "select_emoji": "Seleccionar Emoji",
             "my_emojis": "Mis Emojis",
