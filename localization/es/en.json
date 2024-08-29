@@ -315,7 +315,7 @@
                 "user_dialog": {
                     "header": "Diálogo del usuario",
                     "vrchat_notes": "Notas de VRChat",
-                    "vrcx_memos": "VRCX Memos",
+                    "vrcx_memos": "Notas de VRCX",
                     "export_vrcx_memos_into_vrchat_notes": "Exportar las notas de VRCX a las notas de VRChat",
                     "export_notes": "Exportar notas"
                 },
@@ -334,7 +334,7 @@
                         "overlay_notifications": "Overlay de Notificaciones",
                         "notification_position": "Posición de las notificaciones",
                         "xsoverlay_notifications": "Notificaciones XSOverlay",
-                        "ovrtoolkit_hud_notifications": "OVR Toolkit HUD Notifications",
+                        "ovrtoolkit_hud_notifications": "Notificaciones del HUD de OVR Toolkit",
                         "ovrtoolkit_wrist_notifications": "OVR Toolkit Wrist Notifications",
                         "user_images": "Imágenes de usuarios (más lento)",
                         "notification_timeout": "Tiempo de espera de las notificaciones"
