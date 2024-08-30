@@ -335,7 +335,7 @@
                         "notification_position": "Posición de las notificaciones",
                         "xsoverlay_notifications": "Notificaciones XSOverlay",
                         "ovrtoolkit_hud_notifications": "Notificaciones del HUD de OVR Toolkit",
-                        "ovrtoolkit_wrist_notifications": "OVR Toolkit Wrist Notifications",
+                        "ovrtoolkit_wrist_notifications": "Notificaciones de muñeca de OVR Toolkit",
                         "user_images": "Imágenes de usuarios (más lento)",
                         "notification_timeout": "Tiempo de espera de las notificaciones"
                     },
@@ -642,7 +642,7 @@
                 "accuracy_notice": "La información de la base de datos local puede no ser precisa",
                 "instance_full": "lleno",
                 "instance_closed": "cerrado",
-                "instance_hard_closed": "hard closed",
+                "instance_hard_closed": "cerrado estrictamente",
                 "close_instance": "Cerrar instancia"
             },
             "groups": {
@@ -1259,9 +1259,9 @@
             "emoji_animation_styles": "Estilos de animación",
             "emoji_animation_type": "Emoji animado",
             "emoji_animation_fps": "FPS:",
-            "emoji_animation_frame_count": "Frame Count:",
-            "emoji_loop_pingpong": "Loop PingPong",
-            "flipbook_info": "Select a 1024x1024 PNG spritesheet to use as an animated emoji, available frame grid sizes: 4, 16 or 64 (max FPS 64, max frames 64)"
+            "emoji_animation_frame_count": "Conteo de fotogramas:",
+            "emoji_loop_pingpong": "Bucle PingPong",
+            "flipbook_info": "Seleccionar un PNG animado de 1024x1024 para usarlo como un emoji animado. Tamaños de cuadrícula del fotograma disponibles: 4, 16 o 64 (máximos FPS 64, máximos fotogramas 64)"
         },
         "change_content_image": {
             "avatar": "Cambiar imagen del avatar",
@@ -1345,7 +1345,7 @@
             "unban": "Desbanear",
             "save_note": "Guardar nota",
             "delete_sent_invite": "Eliminar invitación enviada",
-            "delete_blocked_requests": "Delete Blocked Requests",
+            "delete_blocked_requests": "Borrar solicitudes bloqueadas",
             "accept_join_requests": "Aceptar solicitudes de unión",
             "reject_join_requests": "Rechazar solicitudes de unión",
             "block_join_requests": "Bloquear solicitudes de unión",
