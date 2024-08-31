@@ -366,7 +366,7 @@
             "wrist_overlay": {
                 "steamvr_wrist_overlay": {
                     "header": "Overlay de muñeca SteamVR",
-                    "description": "* Se ejecuta automáticamente cuando VRChat se está ejecutando.",
+                    "description": "* Se ejecuta automáticamente cuando VRChat está abierto",
                     "grip": "Agarre: Grip para Vive u otros mandos, Oculus botones X/A",
                     "menu": "Menú: Menú Vive, Index B, Oculus botones Y/B",
                     "steamvr_overlay": "Overlay de SteamVR",
@@ -690,7 +690,7 @@
                 "public": "Público",
                 "private": "Privado",
                 "avatar_scaling_disabled": "Escalado de Avatares Deshabilitado",
-                "future_proofing": "Soluciones prometedoras",
+                "future_proofing": "Aseguramiento para el futuro",
                 "labs": "Labs",
                 "cache": "Caché",
                 "content_horror": "Horror",
