@@ -228,7 +228,7 @@
                 "logging": {
                     "header": "Registro",
                     "resource_load": "Log Udon string/image load",
-                    "empty_avatar": "Log avatars in feed without names"
+                    "empty_avatar": "Registrar avatares sin nombres en el feed"
                 },
                 "automation": {
                     "header": "Automatización",
@@ -427,15 +427,15 @@
                     },
                     "vrchat_osc_fix": {
                         "header": "Solución para el OSC de VRChat",
-                        "description": "Resuming and terminating the suspended install.exe process after exiting game"
+                        "description": "Reanudar y terminar el proceso suspendido de install.exe después de salir del juego"
                     },
                     "auto_cache_management": {
                         "header": "Gestionar Caché Automáticamente al Cerrar VRChat",
                         "description": "Eliminar automáticamente versiones antiguas de la caché"
                     },
                     "local_world_persistence": {
-                        "header": "Local World Persistence",
-                        "description": "Localhost webserver (requires restart)"
+                        "header": "Persistencia del mundo local",
+                        "description": "Servidor web localhost (requiere reiniciar)"
                     },
                     "remote_database": {
                         "header": "Base de Datos de Avatares Remotos",

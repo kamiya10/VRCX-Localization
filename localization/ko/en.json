@@ -146,13 +146,13 @@
             "profile": {
                 "header": "프로필",
                 "last_activity": "마지막 활동",
-                "two_factor": "2단계 인증 (2FA)",
+                "two_factor": "2단계 인증(2FA)",
                 "two_factor_enabled": "사용",
                 "two_factor_disabled": "사용 안 함",
                 "v_bucks": "V-Bucks",
                 "refresh": "새로고침",
                 "logout": "로그아웃",
-                "manage_gallery_icon": "Manage Photos/Icons/Emojis",
+                "manage_gallery_icon": "사진/아이콘/이모지 관리",
                 "export_friend_list": "친구 목록 내보내기",
                 "export_own_avatars": "내 아바타 목록 내보내기",
                 "discord_names": "디스코드 아이디",
@@ -160,7 +160,7 @@
             },
             "game_info": {
                 "header": "VRChat 정보",
-                "online_users": "온라인 유저 수",
+                "online_users": "온라인 사용자 수",
                 "user_online": "{count}명 온라인",
                 "refresh": "새로고침"
             },
@@ -169,8 +169,8 @@
             },
             "direct_access": {
                 "header": "빠른 접근",
-                "username": "유저명",
-                "user_id": "유저 ID",
+                "username": "사용자명",
+                "user_id": "사용자 ID",
                 "world_instance": "월드/인스턴스",
                 "avatar": "아바타"
             },
@@ -634,7 +634,7 @@
                 "avatar_cloning_allow": "허용",
                 "avatar_cloning_deny": "거부",
                 "home_location": "홈 월드",
-                "id": "유저 ID",
+                "id": "사용자 ID",
                 "id_tooltip": "Copy to clipboard",
                 "copy_id": "Copy ID",
                 "copy_url": "Copy URL",
@@ -1362,7 +1362,7 @@
             "data": "Data",
             "note": "VRChat 메모",
             "roles": "역할",
-            "user_id": "유저 ID",
+            "user_id": "사용자 ID",
             "user_id_placeholder": "Enter User ID(s)",
             "select_user": "Select User",
             "selected_users": "선택된 유저",
@@ -1696,7 +1696,7 @@
             "invite_messages": {
                 "slot": "슬롯",
                 "message": "메시지",
-                "cool_down": "쿨타임",
+                "cool_down": "대기 시간",
                 "action": "작업"
             },
             "previous_display_name": {
@@ -1718,7 +1718,7 @@
         "import": {
             "image": "이미지",
             "name": "이름",
-            "author": "업로더",
+            "author": "작성자",
             "status": "상태",
             "note": "메모",
             "skip_export": "내보내기 건너뜀",
