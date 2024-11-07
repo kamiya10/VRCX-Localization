@@ -1388,10 +1388,10 @@
         },
         "boop_dialog": {
             "header": "Boop",
-            "emoji_manager": "Emoji Manager",
-            "select_emoji": "Select Emoji",
-            "my_emojis": "My Emojis",
-            "default_emojis": "Default Emojis",
+            "emoji_manager": "管理表情",
+            "select_emoji": "选择表情",
+            "my_emojis": "私人表情",
+            "default_emojis": "默认表情",
             "cancel": "取消",
             "send": "发送"
         }
