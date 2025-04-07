@@ -995,7 +995,7 @@
             "queueEnabled": "File d'attente",
             "normal": "Normale",
             "group": "Groupe",
-            "legacy": "Legacy",
+            "legacy": "Ancien",
             "roles": "Rôles"
         },
         "launch_options": {
@@ -1034,7 +1034,7 @@
             "header": "API YouTube",
             "description": "Saisissez votre clé d'API de YouTube (facultatif)",
             "placeholder": "Clé d'API de YouTube",
-            "guide": "Guide",
+            "guide": "Tutoriel",
             "save": "Sauvegarder"
         },
         "set_world_tags": {
@@ -1357,7 +1357,7 @@
             "joined_at": "Rejoint le",
             "banned_at": "Banni le",
             "created_at": "Créé le",
-            "type": "Type",
+            "type": "Tapez",
             "description": "Description",
             "data": "Données",
             "note": "Note",
@@ -1627,13 +1627,13 @@
     "table": {
         "feed": {
             "date": "Date",
-            "type": "Type",
+            "type": "Tapez",
             "user": "Utilisateur",
             "detail": "Détail"
         },
         "gameLog": {
             "date": "Date",
-            "type": "Type",
+            "type": "Tapez",
             "icon": "Icônes",
             "user": "Utilisateur",
             "detail": "Détail",
@@ -1652,25 +1652,25 @@
             "bioLink": "Liens",
             "date": "Date",
             "user": "Utilisateur",
-            "type": "Type",
+            "type": "Tapez",
             "detail": "Détail"
         },
         "friendLog": {
             "date": "Date",
-            "type": "Type",
+            "type": "Tapez",
             "user": "Utilisateur",
             "action": "Action"
         },
         "moderation": {
             "date": "Date",
-            "type": "Type",
+            "type": "Tapez",
             "source": "Par",
             "target": "Sur",
             "action": "Action"
         },
         "notification": {
             "date": "Date",
-            "type": "Type",
+            "type": "Tapez",
             "user_group": "Utilisateur/Groupe",
             "photo": "Photo",
             "message": "Message",
@@ -1711,7 +1711,7 @@
         "download_history": {
             "time": "Depuis",
             "name": "Nom",
-            "type": "Type",
+            "type": "Tapez",
             "status": "Statut",
             "cancel": "Annuler"
         },
