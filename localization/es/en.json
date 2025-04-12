@@ -226,8 +226,8 @@
                     "group_placeholder": "Seleccionar grupos"
                 },
                 "logging": {
-                    "header": "Registro",
-                    "resource_load": "Registrar cadena/imagen subida a Udon",
+                    "header": "Iniciar sesión",
+                    "resource_load": "Cargar cadenas Udon/carga de imagen",
                     "empty_avatar": "Registrar avatares sin nombres en el feed"
                 },
                 "automation": {
