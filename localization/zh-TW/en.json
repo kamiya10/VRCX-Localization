@@ -434,7 +434,7 @@
                         "description": "自動從快取中刪除舊版本"
                     },
                     "local_world_persistence": {
-                        "header": "Local World Persistence",
+                        "header": "本地世界狀態保存",
                         "description": "本地網站伺服器 (需要重新啟動)"
                     },
                     "remote_database": {
