@@ -630,7 +630,7 @@
                 "friended": "添加为好友的时间",
                 "unfriended": "解除好友的时间",
                 "avatar_cloning": "是否允许克隆模型",
-                "booping": "互动",
+                "booping": "互动开启",
                 "avatar_cloning_allow": "允许",
                 "avatar_cloning_deny": "不允许",
                 "home_location": "出生点",
