@@ -20,12 +20,12 @@
             "login": "Login",
             "register": "Registar",
             "forgotPassword": "Esqueceu a senha?",
-            "updater": "Atualizar",
+            "updater": "Atualizador",
             "proxy_settings": "Configurações de proxy",
             "field": {
                 "username": "Usuário ou Email",
                 "password": "Senha",
-                "saveCredentials": "Guardar Credenciais",
+                "saveCredentials": "Salvar Credenciais",
                 "devEndpoint": "Dev Endpoint",
                 "endpoint": "Ponto final",
                 "websocket": "WebSocket"

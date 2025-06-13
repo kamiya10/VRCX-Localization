@@ -226,8 +226,8 @@
                     "group_placeholder": "Seleccionar grupos"
                 },
                 "logging": {
-                    "header": "Registro",
-                    "resource_load": "Log Udon string/image load",
+                    "header": "Iniciar sesión",
+                    "resource_load": "Cargar cadenas Udon/carga de imagen",
                     "empty_avatar": "Registrar avatares sin nombres en el feed"
                 },
                 "automation": {
@@ -272,7 +272,7 @@
                     "zoom": "Zoom",
                     "vrcplus_profile_icons": "Iconos de perfil VRCPlus",
                     "tooltips": "Descripciones de ayuda",
-                    "nicknames": "Memo Nicknames",
+                    "nicknames": "Mostrar apodos",
                     "sort_favorite_by": "Ordenar Favoritos por",
                     "sort_favorite_by_name": "nombre",
                     "sort_favorite_by_date": "fecha",

@@ -228,7 +228,7 @@
                 "logging": {
                     "header": "記錄",
                     "resource_load": "記錄 Udon 字串/影像載入",
-                    "empty_avatar": "Log avatars in feed without names"
+                    "empty_avatar": "在手腕動態中記錄角色但不包含名稱"
                 },
                 "automation": {
                     "header": "自動化",
@@ -434,7 +434,7 @@
                         "description": "自動從快取中刪除舊版本"
                     },
                     "local_world_persistence": {
-                        "header": "Local World Persistence",
+                        "header": "本地世界數據持節化",
                         "description": "本地網站伺服器 (需要重新啟動)"
                     },
                     "remote_database": {
@@ -751,7 +751,7 @@
                 "last_updated": "最後更新",
                 "publication_date": "發佈日期",
                 "labs_publication_date": "實驗室發佈日期",
-                "time_in_labs": "Time In Labs:",
+                "time_in_labs": "世界實驗室:",
                 "version": "版本",
                 "platform": "平台",
                 "last_visited": "上次拜訪",
